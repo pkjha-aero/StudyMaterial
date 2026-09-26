@@ -125,6 +125,14 @@ nav:
   - Tags: tags.md
   - Foundations:
       - foundations/index.md
+      - Mathematical methods: foundations/math-methods.md
+      - Numerical methods: foundations/numerical-methods.md
+      - Linear solvers: foundations/linear-solvers.md
+      - Optimization and adjoints: foundations/optimization-adjoints.md
+      - Probability and statistics: foundations/probability-statistics.md
+      - Uncertainty quantification: foundations/uncertainty-quantification.md
+      - Verification and validation: foundations/verification-validation.md
+      - Research craft: foundations/research-craft.md
   - Fluids:
       - fluids/index.md
       - Governing equations: fluids/governing-equations.md

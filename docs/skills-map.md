@@ -44,7 +44,7 @@ numerical treatment, boundary conditions and domains of dependence. Analytical s
 worth keeping in memory as sanity checks. Linear algebra and spectral theory. Tensors and
 curvilinear coordinates. Asymptotics and perturbation methods.
 
-→ [Foundations › Math methods](foundations/index.md)
+→ [Foundations › Mathematical methods](foundations/math-methods.md)
 
 ### 3. Discretization and numerical analysis
 
@@ -54,7 +54,7 @@ Shock capturing, limiters, monotonicity. Dispersion and dissipation error — kn
 your scheme does to a wave before you run it. Grid generation and adaptive mesh
 refinement.
 
-→ [Foundations › Numerical methods](foundations/index.md)
+→ [Foundations › Numerical methods](foundations/numerical-methods.md)
 
 ### 4. Solvers, time integration and adjoints
 
@@ -63,8 +63,8 @@ explicit/implicit/IMEX decision. Operator splitting. CFL and the other step-size
 constraints that actually bind. Adjoint methods and sensitivity analysis for design
 optimization and for telling you which inputs your answer depends on.
 
-→ [Foundations › Linear solvers](foundations/index.md) ·
-[Optimization and adjoints](foundations/index.md)
+→ [Foundations › Linear solvers](foundations/linear-solvers.md) ·
+[Optimization and adjoints](foundations/optimization-adjoints.md)
 
 ### 5. Programming and software engineering
 
@@ -110,7 +110,7 @@ post-processing pipelines. Statistical analysis, uncertainty quantification and
 statistical emulation. Data version control.
 
 → [Computing › Data I/O](computing/index.md) ·
-[Foundations › UQ](foundations/index.md) ·
+[Foundations › UQ](foundations/uncertainty-quantification.md) ·
 [Toolchains › Data formats](toolchains/index.md)
 
 ### 9. Scientific machine learning
@@ -131,8 +131,8 @@ insight: knowing when and why a model breaks, which is a skill and not a by-prod
 knowing the equations. Literature review and hypothesis testing. Publication writing.
 Presenting to mixed audiences. Working across multidisciplinary teams.
 
-→ [Foundations › V&V](foundations/index.md) ·
-[Research craft](foundations/index.md)
+→ [Foundations › V&V](foundations/verification-validation.md) ·
+[Research craft](foundations/research-craft.md)
 
 ## Cross-cutting: operations
 
