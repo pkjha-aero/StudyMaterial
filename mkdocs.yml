@@ -158,6 +158,14 @@ nav:
       - Space environment and orbits: aerospace/space-environment.md
   - Meteorology:
       - meteorology/index.md
+      - Atmospheric thermodynamics: meteorology/thermodynamics.md
+      - Atmospheric dynamics: meteorology/dynamics.md
+      - Atmospheric boundary layer: meteorology/boundary-layer.md
+      - Radiation and clouds: meteorology/radiation-clouds.md
+      - Numerical weather prediction: meteorology/nwp.md
+      - Data assimilation: meteorology/data-assimilation.md
+      - Observations and datasets: meteorology/observations.md
+      - Fire weather: meteorology/fire-weather.md
   - Astrophysics:
       - astrophysics/index.md
       - Radiative transfer: astrophysics/radiative-transfer.md
