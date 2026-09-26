@@ -116,8 +116,8 @@ The gradient is identically zero, so the momentum equation is blind to a pressur
 ## Connections
 
 - [Governing equations](governing-equations.md) — where the constraint comes from.
-- Finite volume — flux assembly and face interpolation. *(pending; see [Fluids](index.md))*
-- Time integration — projection versus fully coupled schemes. *(pending)*
+- [Finite volume](cfd/finite-volume.md) — flux assembly and face interpolation.
+- [Time integration](cfd/time-integration.md) — projection versus fully coupled schemes.
 - [Foundations › Linear solvers](../foundations/index.md) — multigrid for the Poisson stage.
 
 ## Sources

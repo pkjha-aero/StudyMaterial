@@ -129,9 +129,9 @@ print("viscous layer thickness ~ L/sqrt(Re) =", L / np.sqrt(Re), "m")
 ## Connections
 
 - [Incompressible flow](incompressible.md) — what the \(\mathrm{Ma}\to 0\) limit does to the algorithm.
-- Compressible flow — the hyperbolic branch, and shocks. *(pending; see [Fluids](index.md))*
-- Finite volume — why the box statement discretizes so naturally. *(pending)*
-- Turbulence — what averaging these equations costs. *(pending)*
+- [Compressible flow](compressible.md) — the hyperbolic branch, and shocks.
+- [Finite volume](cfd/finite-volume.md) — why the box statement discretizes so naturally.
+- [Turbulence](turbulence/index.md) — what averaging these equations costs.
 
 ## Sources
 
