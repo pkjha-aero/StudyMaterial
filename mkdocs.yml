@@ -127,6 +127,8 @@ nav:
       - foundations/index.md
   - Fluids:
       - fluids/index.md
+      - Governing equations: fluids/governing-equations.md
+      - Incompressible flow: fluids/incompressible.md
   - Aerospace:
       - aerospace/index.md
   - Meteorology:
