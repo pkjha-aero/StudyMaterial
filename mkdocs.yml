@@ -129,6 +129,16 @@ nav:
       - fluids/index.md
       - Governing equations: fluids/governing-equations.md
       - Incompressible flow: fluids/incompressible.md
+      - Compressible flow: fluids/compressible.md
+      - Turbulence:
+          - fluids/turbulence/index.md
+          - RANS closures: fluids/turbulence/rans.md
+          - Large eddy simulation: fluids/turbulence/les.md
+      - CFD:
+          - fluids/cfd/index.md
+          - Finite volume: fluids/cfd/finite-volume.md
+          - Time integration: fluids/cfd/time-integration.md
+          - Meshing and grid quality: fluids/cfd/meshing.md
   - Aerospace:
       - aerospace/index.md
   - Meteorology:
