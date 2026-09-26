@@ -79,5 +79,8 @@ Pages are labelled honestly rather than left blank:
 <span class="status status-working">working</span> usable, still being filled in ·
 <span class="status status-solid">solid</span> complete enough to rely on
 
-Most of the site is <span class="status status-seed">seed</span> today. That is the
-intended state: the shape of the gap is more useful than an empty navigation tree.
+As of the last update the site is **31 solid, 47 working, 7 seed**. The recap sections —
+foundations, fluids, aerospace, astrophysics — are written; the growth areas are marked
+`working` because they will keep expanding, not because they are unfinished; the `seed`
+pages are mostly [toolchains](toolchains/index.md), which are deliberately waiting for
+first-hand entries.

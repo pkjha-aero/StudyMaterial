@@ -40,7 +40,11 @@ conditioning, typical resolutions, cost scaling.
 **Connections.** Sibling pages, and where the topic has come up in real work.
 
 **Sources.** Archive pointers, books, papers, lectures — so the page is a map into the
-material rather than a replacement for it.
+material rather than a replacement for it. Gathered site-wide under
+[Resources](resources/index.md).
+
+*Section index pages are the exception*: they carry a page table, a theme, and
+Connections, but no Sources of their own — their pages hold those.
 
 ## Creating a page
 

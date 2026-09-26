@@ -160,6 +160,10 @@ the other ten now run on.
 | 9 | Scientific ML | growing | ML, DL, CV and SciML are the main growth areas |
 | 10 | V&V and craft | solid | Recap surface only |
 
-!!! note "This table is a placeholder for your own judgement"
-    The standings above are inferred from the planning documents, not self-reported.
-    Correct them — the value of this page depends on it being honest.
+!!! note "These standings are inferred, not self-reported"
+    They come from the planning documents rather than from you, and the value of this
+    page depends on them being honest — correct anything that reads wrong.
+
+    Note that a standing describes *you*, not the site. Every pillar now has written
+    pages; a pillar marked `growing` means the learning is ongoing, not that the section
+    is thin.

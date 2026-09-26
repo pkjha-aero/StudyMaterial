@@ -39,6 +39,14 @@ For a cold recap, follow the physics down into the numerics:
 For a specific problem, go straight to the failure-modes block of the relevant page. That
 is where the answer usually is.
 
+## Connections
+
+- [Foundations](../foundations/index.md) — the numerics these pages apply.
+- [Aerospace](../aerospace/index.md) — where this physics is used.
+- [Meteorology](../meteorology/index.md) — the atmosphere as a fluid.
+- [Scientific ML](../sciml/index.md) — learned closures and surrogates.
+- [Toolchains › CFD codes](../toolchains/cfd-codes.md) — the solvers.
+
 ## Sources
 
 Archive pointers are listed per page. `Others/Jameson`, `Others/Turbulence_JCM` and

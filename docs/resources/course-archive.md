@@ -138,6 +138,12 @@ An index of coursework held offline. The material itself is **not** on this site
 | **Turns_Thermodynamics**<br>Thermodynamics and Combustion | thermodynamics, combustion | 6 files<br>4 MB | documents | `Others/Turns_Thermodynamics` |
 | **UMD_Turb**<br>Turbulence (UMD notes) | turbulence theory, scaling, closures | 5 files<br>28 MB | PDF, slides | `Others/UMD_Turb` |
 
+## Connections
+
+- [Learning roadmap](courses-progress.md) — the areas this material supports.
+- [Books](books.md) · [Papers](papers.md) · [Videos](videos-playlists.md)
+- [How to use this site](../how-to-use.md) — how archive paths are cited on topic pages.
+
 ---
 
 Generated from `/media/pkjha/PKJ_MyPassport/Repository/Academic/CourseWork` on 2026-09-26 by `catalog/build_catalog.py`. Regenerate with:

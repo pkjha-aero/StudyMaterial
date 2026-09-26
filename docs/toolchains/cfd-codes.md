@@ -84,3 +84,9 @@ subcycling in time. Inputs are a flat `inputs` file of `key = value` pairs.
 - [Fluids › CFD](../fluids/cfd/index.md) — the numerics these codes implement.
 - [Meshing](meshing.md) · [Visualization](visualization.md)
 - [Computing › HPC](../computing/hpc.md) — running them at scale.
+
+## Sources
+
+- OpenFOAM User Guide and the `$FOAM_TUTORIALS` tree — the tutorials are the real documentation.
+- ANSYS Fluent User's Guide; AMReX documentation.
+- [Books](../resources/books.md) — Ferziger, Perić & Street for the underlying methods.

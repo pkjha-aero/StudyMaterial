@@ -128,6 +128,12 @@ def main(argv: list[str] | None = None) -> int:
               f"| {kinds} | `{c['path']}` |")
         w("")
 
+    w("## Connections")
+    w("")
+    w("- [Learning roadmap](courses-progress.md) — the areas this material supports.")
+    w("- [Books](books.md) · [Papers](papers.md) · [Videos](videos-playlists.md)")
+    w("- [How to use this site](../how-to-use.md) — how archive paths are cited on topic pages.")
+    w("")
     w("---")
     w("")
     w(f"Generated from `{idx['archive_root']}` on {idx['generated']} by "

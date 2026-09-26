@@ -98,3 +98,8 @@ import rechunker   # or ds.chunk({...}).to_zarr(...) for smaller cases
 - [Computing › Data and I/O](../computing/data-io.md) — chunking, parallel I/O, compression.
 - [Geospatial](geospatial.md) — CRS and raster handling on top of these.
 - [Meteorology › Observations](../meteorology/observations.md) — where these files come from.
+
+## Sources
+
+- Unidata NetCDF documentation; HDF Group HDF5 docs; ECMWF ecCodes (GRIB) documentation.
+- Zarr specification; CF Conventions document.

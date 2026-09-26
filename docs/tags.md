@@ -5,6 +5,8 @@ status: working
 
 # Tags
 
+<span class="status status-working">working</span>
+
 The navigation tree can only put a topic in one place, but topics do not respect it —
 spectral methods matter to a fluids reader and an ML reader alike, and NetCDF turns up in
 meteorology, computing and toolchains. Tags are the second way in.
