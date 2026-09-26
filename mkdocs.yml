@@ -200,8 +200,21 @@ nav:
       - Hybrid physics-ML coupling: sciml/hybrid-coupling.md
   - Toolchains:
       - toolchains/index.md
+      - CFD codes: toolchains/cfd-codes.md
+      - Weather and climate models: toolchains/weather-models.md
+      - Astrophysics codes: toolchains/astro-codes.md
+      - Meshing tools: toolchains/meshing.md
+      - Visualization tools: toolchains/visualization.md
+      - Geospatial tools: toolchains/geospatial.md
+      - Data formats: toolchains/data-formats.md
   - Computing:
       - computing/index.md
+      - HPC and parallelism: computing/hpc.md
+      - GPU and CUDA: computing/gpu-cuda.md
+      - Data and I/O at scale: computing/data-io.md
+      - Python performance: computing/python-performance.md
+      - C++ and Fortran: computing/cpp-fortran.md
+      - MLOps and deployment: computing/mlops.md
   - Resources:
       - resources/index.md
       - Course archive: resources/course-archive.md
