@@ -1,7 +1,7 @@
 ---
 title: Structures and aeroelasticity
 status: solid
-tags: [pillar-1, aerospace, structures, buckling, flutter]
+tags: [pillar-1, aerospace]
 updated: 2026-09-26
 ---
 

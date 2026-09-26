@@ -1,7 +1,7 @@
 ---
 title: Finite volume method
 status: solid
-tags: [pillar-3, fluids, cfd, discretization, limiters]
+tags: [pillar-3, fluids, discretization, conservation]
 updated: 2026-09-26
 ---
 

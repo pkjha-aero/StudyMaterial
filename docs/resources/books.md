@@ -1,7 +1,7 @@
 ---
 title: Books
 status: working
-tags: [resources, books]
+tags: [resources]
 updated: 2026-09-26
 ---
 

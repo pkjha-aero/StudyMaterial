@@ -1,7 +1,7 @@
 ---
 title: Astrophysics codes
 status: seed
-tags: [pillar-7, toolchains, flash, athena, gadget, zeus]
+tags: [pillar-7, toolchains, astrophysics]
 updated: 2026-09-26
 ---
 

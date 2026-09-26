@@ -1,7 +1,7 @@
 ---
 title: Uncertainty quantification
 status: solid
-tags: [pillar-8, foundations, uq, monte-carlo, surrogates]
+tags: [pillar-8, foundations, uncertainty, statistics, surrogates]
 updated: 2026-09-26
 ---
 

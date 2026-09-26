@@ -1,7 +1,7 @@
 ---
 title: Optimization and adjoints
 status: solid
-tags: [pillar-4, foundations, adjoint, sensitivity, optimization]
+tags: [pillar-4, foundations, optimization, inverse-problems]
 updated: 2026-09-26
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: GPU and CUDA
 status: working
-tags: [pillar-6, computing, cuda, gpu, memory-hierarchy]
+tags: [pillar-6, computing, parallelism, performance]
 updated: 2026-09-26
 ---
 

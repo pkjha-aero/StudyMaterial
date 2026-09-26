@@ -1,7 +1,7 @@
 ---
 title: Visualization tools
 status: seed
-tags: [pillar-7, toolchains, paraview, visit, yt, tecplot]
+tags: [pillar-7, toolchains, reproducibility]
 updated: 2026-09-26
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Data assimilation
 status: working
-tags: [pillar-8, meteorology, var, enkf, inverse-problems]
+tags: [pillar-8, meteorology, inverse-problems, statistics, uncertainty]
 updated: 2026-09-26
 ---
 

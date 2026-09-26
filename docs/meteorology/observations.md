@@ -1,7 +1,7 @@
 ---
 title: Observations and datasets
 status: working
-tags: [pillar-8, meteorology, radar, satellite, reanalysis, grib]
+tags: [pillar-8, meteorology, remote-sensing, data-formats, uncertainty]
 updated: 2026-09-26
 ---
 

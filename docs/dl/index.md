@@ -1,7 +1,7 @@
 ---
 title: Deep Learning
 status: working
-tags: [pillar-9, deep-learning]
+tags: [pillar-9, deep-learning, neural-networks]
 ---
 
 # Deep Learning

@@ -1,7 +1,7 @@
 ---
 title: Hybrid physics-ML coupling
 status: working
-tags: [pillar-9, sciml, closures, stability, differentiable-simulation]
+tags: [pillar-9, sciml, turbulence, numerical-stability, extrapolation]
 updated: 2026-09-26
 ---
 

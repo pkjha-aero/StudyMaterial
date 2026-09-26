@@ -1,7 +1,7 @@
 ---
 title: Videos and lecture series
 status: seed
-tags: [resources, videos]
+tags: [resources]
 updated: 2026-09-26
 ---
 

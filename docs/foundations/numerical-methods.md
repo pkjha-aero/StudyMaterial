@@ -1,7 +1,7 @@
 ---
 title: Numerical methods
 status: solid
-tags: [pillar-3, foundations, discretization, stability, convergence]
+tags: [pillar-3, foundations, discretization, numerical-stability, spectral-methods]
 updated: 2026-09-26
 ---
 

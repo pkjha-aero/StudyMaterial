@@ -1,7 +1,7 @@
 ---
 title: Data and I/O at scale
 status: working
-tags: [pillar-8, computing, parallel-io, hdf5, netcdf, dvc]
+tags: [pillar-8, computing, data-formats, performance, reproducibility]
 updated: 2026-09-26
 ---
 

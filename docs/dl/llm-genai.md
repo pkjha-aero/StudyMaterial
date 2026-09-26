@@ -1,7 +1,7 @@
 ---
 title: LLMs and generative AI
 status: working
-tags: [pillar-9, deep-learning, llm, rag, fine-tuning, agents]
+tags: [pillar-9, deep-learning, neural-networks]
 updated: 2026-09-26
 ---
 

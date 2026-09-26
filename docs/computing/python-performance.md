@@ -1,7 +1,7 @@
 ---
 title: Python performance
 status: working
-tags: [pillar-5, computing, numpy, numba, jax, profiling]
+tags: [pillar-5, computing, performance]
 updated: 2026-09-26
 ---
 

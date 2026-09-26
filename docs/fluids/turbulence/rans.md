@@ -1,7 +1,7 @@
 ---
 title: RANS closures
 status: solid
-tags: [pillar-1, fluids, turbulence, rans, wall-functions]
+tags: [pillar-1, fluids, turbulence, boundary-layer]
 updated: 2026-09-26
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Surrogates and reduced-order models
 status: working
-tags: [pillar-9, sciml, pod, dmd, rom]
+tags: [pillar-9, sciml, surrogates, spectral-methods, extrapolation]
 updated: 2026-09-26
 ---
 

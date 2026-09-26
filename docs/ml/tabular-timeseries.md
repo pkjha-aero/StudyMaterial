@@ -1,7 +1,7 @@
 ---
 title: Tabular and time series
 status: working
-tags: [pillar-9, machine-learning, time-series, forecasting, feature-engineering]
+tags: [pillar-9, machine-learning, statistics, extrapolation]
 updated: 2026-09-26
 ---
 

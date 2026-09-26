@@ -1,7 +1,7 @@
 ---
 title: Geospatial tools
 status: seed
-tags: [pillar-7, toolchains, gdal, xarray, geopandas, qgis]
+tags: [pillar-7, toolchains, remote-sensing, data-formats]
 updated: 2026-09-26
 ---
 

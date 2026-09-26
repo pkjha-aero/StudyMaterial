@@ -1,7 +1,7 @@
 ---
 title: Computing
 status: working
-tags: [pillar-5, pillar-6, pillar-8, computing, hpc]
+tags: [pillar-5, pillar-6, pillar-8, computing, parallelism, performance]
 ---
 
 # Computing

@@ -1,7 +1,7 @@
 ---
 title: Probability and statistics
 status: solid
-tags: [pillar-8, foundations, statistics, inference, regression]
+tags: [pillar-8, foundations, statistics]
 updated: 2026-09-26
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: CFD
 status: working
-tags: [pillar-3, pillar-4, fluids, cfd]
+tags: [pillar-3, pillar-4, fluids, discretization]
 updated: 2026-09-26
 ---
 

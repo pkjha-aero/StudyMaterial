@@ -1,7 +1,7 @@
 ---
 title: Meshing tools
 status: seed
-tags: [pillar-7, toolchains, gmsh, pointwise, amr]
+tags: [pillar-7, toolchains, mesh]
 updated: 2026-09-26
 ---
 

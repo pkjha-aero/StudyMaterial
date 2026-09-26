@@ -1,7 +1,7 @@
 ---
 title: Numerical weather prediction
 status: working
-tags: [pillar-1, pillar-7, meteorology, nwp, wrf, ensembles]
+tags: [pillar-1, pillar-7, meteorology, discretization, uncertainty]
 updated: 2026-09-26
 ---
 

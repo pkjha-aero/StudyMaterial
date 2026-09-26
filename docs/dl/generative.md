@@ -1,7 +1,7 @@
 ---
 title: Generative models
 status: working
-tags: [pillar-9, deep-learning, gan, vae, diffusion]
+tags: [pillar-9, deep-learning, neural-networks]
 updated: 2026-09-26
 ---
 

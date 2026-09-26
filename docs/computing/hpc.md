@@ -1,7 +1,7 @@
 ---
 title: HPC and parallelism
 status: working
-tags: [pillar-6, computing, mpi, openmp, scaling, slurm]
+tags: [pillar-6, computing, parallelism, performance, scaling]
 updated: 2026-09-26
 ---
 

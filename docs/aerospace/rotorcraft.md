@@ -1,7 +1,7 @@
 ---
 title: Rotorcraft
 status: solid
-tags: [pillar-1, aerospace, rotorcraft, bemt, hover]
+tags: [pillar-1, aerospace, scaling]
 updated: 2026-09-26
 ---
 

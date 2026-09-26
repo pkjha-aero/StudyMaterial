@@ -1,7 +1,7 @@
 ---
 title: Machine Learning
 status: working
-tags: [pillar-9, machine-learning]
+tags: [pillar-9, machine-learning, statistics, validation]
 ---
 
 # Machine Learning

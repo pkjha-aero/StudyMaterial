@@ -1,7 +1,7 @@
 ---
 title: Architectures
 status: working
-tags: [pillar-9, deep-learning, cnn, transformer, unet, gnn]
+tags: [pillar-9, deep-learning, neural-networks]
 updated: 2026-09-26
 ---
 

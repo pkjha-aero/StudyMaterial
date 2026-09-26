@@ -1,7 +1,7 @@
 ---
 title: Detection and segmentation
 status: working
-tags: [pillar-9, computer-vision, detection, segmentation, yolo]
+tags: [pillar-9, computer-vision, neural-networks, validation]
 updated: 2026-09-26
 ---
 

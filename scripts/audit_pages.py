@@ -47,6 +47,24 @@ NO_FAILURE_MODES_NEEDED = {
 }
 VALID_STATUS = {"seed", "working", "solid"}
 
+# Tags are a closed vocabulary. The previous free-form scheme reached 205 tags with 177
+# used exactly once, which cross-links nothing — the entire point of having tags. Adding
+# one is a deliberate act: it belongs here and on docs/tags.md, and only if it will land
+# on three or more pages across at least two sections.
+SECTION_TAGS = {
+    "aerospace", "astrophysics", "computer-vision", "computing", "deep-learning",
+    "fluids", "foundations", "machine-learning", "meteorology", "resources",
+    "sciml", "toolchains",
+}
+CONCEPT_TAGS = {
+    "boundary-layer", "conservation", "data-formats", "discretization", "extrapolation",
+    "inverse-problems", "mesh", "neural-networks", "numerical-stability", "optimization",
+    "parallelism", "performance", "radiation", "remote-sensing", "reproducibility",
+    "scaling", "spectral-methods", "statistics", "surrogates", "turbulence",
+    "uncertainty", "validation", "wildfire",
+}
+ALLOWED_TAGS = SECTION_TAGS | CONCEPT_TAGS
+
 
 def pages() -> list[pathlib.Path]:
     return sorted(
@@ -97,6 +115,9 @@ def main(argv: list[str] | None = None) -> int:
             for t in tags:
                 if not t.startswith("pillar-"):
                     topic_tags[t] += 1
+                    if t not in ALLOWED_TAGS:
+                        findings.append(
+                            f"{rel}: tag '{t}' is outside the controlled vocabulary")
             pillars = [t for t in tags if t.startswith("pillar-")]
             if pillars and not is_meta:
                 # The primary pillar leads and must agree with the badge, or the page is
@@ -146,10 +167,10 @@ def main(argv: list[str] | None = None) -> int:
     # Informational, not a finding: a tag used once cross-links nothing, which is the
     # whole point of having tags. Worth watching, not worth failing a build over.
     singles = sorted(t for t, c in topic_tags.items() if c == 1)
-    print(f"\n{len(topic_tags)} topic tags, {len(singles)} used exactly once "
-          f"({100 * len(singles) / max(len(topic_tags), 1):.0f}%)")
+    print(f"\n{len(topic_tags)} topic tags in use, of {len(ALLOWED_TAGS)} in the vocabulary")
     if singles:
-        print("  single-use tags cross-link nothing; consolidate when a pattern appears")
+        print(f"  used on only one page: {', '.join(singles)}")
+        print("  a tag on one page cross-links nothing — retire it or apply it wider")
 
     return 1 if (findings and args.strict) else 0
 

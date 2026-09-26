@@ -1,7 +1,7 @@
 ---
 title: Turbulence
 status: solid
-tags: [pillar-1, fluids, turbulence, scales, cascade]
+tags: [pillar-1, fluids, turbulence, scaling]
 updated: 2026-09-26
 ---
 

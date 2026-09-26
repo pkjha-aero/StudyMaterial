@@ -1,7 +1,7 @@
 ---
 title: Space environment and orbits
 status: solid
-tags: [pillar-1, aerospace, orbits, space-weather]
+tags: [pillar-1, aerospace]
 updated: 2026-09-26
 ---
 

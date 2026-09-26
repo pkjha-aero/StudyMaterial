@@ -1,7 +1,7 @@
 ---
 title: Atmospheric dynamics
 status: working
-tags: [pillar-1, meteorology, geostrophy, vorticity, rossby-waves]
+tags: [pillar-1, meteorology, scaling]
 updated: 2026-09-26
 ---
 

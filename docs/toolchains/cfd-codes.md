@@ -1,7 +1,7 @@
 ---
 title: CFD codes
 status: seed
-tags: [pillar-7, toolchains, openfoam, fluent, amrex]
+tags: [pillar-7, toolchains, fluids, mesh]
 updated: 2026-09-26
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Flight mechanics
 status: solid
-tags: [pillar-1, aerospace, performance, stability, dynamic-modes]
+tags: [pillar-1, aerospace, scaling]
 updated: 2026-09-26
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Scientific and remote-sensing imagery
 status: working
-tags: [pillar-9, computer-vision, remote-sensing, wildfire, geospatial]
+tags: [pillar-9, computer-vision, remote-sensing, wildfire, validation]
 updated: 2026-09-26
 ---
 
