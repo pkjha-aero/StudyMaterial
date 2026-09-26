@@ -68,6 +68,7 @@ def main(argv: list[str] | None = None) -> int:
 
     findings: list[str] = []
     status_count: collections.Counter = collections.Counter()
+    topic_tags: collections.Counter = collections.Counter()
     all_text: dict[str, str] = {}
 
     for path in pages():
@@ -88,8 +89,25 @@ def main(argv: list[str] | None = None) -> int:
             if f'class="status status-{m.group(1)}"' not in text:
                 findings.append(f"{rel}: status is '{m.group(1)}' but the badge does not match")
 
-        if not re.search(r"^tags:", fm, re.M) and not is_meta:
+        tag_m = re.search(r"^tags:\s*\[([^\]]*)\]", fm, re.M)
+        if not tag_m and not is_meta:
             findings.append(f"{rel}: no `tags` in front matter")
+        elif tag_m:
+            tags = [x.strip() for x in tag_m.group(1).split(",") if x.strip()]
+            for t in tags:
+                if not t.startswith("pillar-"):
+                    topic_tags[t] += 1
+            pillars = [t for t in tags if t.startswith("pillar-")]
+            if pillars and not is_meta:
+                # The primary pillar leads and must agree with the badge, or the page is
+                # filed under two competencies at once.
+                first = pillars[0].split("-")[1]
+                badge = re.search(r'class="pillar">pillars? (\d+)', text)
+                if badge and badge.group(1) != first:
+                    findings.append(
+                        f"{rel}: first tag is {pillars[0]} but the badge says pillar {badge.group(1)}")
+            elif not pillars and not is_meta and not is_index and "resources/" not in rel:
+                findings.append(f"{rel}: no pillar tag")
 
         if "## Connections" not in text and not is_meta:
             findings.append(f"{rel}: no Connections section")
@@ -124,6 +142,14 @@ def main(argv: list[str] | None = None) -> int:
             print(f"  {f}")
     else:
         print("no findings — every page satisfies the site conventions")
+
+    # Informational, not a finding: a tag used once cross-links nothing, which is the
+    # whole point of having tags. Worth watching, not worth failing a build over.
+    singles = sorted(t for t, c in topic_tags.items() if c == 1)
+    print(f"\n{len(topic_tags)} topic tags, {len(singles)} used exactly once "
+          f"({100 * len(singles) / max(len(topic_tags), 1):.0f}%)")
+    if singles:
+        print("  single-use tags cross-link nothing; consolidate when a pattern appears")
 
     return 1 if (findings and args.strict) else 0
 

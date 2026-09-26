@@ -75,9 +75,17 @@ is information.
 
 Two axes, both flat, both applied in front matter:
 
-**Pillar** — `pillar-1` … `pillar-10`, from the [Skills Map](skills-map.md). Exactly one
-per topic page: the primary competency it serves. Section index pages are the exception
-and may carry several, since a section legitimately spans pillars.
+**Pillar** — `pillar-1` … `pillar-10`, from the [Skills Map](skills-map.md). **The
+primary competency comes first**, and must match the badge under the page title.
+
+A page may carry a second pillar where it genuinely spans two — numerical weather
+prediction is both domain physics and toolchain; PyTorch patterns is both software
+engineering and scientific ML. Prefer one; take two when one would be a lie. Section
+index pages routinely carry several.
+
+The ordering is what the [audit script](https://github.com/pkjha-aero/StudyMaterial/blob/main/scripts/audit_pages.py)
+enforces, because a primary pillar that disagrees with the badge is a page filed in two
+places at once.
 
 **Topic** — free-form and cross-cutting: `turbulence`, `spectral-methods`, `pytorch`,
 `netcdf`, `wrf`. As many as genuinely apply. These exist so that a topic is reachable from
