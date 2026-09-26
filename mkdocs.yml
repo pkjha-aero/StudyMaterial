@@ -186,8 +186,18 @@ nav:
       - LLMs and generative AI: dl/llm-genai.md
   - Computer Vision:
       - cv/index.md
+      - Image fundamentals: cv/image-fundamentals.md
+      - Classical computer vision: cv/classical-cv.md
+      - Detection and segmentation: cv/detection-segmentation.md
+      - Vision-language models: cv/vlms.md
+      - Scientific and remote-sensing imagery: cv/scientific-imagery.md
   - Scientific ML:
       - sciml/index.md
+      - Surrogates and ROM: sciml/surrogates-rom.md
+      - Physics-informed neural networks: sciml/pinns.md
+      - Neural operators: sciml/neural-operators.md
+      - Graph networks on meshes: sciml/gnn-meshes.md
+      - Hybrid physics-ML coupling: sciml/hybrid-coupling.md
   - Toolchains:
       - toolchains/index.md
   - Computing:
