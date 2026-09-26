@@ -1,0 +1,640 @@
+archive_root: /media/pkjha/PKJ_MyPassport/Repository/Academic/CourseWork
+departments:
+  Aerospace:
+    courses:
+      AERSP 305:
+        bytes: 233020178
+        code: AERSP 305
+        files: 2858
+        kinds:
+        - notes/data
+        - PDF
+        - MATLAB
+        - spreadsheets
+        path: Aerospace/AERSP305
+      AERSP 309:
+        bytes: 48887647
+        code: AERSP 309
+        files: 66
+        kinds:
+        - PDF
+        path: Aerospace/AERSP309
+      AERSP 313:
+        bytes: 13678782
+        code: AERSP 313
+        files: 28
+        kinds:
+        - PDF
+        path: Aerospace/AERSP313
+      AERSP 401:
+        bytes: 38192640
+        code: AERSP 401
+        files: 8
+        kinds:
+        - slides
+        path: Aerospace/AERSP401
+      AERSP 410:
+        bytes: 109818826
+        code: AERSP 410
+        files: 45
+        kinds:
+        - PDF
+        path: Aerospace/AERSP410
+      AERSP 413:
+        bytes: 15816362
+        code: AERSP 413
+        files: 95
+        kinds:
+        - PDF
+        - MATLAB
+        - documents
+        - C/C++
+        path: Aerospace/AERSP413
+      AERSP 420:
+        bytes: 1292973708
+        code: AERSP 420
+        files: 1290
+        kinds:
+        - web/figures
+        - documents
+        - PDF
+        - MATLAB
+        path: Aerospace/AERSP420
+      AERSP 423:
+        bytes: 99816109
+        code: AERSP 423
+        files: 112
+        kinds:
+        - PDF
+        - MATLAB
+        - lecture media
+        - documents
+        path: Aerospace/AERSP423
+      AERSP 424:
+        bytes: 39716960
+        code: AERSP 424
+        files: 592
+        kinds:
+        - C/C++
+        - PDF
+        - spreadsheets
+        - web/figures
+        path: Aerospace/AERSP424
+      AERSP 425:
+        bytes: 145098806
+        code: AERSP 425
+        files: 27
+        kinds:
+        - PDF
+        - documents
+        - MATLAB
+        path: Aerospace/AERSP425
+      AERSP 504:
+        bytes: 88375217
+        code: AERSP 504
+        files: 92
+        kinds:
+        - PDF
+        - documents
+        - MATLAB
+        - slides
+        path: Aerospace/AERSP504
+      AERSP 505:
+        bytes: 45362
+        code: AERSP 505
+        files: 1
+        kinds:
+        - PDF
+        loose: true
+        path: Aerospace
+      AERSP 508:
+        bytes: 135774304
+        code: AERSP 508
+        files: 217
+        kinds:
+        - web/figures
+        - PDF
+        - documents
+        - slides
+        path: Aerospace/AERSP508
+      AERSP 511:
+        bytes: 79247473
+        code: AERSP 511
+        files: 61
+        kinds:
+        - PDF
+        - lecture media
+        path: Aerospace/AERSP511
+      AERSP 514:
+        bytes: 23510841
+        code: AERSP 514
+        files: 54
+        kinds:
+        - PDF
+        path: Aerospace/AERSP514
+      AERSP 518:
+        bytes: 38719821
+        code: AERSP 518
+        files: 475
+        kinds:
+        - MATLAB
+        - PDF
+        - web/figures
+        - documents
+        path: Aerospace/AERSP518
+      AERSP 525:
+        bytes: 154569532
+        code: AERSP 525
+        files: 247
+        kinds:
+        - PDF
+        - MATLAB
+        - web/figures
+        - documents
+        path: Aerospace/AERSP525
+      AERSP 583:
+        bytes: 260977568
+        code: AERSP 583
+        files: 1562
+        kinds:
+        - web/figures
+        - notes/data
+        - PDF
+        - slides
+        path: Aerospace/AERSP583
+      AERSP 590:
+        bytes: 128827834
+        code: AERSP 590
+        files: 242
+        kinds:
+        - PDF
+        - documents
+        - C/C++
+        - notes/data
+        path: Aerospace/AERSP590
+      AERSP 597J:
+        bytes: 7740140
+        code: AERSP 597J
+        files: 21
+        kinds:
+        - PDF
+        path: Aerospace/AERSP597J
+      AERSP597A_Exp_Methods:
+        bytes: 57175427
+        code: null
+        files: 82
+        kinds:
+        - documents
+        - notes/data
+        - PDF
+        - web/figures
+        path: Aerospace/AERSP597A_Exp_Methods
+      AERSP597I_SpaceEnvInteraction:
+        bytes: 4574897
+        code: null
+        files: 8
+        kinds:
+        - PDF
+        path: Aerospace/AERSP597I_SpaceEnvInteraction
+      AERSP880_WindTurbineSystems:
+        bytes: 40948314
+        code: null
+        files: 107
+        kinds:
+        - PDF
+        - documents
+        - MATLAB
+        - spreadsheets
+        path: Aerospace/AERSP880_WindTurbineSystems
+      AERSP886_WindPowerPlants:
+        bytes: 162612382
+        code: null
+        files: 785
+        kinds:
+        - web/figures
+        - notes/data
+        - PDF
+        - Fortran
+        path: Aerospace/AERSP886_WindPowerPlants
+      Camci:
+        bytes: 7885006
+        code: null
+        files: 1
+        kinds:
+        - PDF
+        path: Aerospace/Camci
+    section: aerospace
+  Astro:
+    courses:
+      ASTRO 410:
+        bytes: 1117931
+        code: ASTRO 410
+        files: 5
+        kinds:
+        - slides
+        - PDF
+        path: Astro/Astro410
+      ASTRO 440:
+        bytes: 138501
+        code: ASTRO 440
+        files: 2
+        kinds:
+        - PDF
+        path: Astro/Astro440
+      ASTRO 501:
+        bytes: 24169406
+        code: ASTRO 501
+        files: 32
+        kinds:
+        - PDF
+        - notes/data
+        path: Astro/Astro501
+      ASTRO 502:
+        bytes: 148568
+        code: ASTRO 502
+        files: 1
+        kinds:
+        - other
+        path: Astro/Astro502
+      Astro001_Brandt:
+        bytes: 17178
+        code: null
+        files: 2
+        kinds:
+        - web/figures
+        path: Astro/Astro001_Brandt
+      NielBrandt:
+        bytes: 370057
+        code: null
+        files: 4
+        kinds:
+        - PDF
+        path: Astro/NielBrandt
+      ZEUS_MP:
+        bytes: 364025
+        code: null
+        files: 2
+        kinds:
+        - PDF
+        path: Astro/ZEUS_MP
+    section: astrophysics
+  CSE:
+    courses:
+      CSE 465:
+        bytes: 18748132
+        code: CSE 465
+        files: 31
+        kinds:
+        - PDF
+        path: CSE/CSE465
+      CSE 565:
+        bytes: 11429748
+        code: CSE 565
+        files: 49
+        kinds:
+        - PDF
+        - slides
+        - web/figures
+        path: CSE/CSE565
+      CSE598B_TheoryOfComputation:
+        bytes: 979188
+        code: null
+        files: 13
+        kinds:
+        - PDF
+        path: CSE/CSE598B_TheoryOfComputation
+    section: computing
+  Chemistry:
+    courses:
+      CHEM 408:
+        bytes: 38651557
+        code: CHEM 408
+        files: 33
+        kinds:
+        - PDF
+        path: Chemistry/Chem408
+      CHEM 452:
+        bytes: 22281295
+        code: CHEM 452
+        files: 62
+        kinds:
+        - PDF
+        - web/figures
+        - documents
+        - MATLAB
+        path: Chemistry/Chem452
+    section: foundations
+  Maths:
+    courses:
+      M 511:
+        bytes: 27184
+        code: M 511
+        files: 1
+        kinds:
+        - PDF
+        loose: true
+        path: Maths
+      MATH 523:
+        bytes: 943838
+        code: MATH 523
+        files: 13
+        kinds:
+        - PDF
+        path: Maths/Math523
+    section: foundations
+  Mechanical:
+    courses:
+      ME 300:
+        bytes: 457027
+        code: ME 300
+        files: 1
+        kinds:
+        - PDF
+        loose: true
+        path: Mechanical
+      ME 404:
+        bytes: 24241
+        code: ME 404
+        files: 1
+        kinds:
+        - PDF
+        loose: true
+        path: Mechanical
+      ME 410:
+        bytes: 32908625
+        code: ME 410
+        files: 60
+        kinds:
+        - PDF
+        path: Mechanical/ME410
+      ME 420:
+        bytes: 34607554
+        code: ME 420
+        files: 22
+        kinds:
+        - PDF
+        - web/figures
+        - slides
+        - documents
+        path: Mechanical/ME420
+      ME 422:
+        bytes: 160047
+        code: ME 422
+        files: 1
+        kinds:
+        - PDF
+        loose: true
+        path: Mechanical
+      ME 430:
+        bytes: 138542081
+        code: ME 430
+        files: 707
+        kinds:
+        - notes/data
+        - PDF
+        - web/figures
+        - documents
+        path: Mechanical/ME430
+      ME 514:
+        bytes: 12863695
+        code: ME 514
+        files: 88
+        kinds:
+        - PDF
+        - MATLAB
+        - documents
+        - notes/data
+        path: Mechanical/ME514
+      ME 520:
+        bytes: 51285788
+        code: ME 520
+        files: 81
+        kinds:
+        - PDF
+        - web/figures
+        - MATLAB
+        - documents
+        path: Mechanical/ME520
+      ME 521:
+        bytes: 69587575
+        code: ME 521
+        files: 105
+        kinds:
+        - PDF
+        - web/figures
+        - lecture media
+        path: Mechanical/ME521
+      ME 522:
+        bytes: 26903916
+        code: ME 522
+        files: 113
+        kinds:
+        - PDF
+        - notes/data
+        path: Mechanical/ME522
+      ME 523:
+        bytes: 52174220
+        code: ME 523
+        files: 273
+        kinds:
+        - notes/data
+        - web/figures
+        - PDF
+        - Fortran
+        path: Mechanical/ME523
+      ME 524:
+        bytes: 5222726362
+        code: ME 524
+        files: 5099
+        kinds:
+        - notes/data
+        - web/figures
+        - PDF
+        - Fortran
+        path: Mechanical/ME524
+      ME 535:
+        bytes: 97248933
+        code: ME 535
+        files: 74
+        kinds:
+        - PDF
+        - slides
+        - Fortran
+        path: Mechanical/ME535
+      ME 540:
+        bytes: 40543527
+        code: ME 540
+        files: 2381
+        kinds:
+        - web/figures
+        - Fortran
+        - notes/data
+        - PDF
+        path: Mechanical/ME540
+      ME300_2:
+        bytes: 219548103
+        code: null
+        files: 110
+        kinds:
+        - slides
+        - PDF
+        - documents
+        path: Mechanical/ME300_2
+      ME432_Shashank:
+        bytes: 64884703
+        code: null
+        files: 136
+        kinds:
+        - PDF
+        - notes/data
+        - web/figures
+        - Fortran
+        path: Mechanical/ME432_Shashank
+      ME532_Shashank:
+        bytes: 145701950
+        code: null
+        files: 65
+        kinds:
+        - PDF
+        - slides
+        - documents
+        path: Mechanical/ME532_Shashank
+      ME537_Shashank:
+        bytes: 95893175
+        code: null
+        files: 56
+        kinds:
+        - PDF
+        - spreadsheets
+        - documents
+        - notes/data
+        path: Mechanical/ME537_Shashank
+      ME83FluidsLab:
+        bytes: 551132
+        code: null
+        files: 4
+        kinds:
+        - PDF
+        path: Mechanical/ME83FluidsLab
+    section: fluids
+  Others:
+    courses:
+      2015RotaryWing:
+        bytes: 474933356
+        code: null
+        files: 55
+        kinds:
+        - PDF
+        - lecture media
+        - slides
+        path: Others/2015RotaryWing
+      BrianCantwell:
+        bytes: 47713257
+        code: null
+        files: 76
+        kinds:
+        - PDF
+        - web/figures
+        path: Others/BrianCantwell
+      CharbelCourses:
+        bytes: 39234968
+        code: null
+        files: 32
+        kinds:
+        - PDF
+        path: Others/CharbelCourses
+      CompSeismology:
+        bytes: 85119805
+        code: null
+        files: 19
+        kinds:
+        - slides
+        - PDF
+        path: Others/CompSeismology
+      Jameson:
+        bytes: 324837211
+        code: null
+        files: 35
+        kinds:
+        - PDF
+        path: Others/Jameson
+      LN_Shankar:
+        bytes: 70274857
+        code: null
+        files: 88
+        kinds:
+        - slides
+        - documents
+        - PDF
+        - MATLAB
+        path: Others/LN_Shankar
+      PSU:
+        bytes: 56196242
+        code: null
+        files: 199
+        kinds:
+        - C/C++
+        - PDF
+        - documents
+        - notes/data
+        path: Others/PSU
+      ParallelProgramming:
+        bytes: 9497814
+        code: null
+        files: 11
+        kinds:
+        - PDF
+        - slides
+        path: Others/ParallelProgramming
+      Rajagopalan_ISU:
+        bytes: 1267178
+        code: null
+        files: 7
+        kinds:
+        - PDF
+        path: Others/Rajagopalan_ISU
+      ShapeFunc:
+        bytes: 3327822
+        code: null
+        files: 6
+        kinds:
+        - PDF
+        - slides
+        path: Others/ShapeFunc
+      Turbojet Engine:
+        bytes: 130335
+        code: null
+        files: 5
+        kinds:
+        - web/figures
+        path: Others/Turbojet Engine
+      Turbulence_JCM:
+        bytes: 110550636
+        code: null
+        files: 11
+        kinds:
+        - PDF
+        path: Others/Turbulence_JCM
+      Turns_Thermodynamics:
+        bytes: 4103149
+        code: null
+        files: 6
+        kinds:
+        - documents
+        path: Others/Turns_Thermodynamics
+      UMD_Turb:
+        bytes: 29335202
+        code: null
+        files: 5
+        kinds:
+        - PDF
+        - slides
+        path: Others/UMD_Turb
+    section: fluids
+generated: '2026-09-26'
+totals:
+  bytes: 10910525230
+  courses: 72
+  departments: 7
+  files: 19258
+  unclassified_loose_files: 6

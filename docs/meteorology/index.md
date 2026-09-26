@@ -1,6 +1,7 @@
 ---
 title: Meteorology
 status: seed
+tags: [pillar-1, pillar-8, meteorology]
 ---
 
 # Meteorology

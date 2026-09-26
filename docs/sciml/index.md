@@ -1,6 +1,7 @@
 ---
 title: Scientific ML
 status: seed
+tags: [pillar-9, scientific-ml]
 ---
 
 # Scientific ML

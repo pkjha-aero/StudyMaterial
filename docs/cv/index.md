@@ -1,6 +1,7 @@
 ---
 title: Computer Vision
 status: seed
+tags: [pillar-9, computer-vision]
 ---
 
 # Computer Vision
