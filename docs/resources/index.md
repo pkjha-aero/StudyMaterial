@@ -18,7 +18,7 @@ the gap is visible rather than hidden.
 
 | Page | Covers |
 |---|---|
-| `course-archive.md` | Generated catalog of the external coursework archive |
+| [`course-archive.md`](course-archive.md) | **Done.** Catalog of the offline coursework archive — 72 courses, 7 departments |
 | `courses-progress.md` | Course tracker mirroring the planning document |
 | `books.md` | Books worth returning to |
 | `videos-playlists.md` | Lecture series and playlists |

@@ -1,0 +1,13 @@
+# Where the coursework archive lives. Overridden by --root on the command line,
+# so the scripts keep working when the drive is mounted somewhere else.
+archive_root: /media/pkjha/PKJ_MyPassport/Repository/Academic/CourseWork
+
+# Department directory -> the site section its material feeds.
+section_map:
+  Aerospace:  aerospace
+  Mechanical: fluids
+  Astro:      astrophysics
+  Maths:      foundations
+  CSE:        computing
+  Chemistry:  foundations
+  Others:     fluids
