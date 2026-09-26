@@ -174,8 +174,16 @@ nav:
       - Plasma physics: astrophysics/plasma.md
   - Machine Learning:
       - ml/index.md
+      - Classical machine learning: ml/classical.md
+      - Training craft: ml/training-craft.md
+      - Evaluation: ml/evaluation.md
+      - Tabular and time series: ml/tabular-timeseries.md
   - Deep Learning:
       - dl/index.md
+      - Architectures: dl/architectures.md
+      - PyTorch patterns: dl/pytorch-patterns.md
+      - Generative models: dl/generative.md
+      - LLMs and generative AI: dl/llm-genai.md
   - Computer Vision:
       - cv/index.md
   - Scientific ML:
