@@ -218,3 +218,7 @@ nav:
   - Resources:
       - resources/index.md
       - Course archive: resources/course-archive.md
+      - Learning roadmap: resources/courses-progress.md
+      - Books: resources/books.md
+      - Papers: resources/papers.md
+      - Videos and lecture series: resources/videos-playlists.md

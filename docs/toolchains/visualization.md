@@ -94,3 +94,8 @@ band, and is unreadable in greyscale and for colour-blind readers. See
 - [CFD codes](cfd-codes.md) · [Astro codes](astro-codes.md) — the data sources.
 - [Foundations › Research craft](../foundations/research-craft.md) — figures that do not mislead.
 - [Fluids › Turbulence](../fluids/turbulence/index.md) — what the Q-criterion is showing.
+
+## Sources
+
+- ParaView Guide; VisIt manual; yt documentation.
+- Crameri, Shephard & Heron (2020) on colour — see [Papers](../resources/papers.md).

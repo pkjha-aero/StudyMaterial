@@ -37,6 +37,13 @@ Three constraints that rarely bind in engineering CFD and always bind here:
   resistivity and viscosity always dominate, and the honest question is whether the result
   depends on them.
 
+## Connections
+
+- [Fluids › Compressible flow](../fluids/compressible.md) — the Riemann machinery MHD extends.
+- [Foundations › Numerical methods](../foundations/numerical-methods.md) — stability and order.
+- [Aerospace › Space environment](../aerospace/space-environment.md) — the near-Earth end of the same physics.
+- [Toolchains › Astro codes](../toolchains/astro-codes.md) — running these simulations.
+
 ## Sources
 
 Per page. See the [course archive](../resources/course-archive.md) for the Astro folders.

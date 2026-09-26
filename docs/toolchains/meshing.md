@@ -94,3 +94,8 @@ numbers to type into the tool:
 - [Fluids › Meshing and grid quality](../fluids/cfd/meshing.md) — why these targets.
 - [CFD codes](cfd-codes.md) — what consumes the mesh.
 - [Visualization](visualization.md) — inspecting mesh quality fields.
+
+## Sources
+
+- Gmsh reference manual (the size-field section especially); OpenFOAM `snappyHexMeshDict` documentation.
+- [Books](../resources/books.md) — Roache for grid convergence.

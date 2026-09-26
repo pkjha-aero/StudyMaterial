@@ -103,3 +103,9 @@ several diagnostics require adding a base state that is easy to forget.
 - [Meteorology › NWP](../meteorology/nwp.md) — the physics being configured.
 - [Data formats](data-formats.md) — GRIB input, NetCDF output.
 - [Geospatial](geospatial.md) · [Visualization](visualization.md)
+
+## Sources
+
+- WRF User's Guide and the WRF-ARW Technical Note (the Tech Note is where the physics options are actually described).
+- MPAS-Atmosphere User's Guide; ERF documentation.
+- [Books](../resources/books.md) — Kalnay, Warner.

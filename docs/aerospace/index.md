@@ -32,6 +32,13 @@ Applied aerospace disciplines — the domain physics layered on top of
 [Betz limit](wind-energy.md). Three subjects, one momentum argument — worth recognising,
 because a result derived in one transfers directly to the others.
 
+## Connections
+
+- [Fluids](../fluids/index.md) — the underlying flow physics.
+- [Foundations](../foundations/index.md) — the numerics.
+- [Meteorology › Boundary layer](../meteorology/boundary-layer.md) — turbine and low-altitude inflow.
+- [Astrophysics › Plasma](../astrophysics/plasma.md) — the spacecraft charging environment.
+
 ## Sources
 
 Per page. See the [course archive](../resources/course-archive.md) for the Aerospace and

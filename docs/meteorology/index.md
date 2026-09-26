@@ -49,6 +49,13 @@ suspect the model. Here:
 That inverts the usual V&V posture and it shapes how [data assimilation](data-assimilation.md)
 is set up: the observation error covariance is doing at least as much work as the model.
 
+## Connections
+
+- [Fluids](../fluids/index.md) — the atmosphere is a rotating, stratified fluid.
+- [Foundations › UQ](../foundations/uncertainty-quantification.md) — ensembles and uncertainty.
+- [CV › Scientific imagery](../cv/scientific-imagery.md) — satellite observation.
+- [Toolchains › Weather models](../toolchains/weather-models.md) — running WRF and MPAS.
+
 ## Sources
 
 Per page. See the [course archive](../resources/course-archive.md) — the METEO course

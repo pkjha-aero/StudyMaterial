@@ -55,6 +55,12 @@ clothing — **confusing a measure of effort with a measure of correctness**:
 
 Each is recorded in the failure-modes block of the relevant page.
 
+## Connections
+
+- [Fluids](../fluids/index.md) · [Aerospace](../aerospace/index.md) · [Astrophysics](../astrophysics/index.md) — where these methods are applied.
+- [Computing](../computing/index.md) — making them run fast.
+- [Scientific ML](../sciml/index.md) — and why verification is harder there.
+
 ## Sources
 
 Per page. See the [course archive](../resources/course-archive.md) for the Maths and CSE

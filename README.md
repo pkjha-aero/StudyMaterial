@@ -64,6 +64,21 @@ empty index over a good one. Course names and topics are hand-maintained in
 `catalog/course_titles.yml`, which the scan never touches — fill entries in there and
 re-render.
 
+## Checking the site
+
+```bash
+python3 scripts/audit_pages.py            # report
+python3 scripts/audit_pages.py --strict   # exit 1 on any finding
+```
+
+Checks what `mkdocs build --strict` cannot: that every page declares a status and tags,
+shows a matching badge, and carries the Connections, Sources and failure-modes sections
+the note template asks for — plus a status summary and an orphan-page check. CI runs it
+with `--strict` before the build, so a page that skips the template fails the PR.
+
+Exceptions (meta pages, section indexes, the resources catalogues) are listed explicitly
+at the top of the script rather than tolerated silently.
+
 ## Branching
 
 - `main` — the published site. Protected: direct pushes are rejected, so every change

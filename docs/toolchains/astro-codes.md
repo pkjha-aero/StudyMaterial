@@ -82,3 +82,9 @@ quantities from the primitive fields, correctly, including unit handling.
 - [Astrophysics › MHD](../astrophysics/mhd.md) · [N-body](../astrophysics/n-body-gravity.md) · [Radiative transfer](../astrophysics/radiative-transfer.md)
 - [Visualization](visualization.md) — yt and ParaView.
 - Archive: `Astro/ZEUS_MP` in the [course archive](../resources/course-archive.md).
+
+## Sources
+
+- FLASH, Athena++, Gadget-4 and yt documentation.
+- [Books](../resources/books.md) — Aarseth for N-body; Goedbloed & Poedts for MHD.
+- Archive: `Astro/ZEUS_MP` in the [course archive](../resources/course-archive.md).

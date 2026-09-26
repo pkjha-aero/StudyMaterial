@@ -54,3 +54,50 @@ mjx-container[display="true"] {
 
 /* Tables in the catalog page get dense: tighten them and let them scroll. */
 .md-typeset table:not([class]) { font-size: 0.72rem; }
+
+/* ---- Section index tables ------------------------------------------------
+   Index pages are mostly page-listing tables, and they read better a little
+   tighter than the default with the first column doing the work.            */
+
+.md-typeset table:not([class]) th:first-child,
+.md-typeset table:not([class]) td:first-child {
+  white-space: nowrap;
+}
+
+/* The course archive table is the exception: it is dense and wide, and must
+   be allowed to wrap rather than force a horizontal scrollbar. */
+.md-typeset table:not([class]) td:first-child > strong {
+  white-space: normal;
+}
+
+/* ---- Failure-modes block -------------------------------------------------
+   This is the highest-value section on a topic page. Give it enough weight
+   that the eye finds it when skimming, without shouting.                     */
+
+.md-typeset details.warning > summary {
+  font-weight: 700;
+}
+
+.md-typeset details.warning {
+  border-left-width: 3px;
+}
+
+/* ---- "In one minute" abstract -------------------------------------------- */
+
+.md-typeset .admonition.abstract > ul {
+  margin-block: 0.4rem;
+}
+
+/* ---- Readability ---------------------------------------------------------
+   These pages are dense. A slightly longer measure suits reference reading,
+   but not so long that the eye loses the line on a wide monitor.            */
+
+.md-grid {
+  max-width: 62rem;
+}
+
+/* Inline code inside tables should not wrap mid-token — archive paths and
+   command names are the common case and are unreadable when broken. */
+.md-typeset table:not([class]) code {
+  white-space: nowrap;
+}

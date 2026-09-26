@@ -90,3 +90,8 @@ tools use lon, lat. Check rather than assume.
 - [Data formats](data-formats.md) — GeoTIFF, NetCDF, Zarr.
 - [CV › Scientific imagery](../cv/scientific-imagery.md) — radiometry and spatial CV.
 - [Meteorology › Observations](../meteorology/observations.md) — the products.
+
+## Sources
+
+- GDAL, PROJ, rasterio, rioxarray and GeoPandas documentation.
+- epsg.io for CRS lookup; the PROJ FAQ for axis-order questions.
