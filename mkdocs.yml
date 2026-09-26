@@ -1,0 +1,147 @@
+site_name: Study Material
+site_description: >-
+  Recap notes in computational physics, aerospace, meteorology, and machine learning.
+site_author: Pankaj Jha
+site_url: https://pkjha-aero.github.io/StudyMaterial/
+
+repo_url: https://github.com/pkjha-aero/StudyMaterial
+repo_name: pkjha-aero/StudyMaterial
+edit_uri: edit/develop/docs/
+
+copyright: >-
+  Prose CC BY 4.0 &middot; code MIT &middot; third-party course material referenced, not redistributed.
+
+theme:
+  name: material
+  language: en
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.action.edit
+    - content.tooltips
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Follow system theme
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+# Snippet partials are included into other pages, not published on their own.
+not_in_nav: |
+  /snippets/
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  # Math. Non-negotiable for this site.
+  - pymdownx.arithmatex:
+      generic: true
+  # Callouts: the "In one minute" abstract and the collapsible Failure modes block.
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets:
+      auto_append:
+        - docs/snippets/abbreviations.md
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.keys
+  - pymdownx.smartsymbols
+  # Material icon shortcodes (:material-xxx:) used on index pages.
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - abbr
+  - attr_list
+  - md_in_html
+  - def_list
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+
+extra_javascript:
+  - assets/js/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - assets/css/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/pkjha-aero
+      name: GitHub
+
+# Explicit nav. Sections are added as their content lands (see PLAN.md phases).
+nav:
+  - Home: index.md
+  - Skills Map: skills-map.md
+  - How to use: how-to-use.md
+  - Foundations:
+      - foundations/index.md
+  - Fluids:
+      - fluids/index.md
+  - Aerospace:
+      - aerospace/index.md
+  - Meteorology:
+      - meteorology/index.md
+  - Astrophysics:
+      - astrophysics/index.md
+  - Machine Learning:
+      - ml/index.md
+  - Deep Learning:
+      - dl/index.md
+  - Computer Vision:
+      - cv/index.md
+  - Scientific ML:
+      - sciml/index.md
+  - Toolchains:
+      - toolchains/index.md
+  - Computing:
+      - computing/index.md
+  - Resources:
+      - resources/index.md
