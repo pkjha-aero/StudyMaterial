@@ -30,13 +30,23 @@ Keep it that way:
 
 ## Local development
 
+This repo lives on an NTFS volume, which does not carry the execute bit — a virtualenv
+created *inside* the repo will fail with `Permission denied`. Put it on a native
+filesystem instead:
+
 ```bash
-python3 -m venv .venv && source .venv/bin/activate
+python3 -m venv ~/.venvs/studymaterial
+source ~/.venvs/studymaterial/bin/activate
 pip install -r requirements.txt
 mkdocs serve          # http://127.0.0.1:8000
 ```
 
-`mkdocs build --strict` is what CI runs; run it before pushing.
+`mkdocs build --strict` is what CI runs, and warnings are errors there; run it before
+pushing.
+
+For the same reason, shell scripts in `scripts/` carry their execute bit in the git index
+rather than on disk (`git update-index --chmod=+x`). Invoke them as `bash scripts/x.sh`
+locally.
 
 ## Branching
 

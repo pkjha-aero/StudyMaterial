@@ -1,0 +1,56 @@
+/* ---- Status badges -------------------------------------------------------
+   Every page declares status: seed | working | solid in its front matter and
+   repeats it as a one-line marker under the H1. Honest incompleteness beats a
+   blank page, and it makes the active growth areas legible at a glance.      */
+
+.status {
+  display: inline-block;
+  padding: 0.12rem 0.5rem;
+  border-radius: 1rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  vertical-align: middle;
+  border: 1px solid transparent;
+}
+.status-seed    { background: var(--md-default-fg-color--lightest); color: var(--md-default-fg-color--light); }
+.status-working { background: rgba(255, 145, 0, 0.16);  color: #b36a00; border-color: rgba(255, 145, 0, 0.35); }
+.status-solid   { background: rgba(0, 150, 80, 0.16);   color: #00794a; border-color: rgba(0, 150, 80, 0.35); }
+
+[data-md-color-scheme="slate"] .status-working { color: #ffb74d; }
+[data-md-color-scheme="slate"] .status-solid   { color: #66d9a0; }
+
+/* ---- Displayed equations -------------------------------------------------
+   Long display math is the one thing that legitimately overflows on a phone,
+   so let it scroll on its own rather than pushing the page sideways.         */
+
+mjx-container[display="true"] {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.2rem 0;
+}
+
+/* Key results: boxed final forms, so the eye finds them without reading prose. */
+.result {
+  border-left: 3px solid var(--md-primary-fg-color);
+  background: var(--md-default-fg-color--lightest);
+  padding: 0.1rem 0.9rem;
+  margin: 1rem 0;
+  border-radius: 0 0.2rem 0.2rem 0;
+}
+
+/* ---- Pillar chips on section index pages --------------------------------- */
+.pillar {
+  display: inline-block;
+  padding: 0.1rem 0.45rem;
+  margin-right: 0.25rem;
+  border-radius: 0.2rem;
+  font-size: 0.7rem;
+  font-family: var(--md-code-font-family);
+  background: var(--md-code-bg-color);
+  color: var(--md-code-fg-color);
+}
+
+/* Tables in the catalog page get dense: tighten them and let them scroll. */
+.md-typeset table:not([class]) { font-size: 0.72rem; }
