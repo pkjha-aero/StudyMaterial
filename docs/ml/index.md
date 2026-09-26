@@ -1,6 +1,7 @@
 ---
 title: Machine Learning
 status: seed
+tags: [pillar-9, machine-learning]
 ---
 
 # Machine Learning

@@ -72,12 +72,14 @@ is information.
 Two axes, both flat, both applied in front matter:
 
 **Pillar** — `pillar-1` … `pillar-10`, from the [Skills Map](skills-map.md). Exactly one
-per page, the primary competency the page serves.
+per topic page: the primary competency it serves. Section index pages are the exception
+and may carry several, since a section legitimately spans pillars.
 
 **Topic** — free-form and cross-cutting: `turbulence`, `spectral-methods`, `pytorch`,
 `netcdf`, `wrf`. As many as genuinely apply. These exist so that a topic is reachable from
 more than one path — spectral methods matter to both a fluids reader and an ML reader, and
-the navigation tree can only put them in one place.
+the navigation tree can only put them in one place. Browse them on the
+[Tags](tags.md) page.
 
 ```yaml
 ---

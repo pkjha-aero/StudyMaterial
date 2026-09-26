@@ -1,6 +1,7 @@
 ---
 title: Resources
 status: seed
+tags: [resources]
 ---
 
 # Resources

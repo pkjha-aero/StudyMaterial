@@ -1,13 +1,12 @@
 # Site toolchain. Pinned so local builds and CI agree.
+#
+# Deliberately minimal: a plugin gets added here when a page actually uses it,
+# not in anticipation. Unused plugins slow every CI build and quietly rot.
+#   - mkdocs-jupyter  -> add when notebooks/ gains its first rendered notebook
+#   - mkdocs-bibtex   -> add when resources/papers.md gains a refs.bib
 mkdocs==1.6.1
 mkdocs-material==9.5.49
 mkdocs-material-extensions==1.3.1
-
-# Notebooks rendered as pages (Phase 3+)
-mkdocs-jupyter==0.25.1
-
-# Citations for papers.md and note Sources sections
-mkdocs-bibtex==2.16.2
 
 # Catalog generation (catalog/build_catalog.py)
 PyYAML==6.0.2

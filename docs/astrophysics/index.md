@@ -1,6 +1,7 @@
 ---
 title: Astrophysics
 status: seed
+tags: [pillar-1, astrophysics]
 ---
 
 # Astrophysics

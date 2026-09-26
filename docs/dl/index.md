@@ -1,6 +1,7 @@
 ---
 title: Deep Learning
 status: seed
+tags: [pillar-9, deep-learning]
 ---
 
 # Deep Learning
