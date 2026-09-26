@@ -66,9 +66,13 @@ re-render.
 
 ## Branching
 
-- `main` — released; deployed to GitHub Pages by CI.
-- `develop` — integration branch.
-- `feature/*` — branched from `develop`, merged back with `--no-ff`.
+- `main` — the published site. Protected: direct pushes are rejected, so every change
+  arrives through a pull request with a green build.
+- `feature/*` — branched from `main`, merged back by PR.
+
+There is no long-lived integration branch. Pages deploys from `main` via the Actions
+artifact path, so there is no `gh-pages` branch either — deploy history lives under the
+repository's Deployments tab rather than as commits.
 
 ## Writing a new page
 
