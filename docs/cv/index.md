@@ -1,28 +1,48 @@
 ---
 title: Computer Vision
-status: seed
+status: working
 tags: [pillar-9, computer-vision]
 ---
 
 # Computer Vision
 
-<span class="status status-seed">seed</span>
-<span class="pillar">pillars 9</span>
+<span class="status status-working">working</span>
+<span class="pillar">pillar 9</span>
 
-Active growth area. Image fundamentals through modern detection and segmentation, with an eye to scientific imagery.
+Image fundamentals through modern detection, with an eye to scientific imagery.
+An **active growth area**.
 
-## Planned pages
-
-Nothing here is written yet. This index lists what the section will hold, so the shape of
-the gap is visible rather than hidden.
+## Pages
 
 | Page | Covers |
 |---|---|
-| `image-fundamentals.md` | Filtering, transforms, colour, projective geometry |
-| `classical-cv.md` | Features, camera calibration, stereo, optical flow |
-| `detection-segmentation.md` | YOLO, Mask R-CNN, SAM |
-| `vlms.md` | Vision-language models |
-| `scientific-imagery.md` | Remote sensing, plume and smoke detection, geospatial imagery |
+| [Image fundamentals](image-fundamentals.md) | Sampling and aliasing, filtering, gamma, colour, the pinhole model, interpolation |
+| [Classical computer vision](classical-cv.md) | Features, RANSAC, epipolar geometry, stereo depth error, optical flow, calibration |
+| [Detection and segmentation](detection-segmentation.md) | The four tasks and their metrics, NMS, focal loss, anchor and set-prediction families |
+| [Vision-language models](vlms.md) | Contrastive alignment, generative VLM structure, what they cannot do |
+| [Scientific and remote-sensing imagery](scientific-imagery.md) | Radiometry, spectral indices, georeferencing, spatial CV, fire detection |
 
-!!! note "Status"
-    Section scaffolded in Phase 0. See the repository's planning notes for sequencing.
+## The theme
+
+**Deep learning replaced the matching, not the geometry.** Which pixel corresponds to
+which is now learned, and learned well. Triangulation, calibration, the epipolar
+constraint and the \(Z^2\) depth-error law are unchanged, because they are statements
+about projection rather than about appearance.
+
+Most production systems are therefore hybrids: learn the correspondences, solve the
+geometry classically. Knowing which half of a pipeline is which is what lets you diagnose
+it — a depth error that scales as \(Z^2\) is geometry, and no amount of retraining will
+move it.
+
+## A note for the scientific case
+
+[Scientific imagery](scientific-imagery.md) is the page that departs most from standard CV
+practice, because the pixels are **measurements with units**. Normalising to 8-bit,
+bilinear-resampling a class map, or splitting spatially-correlated pixels at random are all
+routine in vision work and all destroy something in a radiometric product.
+
+## Connections
+
+- [Deep Learning](../dl/index.md) — the backbones and architectures.
+- [Meteorology › Fire weather](../meteorology/fire-weather.md) — what the detections feed.
+- [Scientific ML](../sciml/index.md) — imagery as one modality among several.
