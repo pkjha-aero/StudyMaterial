@@ -1,27 +1,42 @@
 ---
 title: Astrophysics
-status: seed
+status: solid
 tags: [pillar-1, astrophysics]
 ---
 
 # Astrophysics
 
-<span class="status status-seed">seed</span>
-<span class="pillar">pillars 1</span>
+<span class="status status-solid">solid</span>
+<span class="pillar">pillar 1</span>
 
 Astrophysical fluid and plasma dynamics, and the numerical methods peculiar to them.
 
-## Planned pages
-
-Nothing here is written yet. This index lists what the section will hold, so the shape of
-the gap is visible rather than hidden.
+## Pages
 
 | Page | Covers |
 |---|---|
-| `radiative-transfer.md` | Transport equation, opacity, moment closures |
-| `mhd.md` | Ideal and resistive MHD, divergence constraints, numerical schemes |
-| `n-body-gravity.md` | Gravitational dynamics, tree and particle-mesh methods, SPH |
-| `plasma.md` | Plasma physics fundamentals; overlap with space environment |
+| [Radiative transfer](radiative-transfer.md) | Transfer equation, optical depth, LTE, diffusion and its limits, mean opacities |
+| [Magnetohydrodynamics](mhd.md) | Ideal MHD, flux freezing, plasma beta, the \(\nabla\cdot\mathbf{B}=0\) constraint |
+| [N-body and gravitational dynamics](n-body-gravity.md) | Tree and mesh methods, softening, symplectic integration, SPH |
+| [Plasma physics](plasma.md) | Debye length, kinetic vs fluid, PIC and its numerical pathologies |
 
-!!! note "Status"
-    Section scaffolded in Phase 0. See the repository's planning notes for sequencing.
+Code usage for FLASH, Athena, Gadget and ZEUS-MP lives in
+[toolchains › astro codes](../toolchains/index.md); these pages cover the physics and the
+numerics.
+
+## What makes astrophysical numerics distinctive
+
+Three constraints that rarely bind in engineering CFD and always bind here:
+
+- **Enormous dynamic range.** Densities and timescales spanning many orders of magnitude
+  in one domain, which is why AMR and individual timesteps are standard rather than exotic.
+- **Constraints that must hold exactly.** \(\nabla\cdot\mathbf{B}=0\) is not a
+  convergence target; violating it produces forces that do not exist.
+- **Unreachable parameter regimes.** Astrophysical \(\mathrm{Rm}\sim10^{10}\) and
+  \(\mathrm{Re}\sim10^{12}\) mean the simulation is never in the physical regime. Numerical
+  resistivity and viscosity always dominate, and the honest question is whether the result
+  depends on them.
+
+## Sources
+
+Per page. See the [course archive](../resources/course-archive.md) for the Astro folders.

@@ -149,10 +149,21 @@ nav:
           - Meshing and grid quality: fluids/cfd/meshing.md
   - Aerospace:
       - aerospace/index.md
+      - Aerodynamics: aerospace/aerodynamics.md
+      - Flight mechanics: aerospace/flight-mechanics.md
+      - Propulsion: aerospace/propulsion.md
+      - Structures and aeroelasticity: aerospace/structures.md
+      - Rotorcraft: aerospace/rotorcraft.md
+      - Wind energy: aerospace/wind-energy.md
+      - Space environment and orbits: aerospace/space-environment.md
   - Meteorology:
       - meteorology/index.md
   - Astrophysics:
       - astrophysics/index.md
+      - Radiative transfer: astrophysics/radiative-transfer.md
+      - Magnetohydrodynamics: astrophysics/mhd.md
+      - N-body and gravity: astrophysics/n-body-gravity.md
+      - Plasma physics: astrophysics/plasma.md
   - Machine Learning:
       - ml/index.md
   - Deep Learning:
