@@ -1,6 +1,7 @@
 ---
 title: Foundations
 status: seed
+tags: [pillar-2, pillar-3, pillar-4, pillar-8, pillar-10, foundations]
 ---
 
 # Foundations

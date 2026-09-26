@@ -1,6 +1,7 @@
 ---
 title: Toolchains
 status: seed
+tags: [pillar-7, toolchains]
 ---
 
 # Toolchains

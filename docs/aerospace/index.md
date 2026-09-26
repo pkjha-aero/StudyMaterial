@@ -1,6 +1,7 @@
 ---
 title: Aerospace
 status: seed
+tags: [pillar-1, aerospace]
 ---
 
 # Aerospace

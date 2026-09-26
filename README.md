@@ -66,5 +66,11 @@ Page conventions are documented on the site under *How to use this site*.
 
 ## Licence
 
-Prose in `docs/` is CC BY 4.0. Code in `scripts/` and `notebooks/` is MIT.
-Third-party course material is referenced, never redistributed.
+Dual-licensed, because prose and code want different terms:
+
+- **Prose, notes and figures** in `docs/` — [CC BY 4.0](LICENSE). Reuse freely with
+  attribution.
+- **Code** in `scripts/`, `catalog/` and `notebooks/` — [MIT](LICENSE-CODE).
+
+Third-party course material is referenced by course name only, never redistributed and
+never reproduced here.

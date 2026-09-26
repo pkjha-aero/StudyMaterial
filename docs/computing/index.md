@@ -1,6 +1,7 @@
 ---
 title: Computing
 status: seed
+tags: [pillar-5, pillar-6, pillar-8, computing, hpc]
 ---
 
 # Computing

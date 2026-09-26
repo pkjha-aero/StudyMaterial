@@ -1,6 +1,7 @@
 ---
 title: Fluids
 status: seed
+tags: [pillar-1, pillar-3, pillar-4, fluids, cfd]
 ---
 
 # Fluids

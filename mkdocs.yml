@@ -60,7 +60,8 @@ not_in_nav: |
 
 plugins:
   - search
-  - tags
+  - tags:
+      tags_file: tags.md
 
 markdown_extensions:
   # Math. Non-negotiable for this site.
@@ -121,6 +122,7 @@ nav:
   - Home: index.md
   - Skills Map: skills-map.md
   - How to use: how-to-use.md
+  - Tags: tags.md
   - Foundations:
       - foundations/index.md
   - Fluids:
