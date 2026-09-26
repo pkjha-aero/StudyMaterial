@@ -1,7 +1,7 @@
 ---
 title: Radiative transfer
 status: solid
-tags: [pillar-1, astrophysics, radiation, opacity]
+tags: [pillar-1, astrophysics, radiation]
 updated: 2026-09-26
 ---
 

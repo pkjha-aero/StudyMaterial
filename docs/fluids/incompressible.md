@@ -1,7 +1,7 @@
 ---
 title: Incompressible flow
 status: solid
-tags: [pillar-1, pillar-4, fluids, pressure-velocity-coupling, projection]
+tags: [pillar-1, pillar-4, fluids, discretization]
 updated: 2026-09-26
 ---
 

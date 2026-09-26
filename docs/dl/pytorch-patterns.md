@@ -1,7 +1,7 @@
 ---
 title: PyTorch patterns
 status: working
-tags: [pillar-5, pillar-9, deep-learning, pytorch, distributed]
+tags: [pillar-5, pillar-9, deep-learning, neural-networks, performance, parallelism]
 updated: 2026-09-26
 ---
 

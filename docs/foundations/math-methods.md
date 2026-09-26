@@ -1,7 +1,7 @@
 ---
 title: Mathematical methods
 status: solid
-tags: [pillar-2, foundations, pde, linear-algebra, asymptotics]
+tags: [pillar-2, foundations, spectral-methods]
 updated: 2026-09-26
 ---
 

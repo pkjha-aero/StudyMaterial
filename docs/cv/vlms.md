@@ -1,7 +1,7 @@
 ---
 title: Vision-language models
 status: working
-tags: [pillar-9, computer-vision, vlm, clip, multimodal]
+tags: [pillar-9, computer-vision, neural-networks]
 updated: 2026-09-26
 ---
 

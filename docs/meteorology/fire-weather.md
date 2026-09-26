@@ -1,7 +1,7 @@
 ---
 title: Fire weather
 status: working
-tags: [pillar-1, meteorology, wildfire, coupled-modelling, fire-indices]
+tags: [pillar-1, meteorology, wildfire, boundary-layer]
 updated: 2026-09-26
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Skills Map
 status: working
-tags: [skills-map]
+tags: []
 ---
 
 # Skills Map

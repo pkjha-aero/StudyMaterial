@@ -1,7 +1,7 @@
 ---
 title: Weather and climate models
 status: seed
-tags: [pillar-7, toolchains, wrf, mpas, erf, rrtm]
+tags: [pillar-7, toolchains, meteorology]
 updated: 2026-09-26
 ---
 

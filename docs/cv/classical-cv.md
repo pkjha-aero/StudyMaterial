@@ -1,7 +1,7 @@
 ---
 title: Classical computer vision
 status: working
-tags: [pillar-9, computer-vision, features, calibration, stereo, optical-flow]
+tags: [pillar-9, computer-vision]
 updated: 2026-09-26
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Compressible flow
 status: solid
-tags: [pillar-1, pillar-3, fluids, shocks, riemann, godunov]
+tags: [pillar-1, pillar-3, fluids, conservation, discretization]
 updated: 2026-09-26
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Time integration
 status: solid
-tags: [pillar-4, fluids, cfd, cfl, stability]
+tags: [pillar-4, fluids, discretization, numerical-stability]
 updated: 2026-09-26
 ---
 

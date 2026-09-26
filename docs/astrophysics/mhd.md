@@ -1,7 +1,7 @@
 ---
 title: Magnetohydrodynamics
 status: solid
-tags: [pillar-1, astrophysics, mhd, divergence-constraint]
+tags: [pillar-1, astrophysics, conservation, numerical-stability]
 updated: 2026-09-26
 ---
 

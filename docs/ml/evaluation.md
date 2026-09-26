@@ -1,7 +1,7 @@
 ---
 title: Evaluation
 status: working
-tags: [pillar-9, machine-learning, metrics, leakage, calibration]
+tags: [pillar-9, machine-learning, statistics, validation]
 updated: 2026-09-26
 ---
 

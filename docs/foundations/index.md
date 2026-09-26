@@ -1,7 +1,7 @@
 ---
 title: Foundations
 status: solid
-tags: [pillar-2, pillar-3, pillar-4, pillar-8, pillar-10, foundations]
+tags: [pillar-2, pillar-3, pillar-4, pillar-8, pillar-10, foundations, discretization, statistics]
 ---
 
 # Foundations

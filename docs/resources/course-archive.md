@@ -1,7 +1,7 @@
 ---
 title: Course archive
 status: working
-tags: [resources, archive]
+tags: [resources]
 updated: 2026-09-26
 ---
 

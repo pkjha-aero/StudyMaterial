@@ -1,7 +1,7 @@
 ---
 title: Atmospheric thermodynamics
 status: working
-tags: [pillar-1, meteorology, moist-thermodynamics, cape, skew-t]
+tags: [pillar-1, meteorology]
 updated: 2026-09-26
 ---
 

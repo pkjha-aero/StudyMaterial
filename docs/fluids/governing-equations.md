@@ -1,7 +1,7 @@
 ---
 title: Governing equations
 status: solid
-tags: [pillar-1, fluids, conservation-laws, scaling]
+tags: [pillar-1, fluids, conservation, scaling]
 updated: 2026-09-26
 ---
 

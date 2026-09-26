@@ -1,7 +1,7 @@
 ---
 title: Wind energy
 status: solid
-tags: [pillar-1, aerospace, wind-energy, betz, wakes]
+tags: [pillar-1, aerospace, boundary-layer, scaling]
 updated: 2026-09-26
 ---
 

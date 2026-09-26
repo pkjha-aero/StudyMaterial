@@ -1,7 +1,7 @@
 ---
 title: Physics-informed neural networks
 status: working
-tags: [pillar-9, sciml, pinn, inverse-problems]
+tags: [pillar-9, sciml, neural-networks, inverse-problems, extrapolation]
 updated: 2026-09-26
 ---
 

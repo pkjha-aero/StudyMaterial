@@ -1,7 +1,7 @@
 ---
 title: Classical machine learning
 status: working
-tags: [pillar-9, machine-learning, regression, trees, svm]
+tags: [pillar-9, machine-learning, statistics, extrapolation]
 updated: 2026-09-26
 ---
 

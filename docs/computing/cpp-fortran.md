@@ -1,7 +1,7 @@
 ---
 title: C++ and Fortran
 status: working
-tags: [pillar-5, computing, cpp, fortran, build-systems]
+tags: [pillar-5, computing, performance]
 updated: 2026-09-26
 ---
 

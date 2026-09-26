@@ -1,7 +1,7 @@
 ---
 title: Linear solvers
 status: solid
-tags: [pillar-4, foundations, krylov, multigrid, preconditioning]
+tags: [pillar-4, foundations, scaling]
 updated: 2026-09-26
 ---
 

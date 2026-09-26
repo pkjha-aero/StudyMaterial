@@ -1,7 +1,7 @@
 ---
 title: Training craft
 status: working
-tags: [pillar-9, machine-learning, optimizers, regularization, debugging]
+tags: [pillar-9, machine-learning, neural-networks, optimization]
 updated: 2026-09-26
 ---
 

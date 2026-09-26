@@ -1,7 +1,7 @@
 ---
 title: Plasma physics
 status: solid
-tags: [pillar-1, astrophysics, plasma, kinetic, pic]
+tags: [pillar-1, astrophysics]
 updated: 2026-09-26
 ---
 

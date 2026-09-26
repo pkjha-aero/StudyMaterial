@@ -1,7 +1,7 @@
 ---
 title: Verification and validation
 status: solid
-tags: [pillar-10, foundations, verification, validation, mms]
+tags: [pillar-10, foundations, validation]
 updated: 2026-09-26
 ---
 

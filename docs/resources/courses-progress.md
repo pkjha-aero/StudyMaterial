@@ -1,7 +1,7 @@
 ---
 title: Learning roadmap
 status: working
-tags: [resources, roadmap]
+tags: [resources]
 updated: 2026-09-26
 ---
 

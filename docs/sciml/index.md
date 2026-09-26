@@ -1,7 +1,7 @@
 ---
 title: Scientific ML
 status: working
-tags: [pillar-9, sciml]
+tags: [pillar-9, sciml, surrogates, extrapolation]
 ---
 
 # Scientific ML

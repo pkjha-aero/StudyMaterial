@@ -1,7 +1,7 @@
 ---
 title: Research craft
 status: working
-tags: [pillar-10, foundations, reproducibility, writing, communication]
+tags: [pillar-10, foundations, reproducibility]
 updated: 2026-09-26
 ---
 

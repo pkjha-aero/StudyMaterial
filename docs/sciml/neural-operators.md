@@ -1,7 +1,7 @@
 ---
 title: Neural operators
 status: working
-tags: [pillar-9, sciml, fno, deeponet, operator-learning]
+tags: [pillar-9, sciml, neural-networks, spectral-methods, extrapolation]
 updated: 2026-09-26
 ---
 

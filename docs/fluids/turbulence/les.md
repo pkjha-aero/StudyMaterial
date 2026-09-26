@@ -1,7 +1,7 @@
 ---
 title: Large eddy simulation
 status: solid
-tags: [pillar-1, fluids, turbulence, les, subgrid]
+tags: [pillar-1, fluids, turbulence]
 updated: 2026-09-26
 ---
 

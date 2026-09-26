@@ -1,7 +1,7 @@
 ---
 title: Meshing and grid quality
 status: solid
-tags: [pillar-3, fluids, cfd, meshing, amr]
+tags: [pillar-3, fluids, mesh, validation]
 updated: 2026-09-26
 ---
 

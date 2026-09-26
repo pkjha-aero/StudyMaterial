@@ -1,7 +1,7 @@
 ---
 title: Image fundamentals
 status: working
-tags: [pillar-9, computer-vision, filtering, geometry, color]
+tags: [pillar-9, computer-vision, spectral-methods]
 updated: 2026-09-26
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Aerodynamics
 status: solid
-tags: [pillar-1, aerospace, airfoils, lifting-line, compressibility]
+tags: [pillar-1, aerospace, boundary-layer, scaling]
 updated: 2026-09-26
 ---
 

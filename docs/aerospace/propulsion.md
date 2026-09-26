@@ -1,7 +1,7 @@
 ---
 title: Propulsion
 status: solid
-tags: [pillar-1, aerospace, brayton, turbofan, rockets]
+tags: [pillar-1, aerospace, scaling]
 updated: 2026-09-26
 ---
 

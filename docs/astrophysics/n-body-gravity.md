@@ -1,7 +1,7 @@
 ---
 title: N-body and gravitational dynamics
 status: solid
-tags: [pillar-1, pillar-3, astrophysics, n-body, symplectic]
+tags: [pillar-1, pillar-3, astrophysics, discretization, conservation]
 updated: 2026-09-26
 ---
 

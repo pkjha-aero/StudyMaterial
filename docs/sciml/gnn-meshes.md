@@ -1,7 +1,7 @@
 ---
 title: Graph networks on meshes
 status: working
-tags: [pillar-9, sciml, gnn, unstructured-mesh, mesh-learning]
+tags: [pillar-9, sciml, neural-networks, mesh, extrapolation]
 updated: 2026-09-26
 ---
 

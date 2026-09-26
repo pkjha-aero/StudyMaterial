@@ -1,7 +1,7 @@
 ---
 title: Fluids
 status: solid
-tags: [pillar-1, pillar-3, pillar-4, fluids, cfd]
+tags: [pillar-1, pillar-3, pillar-4, fluids, turbulence, discretization]
 ---
 
 # Fluids

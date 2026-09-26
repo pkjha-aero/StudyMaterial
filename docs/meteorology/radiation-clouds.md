@@ -1,7 +1,7 @@
 ---
 title: Radiation and clouds
 status: working
-tags: [pillar-1, meteorology, radiation, microphysics, parameterization]
+tags: [pillar-1, meteorology, radiation]
 updated: 2026-09-26
 ---
 

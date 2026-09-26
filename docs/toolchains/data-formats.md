@@ -1,7 +1,7 @@
 ---
 title: Data formats
 status: working
-tags: [pillar-7, toolchains, netcdf, grib, hdf5, zarr]
+tags: [pillar-7, toolchains, data-formats]
 updated: 2026-09-26
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Atmospheric boundary layer
 status: working
-tags: [pillar-1, meteorology, most, surface-fluxes, diurnal-cycle]
+tags: [pillar-1, meteorology, boundary-layer, turbulence]
 updated: 2026-09-26
 ---
 

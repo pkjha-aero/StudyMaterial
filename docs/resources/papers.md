@@ -1,7 +1,7 @@
 ---
 title: Papers
 status: working
-tags: [resources, papers]
+tags: [resources]
 updated: 2026-09-26
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: MLOps and deployment
 status: working
-tags: [pillar-5, computing, docker, kubernetes, cicd, cloud]
+tags: [pillar-5, computing, reproducibility]
 updated: 2026-09-26
 ---
 

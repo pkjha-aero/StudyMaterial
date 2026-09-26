@@ -87,17 +87,23 @@ The ordering is what the [audit script](https://github.com/pkjha-aero/StudyMater
 enforces, because a primary pillar that disagrees with the badge is a page filed in two
 places at once.
 
-**Topic** — free-form and cross-cutting: `turbulence`, `spectral-methods`, `pytorch`,
-`netcdf`, `wrf`. As many as genuinely apply. These exist so that a topic is reachable from
-more than one path — spectral methods matter to both a fluids reader and an ML reader, and
-the navigation tree can only put them in one place. Browse them on the
-[Tags](tags.md) page.
+**Section and concept** — drawn from a **controlled vocabulary** of 35 tags, listed in
+full on the [Tags](tags.md) page. One section tag, then any cross-cutting concepts that
+genuinely apply.
+
+These exist so a topic is reachable from more than one path — `spectral-methods` matters
+to a fluids reader and an ML reader alike, and the navigation tree can only file it once.
+
+Tags are **not** for specifics. `openfoam`, `betz` and `skew-t` are not tags; search
+handles those far better. The vocabulary is closed and the audit script rejects anything
+outside it, because the previous free-form taxonomy grew to 205 tags of which 177
+appeared on exactly one page — cross-linking nothing.
 
 ```yaml
 ---
 title: Compressible flow
 status: working
-tags: [pillar-1, fluids, shocks, riemann]
+tags: [pillar-1, fluids, conservation, discretization]
 updated: 2026-09-26
 ---
 ```
