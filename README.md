@@ -48,6 +48,22 @@ For the same reason, shell scripts in `scripts/` carry their execute bit in the 
 rather than on disk (`git update-index --chmod=+x`). Invoke them as `bash scripts/x.sh`
 locally.
 
+## Regenerating the course catalog
+
+The archive is indexed at **course** granularity — what each course covers and how much
+material there is, plus the path to open it. No filenames, no instructor attribution: the
+site publishes what the material *covers*, not what files it contains.
+
+```bash
+python3 catalog/build_catalog.py     # scan the drive -> catalog/coursework_index.yml
+python3 catalog/render_catalog.py    # + course_titles.yml -> docs/resources/course-archive.md
+```
+
+`build_catalog.py` refuses to run when the drive is not mounted rather than emitting an
+empty index over a good one. Course names and topics are hand-maintained in
+`catalog/course_titles.yml`, which the scan never touches — fill entries in there and
+re-render.
+
 ## Branching
 
 - `main` — released; deployed to GitHub Pages by CI.

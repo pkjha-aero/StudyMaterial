@@ -1,0 +1,243 @@
+# Course names and topic lists for the published catalog.
+#
+# Hand-maintained: build_catalog.py never writes to this file, so re-scanning the
+# drive will not clobber anything here. render_catalog.py merges it over the
+# generated index.
+#
+# Fill `name` with what the course is, and `topics` with what it covers. Topics are
+# the point — the site publishes what material covers, not what files it contains.
+# Entries left blank render as a dash and are counted as unnamed on the page.
+#
+# Deliberately no instructor field.
+
+courses:
+
+  # ---- Aerospace ----
+  "AERSP 305":
+    name: ""
+    topics: []
+  "AERSP 309":
+    name: ""
+    topics: []
+  "AERSP 313":
+    name: ""
+    topics: []
+  "AERSP 401":
+    name: ""
+    topics: []
+  "AERSP 410":
+    name: ""
+    topics: []
+  "AERSP 413":
+    name: ""
+    topics: []
+  "AERSP 420":
+    name: ""
+    topics: []
+  "AERSP 423":
+    name: ""
+    topics: []
+  "AERSP 424":
+    name: ""
+    topics: []
+  "AERSP 425":
+    name: ""
+    topics: []
+  "AERSP 504":
+    name: ""
+    topics: []
+  "AERSP 505":
+    name: ""
+    topics: []
+  "AERSP 508":
+    name: ""
+    topics: []
+  "AERSP 511":
+    name: ""
+    topics: []
+  "AERSP 514":
+    name: ""
+    topics: []
+  "AERSP 518":
+    name: ""
+    topics: []
+  "AERSP 525":
+    name: ""
+    topics: []
+  "AERSP 583":
+    name: ""
+    topics: []
+  "AERSP 590":
+    name: ""
+    topics: []
+  "AERSP 597J":
+    name: ""
+    topics: []
+  "AERSP597A_Exp_Methods":
+    name: "Experimental Methods"
+    topics: ["measurement techniques", "instrumentation", "data reduction"]
+  "AERSP597I_SpaceEnvInteraction":
+    name: "Space Environment Interaction"
+    topics: ["space environment", "spacecraft charging"]
+  "AERSP880_WindTurbineSystems":
+    name: "Wind Turbine Systems"
+    topics: ["turbine aerodynamics", "rotor design", "wind resource"]
+  "AERSP886_WindPowerPlants":
+    name: "Wind Power Plants"
+    topics: ["wake interaction", "wind plant modelling", "array losses"]
+  "Camci":
+    name: ""
+    topics: []
+
+  # ---- Astro ----
+  "ASTRO 410":
+    name: ""
+    topics: []
+  "ASTRO 440":
+    name: ""
+    topics: []
+  "ASTRO 501":
+    name: ""
+    topics: []
+  "ASTRO 502":
+    name: ""
+    topics: []
+  "Astro001_Brandt":
+    name: "Introductory Astronomy"
+    topics: ["observational astronomy"]
+  "NielBrandt":
+    name: ""
+    topics: []
+  "ZEUS_MP":
+    name: "ZEUS-MP code"
+    topics: ["astrophysical MHD", "hydrodynamics code"]
+
+  # ---- CSE ----
+  "CSE 465":
+    name: ""
+    topics: []
+  "CSE 565":
+    name: ""
+    topics: []
+  "CSE598B_TheoryOfComputation":
+    name: "Theory of Computation"
+    topics: ["automata", "computability", "complexity"]
+
+  # ---- Chemistry ----
+  "CHEM 408":
+    name: ""
+    topics: []
+  "CHEM 452":
+    name: ""
+    topics: []
+
+  # ---- Maths ----
+  "M 511":
+    name: ""
+    topics: []
+  "MATH 523":
+    name: ""
+    topics: []
+
+  # ---- Mechanical ----
+  "ME 300":
+    name: ""
+    topics: []
+  "ME 404":
+    name: ""
+    topics: []
+  "ME 410":
+    name: ""
+    topics: []
+  "ME 420":
+    name: ""
+    topics: []
+  "ME 422":
+    name: ""
+    topics: []
+  "ME 430":
+    name: ""
+    topics: []
+  "ME 514":
+    name: ""
+    topics: []
+  "ME 520":
+    name: ""
+    topics: []
+  "ME 521":
+    name: ""
+    topics: []
+  "ME 522":
+    name: ""
+    topics: []
+  "ME 523":
+    name: ""
+    topics: []
+  "ME 524":
+    name: ""
+    topics: []
+  "ME 535":
+    name: ""
+    topics: []
+  "ME 540":
+    name: ""
+    topics: []
+  "ME300_2":
+    name: ""
+    topics: []
+  "ME432_Shashank":
+    name: ""
+    topics: []
+  "ME532_Shashank":
+    name: ""
+    topics: []
+  "ME537_Shashank":
+    name: ""
+    topics: []
+  "ME83FluidsLab":
+    name: "Fluids Laboratory"
+    topics: ["experimental fluid mechanics"]
+
+  # ---- Others ----
+  "2015RotaryWing":
+    name: "Rotary Wing Aerodynamics"
+    topics: ["rotorcraft", "blade element theory", "rotor wake"]
+  "BrianCantwell":
+    name: ""
+    topics: []
+  "CharbelCourses":
+    name: ""
+    topics: []
+  "CompSeismology":
+    name: "Computational Seismology"
+    topics: ["wave propagation", "seismic modelling"]
+  "Jameson":
+    name: "CFD and aerodynamic shape optimization"
+    topics: ["CFD", "adjoint methods", "shape optimization"]
+  "LN_Shankar":
+    name: "Rotorcraft aerodynamics"
+    topics: ["helicopter theory", "rotor aerodynamics"]
+  "PSU":
+    name: ""
+    topics: []
+  "ParallelProgramming":
+    name: "Parallel Programming"
+    topics: ["MPI", "OpenMP", "domain decomposition"]
+  "Rajagopalan_ISU":
+    name: ""
+    topics: []
+  "ShapeFunc":
+    name: "Shape Functions"
+    topics: ["finite elements", "interpolation", "basis functions"]
+  "Turbojet Engine":
+    name: "Turbojet Engine"
+    topics: ["propulsion", "cycle analysis"]
+  "Turbulence_JCM":
+    name: "Turbulence"
+    topics: ["turbulence theory", "spectra", "closures"]
+  "Turns_Thermodynamics":
+    name: "Thermodynamics and Combustion"
+    topics: ["thermodynamics", "combustion"]
+  "UMD_Turb":
+    name: "Turbulence (UMD notes)"
+    topics: ["turbulence theory", "scaling", "closures"]
