@@ -77,6 +77,42 @@ def front_matter(text: str) -> str:
     return text.split("---")[1] if text.startswith("---") else ""
 
 
+def check_notebooks(findings: list[str]) -> int:
+    """Notebook cross-links must use built URLs, not .md paths.
+
+    MkDocs rewrites `foo.md` to the built URL on ordinary pages. nbconvert does not —
+    notebook markdown is converted outside that pipeline, so a `.md` link survives into
+    the HTML as a dead link. `mkdocs build --strict` cannot see inside notebook output,
+    so nothing else catches this.
+    """
+    import json
+
+    count = 0
+    for nb_path in sorted(DOCS.rglob("*.ipynb")):
+        rel = nb_path.relative_to(DOCS).as_posix()
+        count += 1
+        try:
+            nb = json.loads(nb_path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError) as exc:
+            findings.append(f"{rel}: cannot be read as a notebook ({exc})")
+            continue
+
+        for i, cell in enumerate(nb.get("cells", [])):
+            if cell.get("cell_type") != "markdown":
+                continue
+            text = "".join(cell.get("source", []))
+            for m in re.finditer(r"\]\(([^)]+\.md)\)", text):
+                findings.append(
+                    f"{rel}: cell {i} links to '{m.group(1)}' — use the built URL "
+                    f"(../../section/page/), nbconvert does not rewrite .md")
+
+        # Outputs must be committed, or the site shows empty cells.
+        code_cells = [c for c in nb.get("cells", []) if c.get("cell_type") == "code"]
+        if code_cells and not any(c.get("outputs") for c in code_cells):
+            findings.append(f"{rel}: no cell outputs — commit the notebook executed")
+    return count
+
+
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -152,8 +188,10 @@ def main(argv: list[str] | None = None) -> int:
         if name not in others:
             findings.append(f"{rel}: nothing links to this page")
 
+    n_notebooks = check_notebooks(findings)
+
     total = sum(status_count.values())
-    print(f"{len(all_text)} pages   " + "  ".join(
+    print(f"{len(all_text)} pages, {n_notebooks} notebooks   " + "  ".join(
         f"{k}={status_count[k]}" for k in ("solid", "working", "seed")) +
         f"   (statuses counted: {total})")
     print()
