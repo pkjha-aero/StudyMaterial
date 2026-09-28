@@ -44,5 +44,6 @@ invisible in the source.
 ## Connections
 
 - [Foundations › Linear solvers](../foundations/linear-solvers.md) — usually the runtime.
+- [HPC](../hpc/index.md) — the hands-on companion: MPI, OpenMP and CUDA code, and batch scripts.
 - [Toolchains](../toolchains/index.md) — the codes this runs.
 - [DL › PyTorch patterns](../dl/pytorch-patterns.md) — the ML-side equivalent.

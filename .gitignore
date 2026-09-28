@@ -13,6 +13,12 @@ __pycache__/
 venv/
 .ipynb_checkpoints/
 
+# Compiled HPC examples (docs/hpc/code holds the sources only)
+docs/hpc/code/hello
+docs/hpc/code/overlap
+docs/hpc/code/reduce
+docs/hpc/code/hist
+
 # OS cruft
 .DS_Store
 ._*

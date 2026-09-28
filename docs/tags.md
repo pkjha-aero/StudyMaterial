@@ -14,7 +14,7 @@ vocabulary**, not free-form keywords.
 !!! info "Why controlled"
     An earlier version of this site had 205 tags, 177 of which appeared on exactly one
     page. A tag used once cross-links nothing, which is the entire purpose. The
-    vocabulary below is 36 tags, every one on at least two pages and most on four or
+    vocabulary below is 37 tags, every one on at least two pages and most on four or
     more.
 
     Specific terms — `openfoam`, `betz`, `skew-t` — are deliberately *not* tags. Press
@@ -33,8 +33,8 @@ page genuinely spans two.
 Mirrors the navigation, for filtering within an area:
 
 `aerospace` · `astrophysics` · `computer-vision` · `computing` · `deep-learning` ·
-`fluids` · `foundations` · `machine-learning` · `meteorology` · `resources` · `sciml` ·
-`thermal` · `toolchains`
+`fluids` · `foundations` · `hpc` · `machine-learning` · `meteorology` · `resources` ·
+`sciml` · `thermal` · `toolchains`
 
 ### Cross-cutting concept
 

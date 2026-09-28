@@ -53,7 +53,7 @@ VALID_STATUS = {"seed", "working", "solid"}
 # on three or more pages across at least two sections.
 SECTION_TAGS = {
     "aerospace", "astrophysics", "computer-vision", "computing", "deep-learning",
-    "fluids", "foundations", "machine-learning", "meteorology", "resources",
+    "fluids", "foundations", "hpc", "machine-learning", "meteorology", "resources",
     "sciml", "thermal", "toolchains",
 }
 CONCEPT_TAGS = {

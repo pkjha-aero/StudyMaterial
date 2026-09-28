@@ -137,6 +137,7 @@ At 1% serial, efficiency is already below 50% at 128 ranks. Getting to thousands
 
 ## Connections
 
+- **[HPC section](../hpc/index.md)** — the hands-on companion: [MPI](../hpc/mpi.md), [OpenMP](../hpc/openmp.md) and [CUDA](../hpc/cuda.md) code, and [batch scripts](../hpc/running-jobs.md).
 - [GPU and CUDA](gpu-cuda.md) — the same memory-bandwidth argument, sharper.
 - [Data and I/O](data-io.md) — often the real serial fraction.
 - [C++ and Fortran](cpp-fortran.md) — where the kernels live.
