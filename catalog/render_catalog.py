@@ -66,7 +66,9 @@ def main(argv: list[str] | None = None) -> int:
     w("---")
     w("title: Course archive")
     w("status: working")
-    w("tags: [resources, archive]")
+    # Tags come from the closed vocabulary in scripts/audit_pages.py. Emitting one from
+    # here that is not in it fails the audit on the next regeneration.
+    w("tags: [resources]")
     w(f"updated: {idx['generated']}")
     w("---")
     w("")
@@ -87,12 +89,20 @@ def main(argv: list[str] | None = None) -> int:
       "filenames and no instructor attribution here.")
     w("")
 
+    w("!!! note \"Where the names come from\"")
+    w("    Course names and topics are **inferred from the directory and file names "
+      "inside each folder** — subdirectory structure, code and dataset names, and "
+      "software mentioned. Never from file contents, and never from instructor names.")
+    w("")
+    w("    That makes them evidence-based but not authoritative. Correct anything that "
+      "reads wrong in `catalog/course_titles.yml` and re-render.")
+    w("")
+
     if named < t["courses"]:
-        w(f"!!! warning \"{t['courses'] - named} of {t['courses']} courses are unnamed\"")
-        w("    Course codes alone are enough to locate a folder, but not to know what is "
-          "in it. Names and topics are filled in by hand in `catalog/course_titles.yml` "
-          "— only the self-evident ones are done, because a guessed course title is "
-          "worse than a visibly missing one.")
+        w(f"!!! warning \"{t['courses'] - named} of {t['courses']} courses are still unnamed\"")
+        w("    Folders whose contents did not determine a subject — too few files, or "
+          "only generic names like `HW` and `Exam`. Left blank deliberately: a guessed "
+          "course title is worse than a visibly missing one.")
         w("")
 
     w("## Departments")

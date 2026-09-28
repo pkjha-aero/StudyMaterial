@@ -16,8 +16,13 @@ An index of coursework held offline. The material itself is **not** on this site
 
     Courses, not files. Each row says what the material covers and how much of it there is; open the path on the drive for the detail. There are deliberately no filenames and no instructor attribution here.
 
-!!! warning "54 of 72 courses are unnamed"
-    Course codes alone are enough to locate a folder, but not to know what is in it. Names and topics are filled in by hand in `catalog/course_titles.yml` — only the self-evident ones are done, because a guessed course title is worse than a visibly missing one.
+!!! note "Where the names come from"
+    Course names and topics are **inferred from the directory and file names inside each folder** — subdirectory structure, code and dataset names, and software mentioned. Never from file contents, and never from instructor names.
+
+    That makes them evidence-based but not authoritative. Correct anything that reads wrong in `catalog/course_titles.yml` and re-render.
+
+!!! warning "23 of 72 courses are still unnamed"
+    Folders whose contents did not determine a subject — too few files, or only generic names like `HW` and `Exam`. Left blank deliberately: a guessed course title is worse than a visibly missing one.
 
 ## Departments
 
@@ -35,26 +40,26 @@ An index of coursework held offline. The material itself is **not** on this site
 
 | Course | Covers | Extent | Material | On the drive |
 |---|---|--:|---|---|
-| **AERSP 305** | — | 2,858 files<br>222 MB | notes/data, PDF, MATLAB, spreadsheets | `Aerospace/AERSP305` |
+| **AERSP 305**<br>Aerospace Laboratory | experimental aerodynamics, wind tunnel measurement, technical reporting | 2,858 files<br>222 MB | notes/data, PDF, MATLAB, spreadsheets | `Aerospace/AERSP305` |
 | **AERSP 309** | — | 66 files<br>47 MB | PDF | `Aerospace/AERSP309` |
-| **AERSP 313** | — | 28 files<br>13 MB | PDF | `Aerospace/AERSP313` |
-| **AERSP 401** | — | 8 files<br>36 MB | slides | `Aerospace/AERSP401` |
-| **AERSP 410** | — | 45 files<br>105 MB | PDF | `Aerospace/AERSP410` |
+| **AERSP 313**<br>Aerospace Analysis | complex analysis, conformal mapping, numerical quadrature, ODEs, finite differences | 28 files<br>13 MB | PDF | `Aerospace/AERSP313` |
+| **AERSP 401**<br>Aerospace Vehicle Design | subsystem integration, propulsion and structures, team design project | 8 files<br>36 MB | slides | `Aerospace/AERSP401` |
+| **AERSP 410**<br>Air-Breathing Propulsion | inlets, compressors, combustors, turbines, nozzles, turbojets and turboprops | 45 files<br>105 MB | PDF | `Aerospace/AERSP410` |
 | **AERSP 413** | — | 95 files<br>15 MB | PDF, MATLAB, documents, C/C++ | `Aerospace/AERSP413` |
-| **AERSP 420** | — | 1,290 files<br>1.2 GB | web/figures, documents, PDF, MATLAB | `Aerospace/AERSP420` |
-| **AERSP 423** | — | 112 files<br>95 MB | PDF, MATLAB, lecture media, documents | `Aerospace/AERSP423` |
-| **AERSP 424** | — | 592 files<br>38 MB | C/C++, PDF, spreadsheets, web/figures | `Aerospace/AERSP424` |
-| **AERSP 425** | — | 27 files<br>138 MB | PDF, documents, MATLAB | `Aerospace/AERSP425` |
-| **AERSP 504** | — | 92 files<br>84 MB | PDF, documents, MATLAB, slides | `Aerospace/AERSP504` |
+| **AERSP 420**<br>Flight Vehicle Aerodynamics and Flight Test | flight testing, compressibility effects | 1,290 files<br>1.2 GB | web/figures, documents, PDF, MATLAB | `Aerospace/AERSP420` |
+| **AERSP 423**<br>Numerical Methods for Aerospace | stability and error analysis, linear systems | 112 files<br>95 MB | PDF, MATLAB, lecture media, documents | `Aerospace/AERSP423` |
+| **AERSP 424**<br>Scientific Programming for Aerospace | C and Java, numerical linear algebra, graphics, software practice | 592 files<br>38 MB | C/C++, PDF, spreadsheets, web/figures | `Aerospace/AERSP424` |
+| **AERSP 425**<br>Airfoil Design | inverse design, von Mises methods, airfoil analysis codes | 27 files<br>138 MB | PDF, documents, MATLAB | `Aerospace/AERSP425` |
+| **AERSP 504**<br>Helicopter Aerodynamics | rotor aerodynamics, rotor tutorials | 92 files<br>84 MB | PDF, documents, MATLAB, slides | `Aerospace/AERSP504` |
 | **AERSP 505** | — | 1 files<br>44 KB | PDF | `Aerospace` |
 | **AERSP 508** | — | 217 files<br>129 MB | web/figures, PDF, documents, slides | `Aerospace/AERSP508` |
-| **AERSP 511** | — | 61 files<br>76 MB | PDF, lecture media | `Aerospace/AERSP511` |
+| **AERSP 511**<br>Aeroacoustics | Lighthill analogy, sound generation by flow | 61 files<br>76 MB | PDF, lecture media | `Aerospace/AERSP511` |
 | **AERSP 514** | — | 54 files<br>22 MB | PDF | `Aerospace/AERSP514` |
-| **AERSP 518** | — | 475 files<br>37 MB | MATLAB, PDF, web/figures, documents | `Aerospace/AERSP518` |
+| **AERSP 518**<br>Flight Dynamics and Simulation | trim and linearisation, ECEF and geodetic frames, dynamic modelling | 475 files<br>37 MB | MATLAB, PDF, web/figures, documents | `Aerospace/AERSP518` |
 | **AERSP 525** | — | 247 files<br>147 MB | PDF, MATLAB, web/figures, documents | `Aerospace/AERSP525` |
-| **AERSP 583** | — | 1,562 files<br>249 MB | web/figures, notes/data, PDF, slides | `Aerospace/AERSP583` |
-| **AERSP 590** | — | 242 files<br>123 MB | PDF, documents, C/C++, notes/data | `Aerospace/AERSP590` |
-| **AERSP 597J** | — | 21 files<br>7 MB | PDF | `Aerospace/AERSP597J` |
+| **AERSP 583**<br>Wind Turbine Aerodynamics | BEM and XTurb, NREL Phase VI rotor, stall delay | 1,562 files<br>249 MB | web/figures, notes/data, PDF, slides | `Aerospace/AERSP583` |
+| **AERSP 590**<br>High-Performance Computing for Aerospace | MPI and OpenMP, grid computing, workflow DAGs | 242 files<br>123 MB | PDF, documents, C/C++, notes/data | `Aerospace/AERSP590` |
+| **AERSP 597J**<br>Rotorcraft Dynamics | rotor flapping, inflow models, trim, stability | 21 files<br>7 MB | PDF | `Aerospace/AERSP597J` |
 | **AERSP597A_Exp_Methods**<br>Experimental Methods | measurement techniques, instrumentation, data reduction | 82 files<br>55 MB | documents, notes/data, PDF, web/figures | `Aerospace/AERSP597A_Exp_Methods` |
 | **AERSP597I_SpaceEnvInteraction**<br>Space Environment Interaction | space environment, spacecraft charging | 8 files<br>4 MB | PDF | `Aerospace/AERSP597I_SpaceEnvInteraction` |
 | **AERSP880_WindTurbineSystems**<br>Wind Turbine Systems | turbine aerodynamics, rotor design, wind resource | 107 files<br>39 MB | PDF, documents, MATLAB, spreadsheets | `Aerospace/AERSP880_WindTurbineSystems` |
@@ -77,16 +82,16 @@ An index of coursework held offline. The material itself is **not** on this site
 
 | Course | Covers | Extent | Material | On the drive |
 |---|---|--:|---|---|
-| **CSE 465** | — | 31 files<br>18 MB | PDF | `CSE/CSE465` |
-| **CSE 565** | — | 49 files<br>11 MB | PDF, slides, web/figures | `CSE/CSE565` |
+| **CSE 465**<br>Algorithms | greedy algorithms, graphs and trees, exchange arguments | 31 files<br>18 MB | PDF | `CSE/CSE465` |
+| **CSE 565**<br>Algorithm Design and Analysis | stable matching, interval scheduling, algorithm analysis | 49 files<br>11 MB | PDF, slides, web/figures | `CSE/CSE565` |
 | **CSE598B_TheoryOfComputation**<br>Theory of Computation | automata, computability, complexity | 13 files<br>956 KB | PDF | `CSE/CSE598B_TheoryOfComputation` |
 
 ## Chemistry
 
 | Course | Covers | Extent | Material | On the drive |
 |---|---|--:|---|---|
-| **CHEM 408** | — | 33 files<br>37 MB | PDF | `Chemistry/Chem408` |
-| **CHEM 452** | — | 62 files<br>21 MB | PDF, web/figures, documents, MATLAB | `Chemistry/Chem452` |
+| **CHEM 408**<br>Computational Chemistry | electronic structure, molecular modelling | 33 files<br>37 MB | PDF | `Chemistry/Chem408` |
+| **CHEM 452**<br>Physical Chemistry: Quantum and Spectroscopy | Huckel theory, spectroscopy, relaxation | 62 files<br>21 MB | PDF, web/figures, documents, MATLAB | `Chemistry/Chem452` |
 
 ## Maths
 
@@ -102,21 +107,21 @@ An index of coursework held offline. The material itself is **not** on this site
 | **ME 300** | — | 1 files<br>446 KB | PDF | `Mechanical` |
 | **ME 404** | — | 1 files<br>23 KB | PDF | `Mechanical` |
 | **ME 410** | — | 60 files<br>31 MB | PDF | `Mechanical/ME410` |
-| **ME 420** | — | 22 files<br>33 MB | PDF, web/figures, slides, documents | `Mechanical/ME420` |
+| **ME 420**<br>Compressible Aerodynamics | oblique shocks, gas dynamics, supersonic flow | 22 files<br>33 MB | PDF, web/figures, slides, documents | `Mechanical/ME420` |
 | **ME 422** | — | 1 files<br>156 KB | PDF | `Mechanical` |
-| **ME 430** | — | 707 files<br>132 MB | notes/data, PDF, web/figures, documents | `Mechanical/ME430` |
+| **ME 430**<br>Combustion and Chemical Kinetics | CHEMKIN, reaction mechanisms, kinetics | 707 files<br>132 MB | notes/data, PDF, web/figures, documents | `Mechanical/ME430` |
 | **ME 514** | — | 88 files<br>12 MB | PDF, MATLAB, documents, notes/data | `Mechanical/ME514` |
 | **ME 520** | — | 81 files<br>49 MB | PDF, web/figures, MATLAB, documents | `Mechanical/ME520` |
-| **ME 521** | — | 105 files<br>66 MB | PDF, web/figures, lecture media | `Mechanical/ME521` |
-| **ME 522** | — | 113 files<br>26 MB | PDF, notes/data | `Mechanical/ME522` |
-| **ME 523** | — | 273 files<br>50 MB | notes/data, web/figures, PDF, Fortran | `Mechanical/ME523` |
-| **ME 524** | — | 5,099 files<br>4.9 GB | notes/data, web/figures, PDF, Fortran | `Mechanical/ME524` |
-| **ME 535** | — | 74 files<br>93 MB | PDF, slides, Fortran | `Mechanical/ME535` |
+| **ME 521**<br>Fluid Mechanics | vectors and tensors, kinematics, conservation laws, vorticity dynamics, irrotational flow, laminar boundary layer | 105 files<br>66 MB | PDF, web/figures, lecture media | `Mechanical/ME521` |
+| **ME 522**<br>Hydrodynamic Stability and Turbulence | flow instability, Benard convection, Blasius boundary layer, transition, turbulence | 113 files<br>26 MB | PDF, notes/data | `Mechanical/ME522` |
+| **ME 523**<br>Computational Fluid Dynamics | grid generation, Richardson extrapolation, solver projects | 273 files<br>50 MB | notes/data, web/figures, PDF, Fortran | `Mechanical/ME523` |
+| **ME 524**<br>Turbulence Simulation | spectral methods, direct numerical simulation, decaying turbulence | 5,099 files<br>4.9 GB | notes/data, web/figures, PDF, Fortran | `Mechanical/ME524` |
+| **ME 535**<br>Statistical Thermodynamics | kinetic theory, quantum statistics | 74 files<br>93 MB | PDF, slides, Fortran | `Mechanical/ME535` |
 | **ME 540** | — | 2,381 files<br>39 MB | web/figures, Fortran, notes/data, PDF | `Mechanical/ME540` |
 | **ME300_2** | — | 110 files<br>209 MB | slides, PDF, documents | `Mechanical/ME300_2` |
-| **ME432_Shashank** | — | 136 files<br>62 MB | PDF, notes/data, web/figures, Fortran | `Mechanical/ME432_Shashank` |
-| **ME532_Shashank** | — | 65 files<br>139 MB | PDF, slides, documents | `Mechanical/ME532_Shashank` |
-| **ME537_Shashank** | — | 56 files<br>91 MB | PDF, spreadsheets, documents, notes/data | `Mechanical/ME537_Shashank` |
+| **ME432_Shashank**<br>Rocket Propulsion | NASA CEA, chemical equilibrium, rocket performance | 136 files<br>62 MB | PDF, notes/data, web/figures, Fortran | `Mechanical/ME432_Shashank` |
+| **ME532_Shashank**<br>Turbulent Combustion | premixed and diffusion flames, flame stretch, turbulent flame structure | 65 files<br>139 MB | PDF, slides, documents | `Mechanical/ME532_Shashank` |
+| **ME537_Shashank**<br>Laser Diagnostics for Combustion | Raman scattering, acetone LIF, concentration measurement | 56 files<br>91 MB | PDF, spreadsheets, documents, notes/data | `Mechanical/ME537_Shashank` |
 | **ME83FluidsLab**<br>Fluids Laboratory | experimental fluid mechanics | 4 files<br>538 KB | PDF | `Mechanical/ME83FluidsLab` |
 
 ## Others
@@ -124,12 +129,12 @@ An index of coursework held offline. The material itself is **not** on this site
 | Course | Covers | Extent | Material | On the drive |
 |---|---|--:|---|---|
 | **2015RotaryWing**<br>Rotary Wing Aerodynamics | rotorcraft, blade element theory, rotor wake | 55 files<br>453 MB | PDF, lecture media, slides | `Others/2015RotaryWing` |
-| **BrianCantwell** | — | 76 files<br>46 MB | PDF, web/figures | `Others/BrianCantwell` |
-| **CharbelCourses** | — | 32 files<br>37 MB | PDF | `Others/CharbelCourses` |
+| **BrianCantwell**<br>Compressible Flow and Rocket Propulsion | shocks and supersonic flow, rocket cycles, symmetry analysis | 76 files<br>46 MB | PDF, web/figures | `Others/BrianCantwell` |
+| **CharbelCourses**<br>Model Reduction and Numerical Computation of Flows | reduced-order models, numerical methods for flows | 32 files<br>37 MB | PDF | `Others/CharbelCourses` |
 | **CompSeismology**<br>Computational Seismology | wave propagation, seismic modelling | 19 files<br>81 MB | slides, PDF | `Others/CompSeismology` |
 | **Jameson**<br>CFD and aerodynamic shape optimization | CFD, adjoint methods, shape optimization | 35 files<br>310 MB | PDF | `Others/Jameson` |
 | **LN_Shankar**<br>Rotorcraft aerodynamics | helicopter theory, rotor aerodynamics | 88 files<br>67 MB | slides, documents, PDF, MATLAB | `Others/LN_Shankar` |
-| **PSU** | — | 199 files<br>54 MB | C/C++, PDF, documents, notes/data | `Others/PSU` |
+| **PSU**<br>Engineering Mechanics and Nuclear Engineering | engineering mechanics, nuclear engineering | 199 files<br>54 MB | C/C++, PDF, documents, notes/data | `Others/PSU` |
 | **ParallelProgramming**<br>Parallel Programming | MPI, OpenMP, domain decomposition | 11 files<br>9 MB | PDF, slides | `Others/ParallelProgramming` |
 | **Rajagopalan_ISU** | — | 7 files<br>1 MB | PDF | `Others/Rajagopalan_ISU` |
 | **ShapeFunc**<br>Shape Functions | finite elements, interpolation, basis functions | 6 files<br>3 MB | PDF, slides | `Others/ShapeFunc` |
