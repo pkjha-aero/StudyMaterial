@@ -89,13 +89,20 @@ def main(argv: list[str] | None = None) -> int:
       "filenames and no instructor attribution here.")
     w("")
 
+    n_syl = sum(1 for k in _all_keys(idx)
+                if (titles.get(k) or {}).get("source") == "syllabus")
+    n_inf = sum(1 for k in _all_keys(idx)
+                if (titles.get(k) or {}).get("source") == "inferred")
     w("!!! note \"Where the names come from\"")
-    w("    Course names and topics are **inferred from the directory and file names "
-      "inside each folder** — subdirectory structure, code and dataset names, and "
-      "software mentioned. Never from file contents, and never from instructor names.")
+    w(f"    **{n_syl} read from a course document** — a syllabus, outline or lecture "
+      "header inside the folder. These are the course's own title.")
     w("")
-    w("    That makes them evidence-based but not authoritative. Correct anything that "
-      "reads wrong in `catalog/course_titles.yml` and re-render.")
+    w(f"    **{n_inf} inferred** from directory and file names where the folder holds no "
+      "such document — subdirectory structure, code and dataset names, software "
+      "mentioned. Evidence-based, but not the course's own words.")
+    w("")
+    w("    `catalog/course_titles.yml` records which is which in a `source:` field. No "
+      "instructor name appears in any title or topic, from either route.")
     w("")
 
     if named < t["courses"]:

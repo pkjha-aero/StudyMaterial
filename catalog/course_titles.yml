@@ -8,95 +8,123 @@
 # the point — the site publishes what material covers, not what files it contains.
 # Entries left blank render as a dash and are counted as unnamed on the page.
 #
-# Deliberately no instructor field.
-
+# `source:` records where the name came from — `syllabus` if read off a course document
+# in the folder, `inferred` if deduced from directory and file names. Deliberately no
+# instructor field either way.
 courses:
 
   # ---- Aerospace ----
   "AERSP 305":
-    name: "Aerospace Laboratory"
+    name: "Aerospace Technology Laboratory"
     topics: ["experimental aerodynamics", "wind tunnel measurement", "technical reporting"]
+    source: syllabus
   "AERSP 309":
     name: ""
     topics: []
   "AERSP 313":
     name: "Aerospace Analysis"
     topics: ["complex analysis", "conformal mapping", "numerical quadrature", "ODEs", "finite differences"]
+    source: inferred
   "AERSP 401":
     name: "Aerospace Vehicle Design"
     topics: ["subsystem integration", "propulsion and structures", "team design project"]
+    source: inferred
   "AERSP 410":
     name: "Air-Breathing Propulsion"
     topics: ["inlets", "compressors", "combustors", "turbines", "nozzles", "turbojets and turboprops"]
+    source: inferred
   "AERSP 413":
-    name: ""
-    topics: []
+    name: "Aircraft Stability and Control"
+    topics: ["static and dynamic stability", "control derivatives"]
+    source: syllabus
   "AERSP 420":
     name: "Flight Vehicle Aerodynamics and Flight Test"
     topics: ["flight testing", "compressibility effects"]
+    source: inferred
   "AERSP 423":
-    name: "Numerical Methods for Aerospace"
+    name: "Introduction to Numerical Methods"
     topics: ["stability and error analysis", "linear systems"]
+    source: syllabus
   "AERSP 424":
     name: "Scientific Programming for Aerospace"
     topics: ["C and Java", "numerical linear algebra", "graphics", "software practice"]
+    source: inferred
   "AERSP 425":
     name: "Airfoil Design"
     topics: ["inverse design", "von Mises methods", "airfoil analysis codes"]
+    source: inferred
   "AERSP 490":
-    name: ""
-    topics: []
+    name: "Introduction to Plasmas"
+    topics: ["plasma oscillations", "collisional phenomena", "orbit theory", "electrical discharges"]
+    source: syllabus
   "AERSP 492":
-    name: ""
-    topics: []
+    name: "Space Astronomy and Introduction to Space Science"
+    topics: ["solar system", "ionosphere", "radiation belts", "magnetosphere"]
+    source: syllabus
   "AERSP 504":
     name: "Helicopter Aerodynamics"
     topics: ["rotor aerodynamics", "rotor tutorials"]
+    source: inferred
   "AERSP 505":
-    name: ""
-    topics: []
+    name: "Aero- and Hydroelasticity"
+    topics: ["fluid-structure interaction", "elastic systems in flow"]
+    source: syllabus
   "AERSP 508":
-    name: ""
-    topics: []
+    name: "Foundations of Fluid Mechanics"
+    topics: ["vorticity", "flow visualisation", "high-lift"]
+    source: syllabus
   "AERSP 511":
     name: "Aeroacoustics"
     topics: ["Lighthill analogy", "sound generation by flow"]
+    source: inferred
   "AERSP 514":
-    name: ""
-    topics: []
+    name: "Stability of Laminar Flows and Boundary Layers"
+    topics: ["hydrodynamic stability", "transition"]
+    source: syllabus
   "AERSP 518":
-    name: "Flight Dynamics and Simulation"
-    topics: ["trim and linearisation", "ECEF and geodetic frames", "dynamic modelling"]
+    name: "Dynamics and Control of Aerospace Vehicles"
+    topics: ["trim and linearisation", "ECEF and geodetic frames", "flight simulation"]
+    source: syllabus
   "AERSP 525":
-    name: ""
-    topics: []
+    name: "Turbulence and Applications to CFD: RANS"
+    topics: ["Reynolds averaging", "RANS closures"]
+    source: syllabus
   "AERSP 530":
-    name: ""
-    topics: []
+    name: "Aerothermochemistry of Advanced Propulsion Systems"
+    topics: ["reacting flow", "advanced propulsion"]
+    source: syllabus
   "AERSP 583":
     name: "Wind Turbine Aerodynamics"
     topics: ["BEM and XTurb", "NREL Phase VI rotor", "stall delay"]
+    source: syllabus
   "AERSP 590":
-    name: "High-Performance Computing for Aerospace"
+    name: "Computer Science Tools"
     topics: ["MPI and OpenMP", "grid computing", "workflow DAGs"]
+    source: syllabus
   "AERSP 597A":
     name: "Experimental Methods"
     topics: ["measurement techniques", "instrumentation", "data reduction"]
+    source: inferred
   "AERSP 597I":
     name: "Space Environment Interaction"
     topics: ["space environment", "spacecraft charging"]
+    source: inferred
   "AERSP 597J":
     name: "Rotorcraft Dynamics"
     topics: ["rotor flapping", "inflow models", "trim", "stability"]
+    source: inferred
   "AERSP 880":
     name: "Wind Turbine Systems"
     topics: ["turbine aerodynamics", "rotor design", "wind resource"]
+    source: inferred
   "AERSP 886":
     name: "Wind Power Plants"
     topics: ["wake interaction", "wind plant modelling", "array losses"]
+    source: inferred
   "AOE 5984":
-    name: ""
-    topics: []
+    name: "Introduction to Parallel Computing Applications"
+    topics: ["parallel architectures", "scientific computing"]
+    source: syllabus
   "Camci":
     name: ""
     topics: []
@@ -105,15 +133,18 @@ courses:
   "ASTRO 001":
     name: "Introductory Astronomy"
     topics: ["observational astronomy"]
+    source: inferred
   "ASTRO 410":
-    name: ""
-    topics: []
+    name: "Computational Astrophysics"
+    topics: ["numerical methods for astrophysics"]
+    source: syllabus
   "ASTRO 440":
     name: ""
     topics: []
   "ASTRO 501":
-    name: ""
-    topics: []
+    name: "Fundamental Astronomy"
+    topics: ["quantitative foundations of astronomy"]
+    source: syllabus
   "ASTRO 502":
     name: ""
     topics: []
@@ -123,167 +154,217 @@ courses:
   "ZEUS_MP":
     name: "ZEUS-MP code"
     topics: ["astrophysical MHD", "hydrodynamics code"]
+    source: inferred
 
   # ---- CSE ----
   "CSE 465":
-    name: "Algorithms"
+    name: "Data Structures and Algorithms"
     topics: ["greedy algorithms", "graphs and trees", "exchange arguments"]
+    source: syllabus
   "CSE 565":
     name: "Algorithm Design and Analysis"
     topics: ["stable matching", "interval scheduling", "algorithm analysis"]
+    source: syllabus
   "CSE 598B":
     name: "Theory of Computation"
     topics: ["automata", "computability", "complexity"]
+    source: inferred
 
   # ---- Chemistry ----
   "CHEM 408":
     name: "Computational Chemistry"
     topics: ["electronic structure", "molecular modelling"]
+    source: inferred
   "CHEM 452":
-    name: "Physical Chemistry: Quantum and Spectroscopy"
+    name: "Physical Chemistry"
     topics: ["Huckel theory", "spectroscopy", "relaxation"]
+    source: syllabus
 
   # ---- Maths ----
   "M 511":
-    name: ""
-    topics: []
+    name: "Ordinary Differential Equations I"
+    topics: ["ODE theory"]
+    source: syllabus
   "MATH 523":
-    name: ""
-    topics: []
+    name: "Numerical Analysis I"
+    topics: ["algorithmic scientific computation"]
+    source: syllabus
 
   # ---- Mechanical ----
   "E_MCH 524A":
-    name: ""
-    topics: []
+    name: "Mathematical Methods in Engineering"
+    topics: ["engineering mathematics"]
+    source: syllabus
   "ME 300":
-    name: ""
-    topics: []
+    name: "Engineering Thermodynamics"
+    topics: ["thermodynamic cycles", "first and second law"]
+    source: syllabus
   "ME 404":
-    name: ""
-    topics: []
+    name: "Gas Turbines"
+    topics: ["turbine cycles", "gas turbine performance"]
+    source: syllabus
   "ME 410":
-    name: ""
-    topics: []
+    name: "Heat Transfer"
+    topics: ["conduction", "convection", "radiation"]
+    source: syllabus
   "ME 420":
-    name: "Compressible Aerodynamics"
+    name: "Compressible Fluid Flow I"
     topics: ["oblique shocks", "gas dynamics", "supersonic flow"]
+    source: syllabus
   "ME 422":
-    name: ""
-    topics: []
+    name: "Turbomachinery"
+    topics: ["turbomachine fundamentals"]
+    source: syllabus
   "ME 430":
-    name: "Combustion and Chemical Kinetics"
+    name: "Introduction to Combustion"
     topics: ["CHEMKIN", "reaction mechanisms", "kinetics"]
+    source: syllabus
   "ME 432":
     name: "Rocket Propulsion"
     topics: ["NASA CEA", "chemical equilibrium", "rocket performance"]
+    source: inferred
   "ME 514":
-    name: ""
-    topics: []
+    name: "Radiative Heat Transfer"
+    topics: ["radiative transfer", "collocation methods", "participating media"]
+    source: syllabus
   "ME 520":
-    name: ""
-    topics: []
+    name: "Compressible Flow II"
+    topics: ["advanced gas dynamics"]
+    source: syllabus
   "ME 521":
-    name: "Fluid Mechanics"
+    name: "Foundations of Fluid Mechanics I"
     topics: ["vectors and tensors", "kinematics", "conservation laws", "vorticity dynamics", "irrotational flow", "laminar boundary layer"]
+    source: syllabus
   "ME 522":
-    name: "Hydrodynamic Stability and Turbulence"
+    name: "Foundations of Fluid Mechanics II"
     topics: ["flow instability", "Benard convection", "Blasius boundary layer", "transition", "turbulence"]
+    source: syllabus
   "ME 523":
-    name: "Computational Fluid Dynamics"
+    name: "Numerical Solutions Applied to Heat Transfer and Fluid Mechanics"
     topics: ["grid generation", "Richardson extrapolation", "solver projects"]
+    source: syllabus
   "ME 524":
-    name: "Turbulence Simulation"
-    topics: ["spectral methods", "direct numerical simulation", "decaying turbulence"]
+    name: "Turbulence and Applications to CFD: DNS and LES"
+    topics: ["spectral methods", "direct numerical simulation", "large eddy simulation"]
+    source: syllabus
   "ME 530":
-    name: ""
-    topics: []
+    name: "Fundamentals of Combustion"
+    topics: ["combustion fundamentals"]
+    source: syllabus
   "ME 532":
     name: "Turbulent Combustion"
     topics: ["premixed and diffusion flames", "flame stretch", "turbulent flame structure"]
+    source: inferred
   "ME 535":
     name: "Statistical Thermodynamics"
     topics: ["kinetic theory", "quantum statistics"]
+    source: inferred
   "ME 537":
     name: "Laser Diagnostics for Combustion"
     topics: ["Raman scattering", "acetone LIF", "concentration measurement"]
+    source: inferred
   "ME 540":
-    name: ""
-    topics: []
+    name: "Numerical Solutions Applied to Heat Transfer and Fluid Mechanics"
+    topics: ["earlier offering, renumbered ME 523"]
+    source: syllabus
   "ME83FluidsLab":
     name: "Fluids Laboratory"
     topics: ["experimental fluid mechanics"]
+    source: inferred
 
   # ---- Meteorology ----
   "ATOC 4500":
     name: "Wind Energy Meteorology"
     topics: ["wind energy", "boundary-layer meteorology"]
+    source: syllabus
   "ESCI 456":
-    name: ""
-    topics: []
+    name: "Introduction to Neural Networks"
+    topics: ["neural networks"]
+    source: syllabus
   "METEO 414":
-    name: ""
-    topics: []
+    name: "Mesoscale Meteorology"
+    topics: ["mesoscale systems", "convection"]
+    source: syllabus
   "METEO 421":
-    name: ""
-    topics: []
+    name: "Atmospheric Dynamics"
+    topics: ["geostrophy", "vorticity", "atmospheric waves"]
+    source: syllabus
   "METEO 465":
-    name: ""
-    topics: []
+    name: "Space Weather"
+    topics: ["solar-terrestrial physics", "geomagnetic activity"]
+    source: syllabus
   "METEO 511":
-    name: ""
-    topics: []
+    name: "The Weather from Global to Micro Scales"
+    topics: ["scale interaction", "synoptic to microscale"]
+    source: syllabus
   "METEO 521":
-    name: ""
-    topics: []
+    name: "Dynamic Meteorology"
+    topics: ["quasi-geostrophic theory", "atmospheric dynamics"]
+    source: syllabus
 
   # ---- Others ----
   "2015RotaryWing":
     name: "Rotary Wing Aerodynamics"
     topics: ["rotorcraft", "blade element theory", "rotor wake"]
+    source: inferred
   "BrianCantwell":
     name: "Compressible Flow and Rocket Propulsion"
     topics: ["shocks and supersonic flow", "rocket cycles", "symmetry analysis"]
+    source: inferred
   "CharbelCourses":
     name: "Model Reduction and Numerical Computation of Flows"
     topics: ["reduced-order models", "numerical methods for flows"]
+    source: inferred
   "CompSeismology":
     name: "Computational Seismology"
     topics: ["wave propagation", "seismic modelling"]
+    source: inferred
   "E_MCH 524B":
     name: "Engineering Analysis: Complex Variables"
     topics: ["complex analysis", "conformal mapping", "series"]
+    source: inferred
   "Jameson":
     name: "CFD and aerodynamic shape optimization"
     topics: ["CFD", "adjoint methods", "shape optimization"]
+    source: inferred
   "LN_Shankar":
     name: "Rotorcraft aerodynamics"
     topics: ["helicopter theory", "rotor aerodynamics"]
+    source: inferred
   "NUCE 530":
     name: "Nuclear Reactor Analysis"
     topics: ["criticality", "Monte Carlo neutron transport"]
+    source: inferred
   "ParallelProgramming":
     name: "Parallel Programming"
     topics: ["MPI", "OpenMP", "domain decomposition"]
+    source: inferred
   "Rajagopalan_ISU":
     name: ""
     topics: []
   "ShapeFunc":
     name: "Shape Functions"
     topics: ["finite elements", "interpolation", "basis functions"]
+    source: inferred
   "Turbojet Engine":
     name: "Turbojet Engine"
     topics: ["propulsion", "cycle analysis"]
+    source: inferred
   "Turbulence_JCM":
     name: "Turbulence"
     topics: ["turbulence theory", "spectra", "closures"]
+    source: inferred
   "Turns_Thermodynamics":
     name: "Thermodynamics and Combustion"
     topics: ["thermodynamics", "combustion"]
+    source: inferred
   "UMD_Turb":
     name: "Turbulence (UMD notes)"
     topics: ["turbulence theory", "scaling", "closures"]
+    source: inferred
 
   # ---- Physics ----
   "PHYS 420":
-    name: ""
-    topics: []
+    name: "Thermal Physics"
+    topics: ["thermal and statistical physics"]
+    source: syllabus
