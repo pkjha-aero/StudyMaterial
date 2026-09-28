@@ -143,6 +143,7 @@ Exactly the factor 1.91 that the Rayleigh distribution predicts — evaluating a
 ## Connections
 
 - [Rotorcraft](rotorcraft.md) — the same BEM machinery, flow reversed.
+- [Aeroacoustics](aeroacoustics.md) — trailing-edge noise, the binding siting constraint.
 - [Aerodynamics](aerodynamics.md) — blade section behaviour.
 - [Meteorology › Boundary layer](../meteorology/index.md) — shear, stability, the inflow itself.
 - [Fluids › LES](../fluids/turbulence/les.md) — wake simulation.

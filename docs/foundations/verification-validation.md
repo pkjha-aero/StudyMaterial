@@ -140,6 +140,7 @@ The same physics, with a small non-converging error added, reports an order of 2
 - [Uncertainty quantification](uncertainty-quantification.md) — what comes after verification.
 - [Fluids › Meshing](../fluids/cfd/meshing.md) — GCI applied to a real grid study.
 - [Research craft](research-craft.md) — reporting all of this honestly.
+- [Aerospace › Experimental methods](../aerospace/experimental-methods.md) — where validation data comes from, and its uncertainty.
 
 ## Sources
 

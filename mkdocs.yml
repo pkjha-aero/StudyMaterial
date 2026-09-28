@@ -162,13 +162,17 @@ nav:
       - Combustion: thermal/combustion.md
   - Aerospace:
       - aerospace/index.md
+      - Aircraft design: aerospace/aircraft-design.md
       - Aerodynamics: aerospace/aerodynamics.md
       - Flight mechanics: aerospace/flight-mechanics.md
       - Propulsion: aerospace/propulsion.md
+      - Turbomachinery: aerospace/turbomachinery.md
+      - Aeroacoustics: aerospace/aeroacoustics.md
       - Structures and aeroelasticity: aerospace/structures.md
       - Rotorcraft: aerospace/rotorcraft.md
       - Wind energy: aerospace/wind-energy.md
       - Space environment and orbits: aerospace/space-environment.md
+      - Experimental methods: aerospace/experimental-methods.md
   - Meteorology:
       - meteorology/index.md
       - Atmospheric thermodynamics: meteorology/thermodynamics.md

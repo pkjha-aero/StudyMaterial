@@ -165,6 +165,7 @@ A 400 K rise multiplies the rate by 48. And even a modest ±150 K fluctuation ab
 - [Heat transfer](heat-transfer.md) — radiation from hot products, flame–wall quenching.
 - [Fluids › Turbulence](../fluids/turbulence/index.md) — the transport half of the coupling.
 - [Aerospace › Propulsion](../aerospace/propulsion.md) — where the heat release is used.
+- [Aerospace › Experimental methods](../aerospace/experimental-methods.md) — laser diagnostics for species and temperature.
 - [Foundations › Numerical methods](../foundations/numerical-methods.md) — stiffness and operator splitting.
 
 ## Sources

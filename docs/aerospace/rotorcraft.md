@@ -121,6 +121,7 @@ The same aircraft weight needs five times the hover power on a small-diameter li
 ## Connections
 
 - [Aerodynamics](aerodynamics.md) — blade section behaviour.
+- [Aeroacoustics](aeroacoustics.md) — BVI and why descent is the noisiest condition.
 - [Propulsion](propulsion.md) — the same mass-flow argument as bypass ratio.
 - [Structures](structures.md) — blade dynamics, ground resonance.
 - [Wind energy](wind-energy.md) — BEM again, with the flow going the other way.

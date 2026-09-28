@@ -139,6 +139,7 @@ Best range flies about 32% faster than best endurance, and accepts a 13% lower \
 
 ## Connections
 
+- [Aircraft design](aircraft-design.md) — where these performance equations become constraints.
 - [Aerodynamics](aerodynamics.md) — where the drag polar comes from.
 - [Propulsion](propulsion.md) — thrust and specific fuel consumption.
 - [Structures](structures.md) — load factor limits that bound the manoeuvre envelope.
