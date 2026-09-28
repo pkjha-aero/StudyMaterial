@@ -57,6 +57,7 @@ theme:
 # Snippet partials are included into other pages, not published on their own.
 not_in_nav: |
   /snippets/
+  /hpc/code/
 
 plugins:
   - search
@@ -224,6 +225,12 @@ nav:
       - Visualization tools: toolchains/visualization.md
       - Geospatial tools: toolchains/geospatial.md
       - Data formats: toolchains/data-formats.md
+  - HPC:
+      - hpc/index.md
+      - MPI: hpc/mpi.md
+      - OpenMP: hpc/openmp.md
+      - CUDA: hpc/cuda.md
+      - Running jobs: hpc/running-jobs.md
   - Computing:
       - computing/index.md
       - HPC and parallelism: computing/hpc.md

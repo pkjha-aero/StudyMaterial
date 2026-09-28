@@ -117,6 +117,7 @@ Every single case loses **once the round-trip transfer is counted**. That is the
 ## Connections
 
 - [HPC and parallelism](hpc.md) — the roofline and scaling arguments.
+- **[HPC › CUDA](../hpc/cuda.md)** — kernels, error checking, tiling and streams, with compile and profile commands.
 - [Python performance](python-performance.md) — CuPy, JAX, and GPU without CUDA.
 - [DL › PyTorch patterns](../dl/pytorch-patterns.md) — where most GPU time is actually spent.
 
