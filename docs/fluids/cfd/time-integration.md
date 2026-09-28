@@ -113,6 +113,7 @@ Convection binds throughout this range, but the diffusive limit closes by a fact
 
 ## Connections
 
+- **[Sod shock tube notebook](../../notebooks/sod-shock-tube.ipynb)** — SSP-RK2 against forward Euler, and what pairing second-order space with first-order time costs.
 - [Finite volume](finite-volume.md) — where \(\mathbf{R}(\mathbf{U})\) comes from.
 - [Compressible flow](../compressible.md) — hyperbolic wave speeds in the CFL number.
 - [Incompressible flow](../incompressible.md) — projection schemes and their time accuracy.

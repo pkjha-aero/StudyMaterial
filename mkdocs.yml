@@ -62,6 +62,13 @@ plugins:
   - search
   - tags:
       tags_file: tags.md
+  # Notebooks are committed with their outputs; execute: false keeps CI from needing
+  # a kernel or the scientific stack, and keeps the build deterministic.
+  - mkdocs-jupyter:
+      execute: false
+      include_source: true
+      ignore_h1_titles: true
+      include: ["*.ipynb"]
 
 markdown_extensions:
   # Math. Non-negotiable for this site.
@@ -215,6 +222,10 @@ nav:
       - Python performance: computing/python-performance.md
       - C++ and Fortran: computing/cpp-fortran.md
       - MLOps and deployment: computing/mlops.md
+  - Notebooks:
+      - notebooks/index.md
+      - Sod shock tube: notebooks/sod-shock-tube.ipynb
+      - Modified wavenumber: notebooks/modified-wavenumber.ipynb
   - Resources:
       - resources/index.md
       - Course archive: resources/course-archive.md

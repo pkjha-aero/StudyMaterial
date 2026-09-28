@@ -41,6 +41,7 @@ is where the answer usually is.
 
 ## Connections
 
+- [Notebooks](../notebooks/index.md) — the Sod shock tube worked end to end.
 - [Foundations](../foundations/index.md) — the numerics these pages apply.
 - [Aerospace](../aerospace/index.md) — where this physics is used.
 - [Meteorology](../meteorology/index.md) — the atmosphere as a fluid.

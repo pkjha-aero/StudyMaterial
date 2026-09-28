@@ -131,6 +131,7 @@ Subsonic outflow needs exactly one condition — normally back pressure. Superso
 
 ## Connections
 
+- **[Sod shock tube notebook](../notebooks/sod-shock-tube.ipynb)** — the exact solution and three schemes against it, measured.
 - [Governing equations](governing-equations.md) — why conservative form is not optional.
 - [Finite volume](cfd/finite-volume.md) — the flux machinery these solvers plug into.
 - [Time integration](cfd/time-integration.md) — CFL for hyperbolic systems.

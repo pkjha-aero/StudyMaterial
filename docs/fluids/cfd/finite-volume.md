@@ -129,6 +129,7 @@ A 10 mm cell at 20 m/s turns an intended \(\mathrm{Re}=1.3\times10^6\) into an e
 
 ## Connections
 
+- **[Sod shock tube notebook](../../notebooks/sod-shock-tube.ipynb)** — reconstruction order and numerical diffusion, measured.
 - [Governing equations](../governing-equations.md) — the integral form FV discretizes.
 - [Compressible flow](../compressible.md) — Riemann solvers as the face-flux answer.
 - [Time integration](time-integration.md) — what to do with the resulting ODE system.

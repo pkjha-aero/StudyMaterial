@@ -115,6 +115,7 @@ The gradient is identically zero, so the momentum equation is blind to a pressur
 
 ## Connections
 
+- **[Modified wavenumber notebook](../notebooks/modified-wavenumber.ipynb)** — why every central scheme is blind to the grid-scale mode.
 - [Governing equations](governing-equations.md) — where the constraint comes from.
 - [Finite volume](cfd/finite-volume.md) — flux assembly and face interpolation.
 - [Time integration](cfd/time-integration.md) — projection versus fully coupled schemes.
