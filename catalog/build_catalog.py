@@ -84,12 +84,19 @@ def parse_code(name: str, known_prefixes: frozenset[str] = frozenset()) -> str |
     return f"{dept} {number}"
 
 
-def scan_dir(path: pathlib.Path) -> tuple[int, int, collections.Counter]:
-    """Return (file count, total bytes, kind counter) for a course directory."""
+def scan_dir(path: pathlib.Path,
+             exclude: tuple[pathlib.Path, ...] = ()) -> tuple[int, int, collections.Counter]:
+    """Return (file count, total bytes, kind counter) for a course directory.
+
+    `exclude` skips subtrees that are being reported as courses in their own right, so
+    a container directory is not double-counted alongside the courses inside it.
+    """
     count = total = 0
     kinds: collections.Counter = collections.Counter()
     for f in path.rglob("*"):
         if not f.is_file() or is_noise(f.name):
+            continue
+        if any(ex in f.parents for ex in exclude):
             continue
         try:
             total += f.stat().st_size
@@ -136,10 +143,31 @@ def main(argv: list[str] | None = None) -> int:
 
         # Course directories.
         for course_dir in sorted(p for p in dept_dir.iterdir() if p.is_dir()):
-            count, total, kinds = scan_dir(course_dir)
+            outer_code = parse_code(course_dir.name)
+
+            # A directory with no code of its own may be a container holding several
+            # real courses one level down (Others/PSU holds E_MCH 524B and NUCE 530).
+            # Folding those into the parent loses them as distinct courses.
+            nested = ()
+            if not outer_code:
+                nested = tuple(d for d in sorted(course_dir.iterdir())
+                               if d.is_dir() and parse_code(d.name))
+            for nd in nested:
+                ncount, ntotal, nkinds = scan_dir(nd)
+                if not ncount:
+                    continue
+                courses[parse_code(nd.name)] = {
+                    "path": f"{dept}/{course_dir.name}/{nd.name}",
+                    "code": parse_code(nd.name),
+                    "files": ncount,
+                    "bytes": ntotal,
+                    "kinds": top_kinds(nkinds),
+                }
+
+            count, total, kinds = scan_dir(course_dir, exclude=nested)
             if not count:
                 continue
-            code = parse_code(course_dir.name)
+            code = outer_code
             # Key on the normalized code where there is one, so a loose syllabus for
             # the same course merges in below instead of becoming a second entry.
             courses[code or course_dir.name] = {

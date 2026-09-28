@@ -249,15 +249,18 @@ courses:
   "CompSeismology":
     name: "Computational Seismology"
     topics: ["wave propagation", "seismic modelling"]
+  "E_MCH 524B":
+    name: "Engineering Analysis: Complex Variables"
+    topics: ["complex analysis", "conformal mapping", "series"]
   "Jameson":
     name: "CFD and aerodynamic shape optimization"
     topics: ["CFD", "adjoint methods", "shape optimization"]
   "LN_Shankar":
     name: "Rotorcraft aerodynamics"
     topics: ["helicopter theory", "rotor aerodynamics"]
-  "PSU":
-    name: "Engineering Mechanics and Nuclear Engineering"
-    topics: ["engineering mechanics", "nuclear engineering"]
+  "NUCE 530":
+    name: "Nuclear Reactor Analysis"
+    topics: ["criticality", "Monte Carlo neutron transport"]
   "ParallelProgramming":
     name: "Parallel Programming"
     topics: ["MPI", "OpenMP", "domain decomposition"]

@@ -12,7 +12,7 @@ updated: 2026-09-28
 An index of coursework held offline. The material itself is **not** on this site and is not redistributed — this page exists so that a topic can be traced back to the course that covers it, and the folder opened on the drive.
 
 !!! info "What this lists"
-    **85 courses** across **9 departments** — 19,273 files, 10.2 GB in total.
+    **86 courses** across **9 departments** — 19,273 files, 10.2 GB in total.
 
     Courses, not files. Each row says what the material covers and how much of it there is; open the path on the drive for the detail. There are deliberately no filenames and no instructor attribution here.
 
@@ -21,7 +21,7 @@ An index of coursework held offline. The material itself is **not** on this site
 
     That makes them evidence-based but not authoritative. Correct anything that reads wrong in `catalog/course_titles.yml` and re-render.
 
-!!! warning "35 of 85 courses are still unnamed"
+!!! warning "35 of 86 courses are still unnamed"
     Folders whose contents did not determine a subject — too few files, or only generic names like `HW` and `Exam`. Left blank deliberately: a guessed course title is worse than a visibly missing one.
 
 ## Departments
@@ -35,7 +35,7 @@ An index of coursework held offline. The material itself is **not** on this site
 | [Maths](#maths) | 2 | 14 | 948 KB | [foundations](../foundations/index.md) |
 | [Mechanical](#mechanical) | 20 | 9,379 | 5.9 GB | [fluids](../fluids/index.md) |
 | [Meteorology](#meteorology) | 7 | 8 | 894 KB | [meteorology](../meteorology/index.md) |
-| [Others](#others) | 14 | 555 | 1.2 GB | [fluids](../fluids/index.md) |
+| [Others](#others) | 15 | 555 | 1.2 GB | [fluids](../fluids/index.md) |
 | [Physics](#physics) | 1 | 1 | 53 KB | [foundations](../foundations/index.md) |
 
 ## Aerospace
@@ -151,9 +151,10 @@ An index of coursework held offline. The material itself is **not** on this site
 | **Compressible Flow and Rocket Propulsion** | shocks and supersonic flow, rocket cycles, symmetry analysis | 76 files<br>46 MB | PDF, web/figures | `Others/BrianCantwell` |
 | **Model Reduction and Numerical Computation of Flows** | reduced-order models, numerical methods for flows | 32 files<br>37 MB | PDF | `Others/CharbelCourses` |
 | **Computational Seismology** | wave propagation, seismic modelling | 19 files<br>81 MB | slides, PDF | `Others/CompSeismology` |
+| **E_MCH 524B**<br>Engineering Analysis: Complex Variables | complex analysis, conformal mapping, series | 28 files<br>46 MB | PDF | `Others/PSU/E_MCH_524B_Spring_2012` |
 | **CFD and aerodynamic shape optimization** | CFD, adjoint methods, shape optimization | 35 files<br>310 MB | PDF | `Others/Jameson` |
 | **Rotorcraft aerodynamics** | helicopter theory, rotor aerodynamics | 88 files<br>67 MB | slides, documents, PDF, MATLAB | `Others/LN_Shankar` |
-| **Engineering Mechanics and Nuclear Engineering** | engineering mechanics, nuclear engineering | 199 files<br>54 MB | C/C++, PDF, documents, notes/data | `Others/PSU` |
+| **NUCE 530**<br>Nuclear Reactor Analysis | criticality, Monte Carlo neutron transport | 171 files<br>7 MB | C/C++, documents, notes/data, PDF | `Others/PSU/NUCE530` |
 | **Parallel Programming** | MPI, OpenMP, domain decomposition | 11 files<br>9 MB | PDF, slides | `Others/ParallelProgramming` |
 | `Rajagopalan_ISU` | — | 7 files<br>1 MB | PDF | `Others/Rajagopalan_ISU` |
 | **Shape Functions** | finite elements, interpolation, basis functions | 6 files<br>3 MB | PDF, slides | `Others/ShapeFunc` |

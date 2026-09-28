@@ -650,6 +650,13 @@ departments:
         - slides
         - PDF
         path: Others/CompSeismology
+      E_MCH 524B:
+        bytes: 48583398
+        code: E_MCH 524B
+        files: 28
+        kinds:
+        - PDF
+        path: Others/PSU/E_MCH_524B_Spring_2012
       Jameson:
         bytes: 324837211
         code: null
@@ -667,16 +674,16 @@ departments:
         - PDF
         - MATLAB
         path: Others/LN_Shankar
-      PSU:
-        bytes: 56196242
-        code: null
-        files: 199
+      NUCE 530:
+        bytes: 7612844
+        code: NUCE 530
+        files: 171
         kinds:
         - C/C++
-        - PDF
         - documents
         - notes/data
-        path: Others/PSU
+        - PDF
+        path: Others/PSU/NUCE530
       ParallelProgramming:
         bytes: 9497814
         code: null
@@ -744,7 +751,7 @@ departments:
 generated: '2026-09-28'
 totals:
   bytes: 10911829840
-  courses: 85
+  courses: 86
   departments: 9
   files: 19273
   unclassified_loose_files: 3
