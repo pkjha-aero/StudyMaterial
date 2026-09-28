@@ -126,16 +126,26 @@ def main(argv: list[str] | None = None) -> int:
         w("|---|---|--:|---|---|")
         for key, c in sorted(info["courses"].items()):
             meta = titles.get(key) or {}
-            label = c.get("code") or key
+            code = c.get("code")
             name = meta.get("name") or ""
-            covers = ", ".join(meta.get("topics") or []) or ("*" + name + "*" if name else "—")
-            if name and meta.get("topics"):
-                course = f"**{label}**<br>{name}"
+            topics = meta.get("topics") or []
+
+            # Some folders are named after a person rather than carrying a course code.
+            # Lead with the code, else the subject; fall back to the bare folder name
+            # only when neither exists, and present it as the path fragment it is
+            # rather than bolding a name as though it were a course title.
+            if code:
+                course = f"**{code}**" + (f"<br>{name}" if name else "")
+            elif name:
+                course = f"**{name}**"
             else:
-                course = f"**{label}**"
+                course = f"`{key}`"
+
+            covers = ", ".join(topics) or "—"
+            n = c["files"]
+            extent = f"{n:,} file{'' if n == 1 else 's'}<br>{human_size(c['bytes'])}"
             kinds = ", ".join(c.get("kinds") or []) or "—"
-            w(f"| {course} | {covers} | {c['files']:,} files<br>{human_size(c['bytes'])} "
-              f"| {kinds} | `{c['path']}` |")
+            w(f"| {course} | {covers} | {extent} | {kinds} | `{c['path']}` |")
         w("")
 
     w("## Connections")

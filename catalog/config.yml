@@ -2,6 +2,16 @@
 # so the scripts keep working when the drive is mounted somewhere else.
 archive_root: /media/pkjha/PKJ_MyPassport/Repository/Academic/CourseWork
 
+# Course-code prefix -> department, for files that sit loose at the archive root rather
+# than inside a department directory. Without this they are simply not catalogued.
+code_department_map:
+  METEO: Meteorology
+  ATOC:  Meteorology
+  ESCI:  Meteorology
+  PHYS:  Physics
+  AOE:   Aerospace
+  E_MCH: Mechanical
+
 # Department directory -> the site section its material feeds.
 section_map:
   Aerospace:  aerospace
@@ -11,3 +21,5 @@ section_map:
   CSE:        computing
   Chemistry:  foundations
   Others:     fluids
+  Meteorology: meteorology
+  Physics:     foundations
