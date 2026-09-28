@@ -52,20 +52,32 @@ KINDS = {
 
 # Course codes as they appear in directory and file names: AERSP425, ME521, METEO 414,
 # Astro501, PHYS_420, AOE5984, ATOC4500, E_MCH_524A, esci456.
-CODE_RE = re.compile(r"^([A-Za-z]{1,6}(?:_[A-Za-z]{1,4})?)[ _-]*(\d{3,4}[A-Za-z]?)\b")
+# Trailing guard is (?![A-Za-z0-9]) rather than \b: underscore is a word character, so
+# \b does not fire between "524A" and "_", which silently dropped every code followed by
+# an underscore — AERSP880_WindTurbineSystems, ME432_Shashank, E_MCH_524A_... and more.
+CODE_RE = re.compile(
+    r"^([A-Za-z]{1,6}(?:_[A-Za-z]{1,4})?)[ _-]*(\d{3,4}[A-Za-z]?)(?![A-Za-z0-9])")
 
 
 def is_noise(name: str) -> bool:
     return name in NOISE or name.startswith(NOISE_PREFIX)
 
 
-def parse_code(name: str) -> str | None:
+def parse_code(name: str, known_prefixes: frozenset[str] = frozenset()) -> str | None:
     """Normalize a course code out of a directory or file name.
 
     Everything after the code — instructor, semester, the word 'syllabus' — is
     discarded rather than recorded, so no instructor attribution reaches the index.
+
+    `known_prefixes` allows a second, conservative pass for names where the code is not
+    at the start ("Syllabus_ATOC4500_..."). Only prefixes the config already names are
+    searched, so this cannot invent a department.
     """
     m = CODE_RE.match(name.strip())
+    if not m and known_prefixes:
+        pat = r"(" + "|".join(sorted(map(re.escape, known_prefixes), key=len, reverse=True)) + \
+              r")[ _-]*(\d{3,4}[A-Za-z]?)(?![A-Za-z0-9])"
+        m = re.search(pat, name, re.I)
     if not m:
         return None
     dept, number = m.group(1).upper().rstrip("_"), m.group(2).upper()
@@ -114,6 +126,7 @@ def main(argv: list[str] | None = None) -> int:
         return 2
 
     section_map = cfg.get("section_map", {})
+    code_dept = {k.upper(): v for k, v in (cfg.get("code_department_map") or {}).items()}
     departments: dict[str, dict] = {}
     unclassified = 0
 
@@ -170,6 +183,32 @@ def main(argv: list[str] | None = None) -> int:
                 "section": section_map.get(dept),
                 "courses": dict(sorted(courses.items())),
             }
+
+    # Files sitting loose at the archive root, outside any department directory —
+    # typically syllabi for courses with no folder of their own. These were silently
+    # skipped until this was added, which lost nine courses including five METEO.
+    for f in sorted(p for p in root.iterdir() if p.is_file()):
+        if is_noise(f.name):
+            continue
+        code = parse_code(f.stem, frozenset(code_dept))
+        if not code:
+            unclassified += 1
+            continue
+        dept = code_dept.get(code.split()[0], "Other")
+        bucket = departments.setdefault(
+            dept, {"section": section_map.get(dept), "courses": {}})
+        entry = bucket["courses"].setdefault(
+            code, {"path": ".", "code": code, "files": 0, "bytes": 0,
+                   "kinds": ["PDF"], "loose": True})
+        entry["files"] += 1
+        try:
+            entry["bytes"] += f.stat().st_size
+        except OSError:
+            pass
+
+    for dept in departments:
+        departments[dept]["courses"] = dict(sorted(departments[dept]["courses"].items()))
+    departments = dict(sorted(departments.items()))
 
     doc = {
         "generated": dt.date.today().isoformat(),

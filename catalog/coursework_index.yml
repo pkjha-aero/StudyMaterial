@@ -89,6 +89,22 @@ departments:
         - documents
         - MATLAB
         path: Aerospace/AERSP425
+      AERSP 490:
+        bytes: 19068
+        code: AERSP 490
+        files: 1
+        kinds:
+        - PDF
+        loose: true
+        path: Aerospace
+      AERSP 492:
+        bytes: 15046
+        code: AERSP 492
+        files: 1
+        kinds:
+        - PDF
+        loose: true
+        path: Aerospace
       AERSP 504:
         bytes: 88375217
         code: AERSP 504
@@ -152,6 +168,14 @@ departments:
         - web/figures
         - documents
         path: Aerospace/AERSP525
+      AERSP 530:
+        bytes: 73913
+        code: AERSP 530
+        files: 1
+        kinds:
+        - PDF
+        loose: true
+        path: Aerospace
       AERSP 583:
         bytes: 260977568
         code: AERSP 583
@@ -172,16 +196,9 @@ departments:
         - C/C++
         - notes/data
         path: Aerospace/AERSP590
-      AERSP 597J:
-        bytes: 7740140
-        code: AERSP 597J
-        files: 21
-        kinds:
-        - PDF
-        path: Aerospace/AERSP597J
-      AERSP597A_Exp_Methods:
+      AERSP 597A:
         bytes: 57175427
-        code: null
+        code: AERSP 597A
         files: 82
         kinds:
         - documents
@@ -189,16 +206,23 @@ departments:
         - PDF
         - web/figures
         path: Aerospace/AERSP597A_Exp_Methods
-      AERSP597I_SpaceEnvInteraction:
+      AERSP 597I:
         bytes: 4574897
-        code: null
+        code: AERSP 597I
         files: 8
         kinds:
         - PDF
         path: Aerospace/AERSP597I_SpaceEnvInteraction
-      AERSP880_WindTurbineSystems:
+      AERSP 597J:
+        bytes: 7740140
+        code: AERSP 597J
+        files: 21
+        kinds:
+        - PDF
+        path: Aerospace/AERSP597J
+      AERSP 880:
         bytes: 40948314
-        code: null
+        code: AERSP 880
         files: 107
         kinds:
         - PDF
@@ -206,9 +230,9 @@ departments:
         - MATLAB
         - spreadsheets
         path: Aerospace/AERSP880_WindTurbineSystems
-      AERSP886_WindPowerPlants:
+      AERSP 886:
         bytes: 162612382
-        code: null
+        code: AERSP 886
         files: 785
         kinds:
         - web/figures
@@ -216,6 +240,14 @@ departments:
         - PDF
         - Fortran
         path: Aerospace/AERSP886_WindPowerPlants
+      AOE 5984:
+        bytes: 72990
+        code: AOE 5984
+        files: 1
+        kinds:
+        - PDF
+        loose: true
+        path: .
       Camci:
         bytes: 7885006
         code: null
@@ -226,6 +258,13 @@ departments:
     section: aerospace
   Astro:
     courses:
+      ASTRO 001:
+        bytes: 17178
+        code: ASTRO 001
+        files: 2
+        kinds:
+        - web/figures
+        path: Astro/Astro001_Brandt
       ASTRO 410:
         bytes: 1117931
         code: ASTRO 410
@@ -256,13 +295,6 @@ departments:
         kinds:
         - other
         path: Astro/Astro502
-      Astro001_Brandt:
-        bytes: 17178
-        code: null
-        files: 2
-        kinds:
-        - web/figures
-        path: Astro/Astro001_Brandt
       NielBrandt:
         bytes: 370057
         code: null
@@ -296,9 +328,9 @@ departments:
         - slides
         - web/figures
         path: CSE/CSE565
-      CSE598B_TheoryOfComputation:
+      CSE 598B:
         bytes: 979188
-        code: null
+        code: CSE 598B
         files: 13
         kinds:
         - PDF
@@ -344,14 +376,23 @@ departments:
     section: foundations
   Mechanical:
     courses:
-      ME 300:
-        bytes: 457027
-        code: ME 300
+      E_MCH 524A:
+        bytes: 133421
+        code: E_MCH 524A
         files: 1
         kinds:
         - PDF
         loose: true
-        path: Mechanical
+        path: .
+      ME 300:
+        bytes: 220005130
+        code: ME 300
+        files: 111
+        kinds:
+        - slides
+        - PDF
+        - documents
+        path: Mechanical/ME300_2
       ME 404:
         bytes: 24241
         code: ME 404
@@ -395,6 +436,16 @@ departments:
         - web/figures
         - documents
         path: Mechanical/ME430
+      ME 432:
+        bytes: 64884703
+        code: ME 432
+        files: 136
+        kinds:
+        - PDF
+        - notes/data
+        - web/figures
+        - Fortran
+        path: Mechanical/ME432_Shashank
       ME 514:
         bytes: 12863695
         code: ME 514
@@ -452,6 +503,23 @@ departments:
         - PDF
         - Fortran
         path: Mechanical/ME524
+      ME 530:
+        bytes: 19251
+        code: ME 530
+        files: 1
+        kinds:
+        - PDF
+        loose: true
+        path: Mechanical
+      ME 532:
+        bytes: 145701950
+        code: ME 532
+        files: 65
+        kinds:
+        - PDF
+        - slides
+        - documents
+        path: Mechanical/ME532_Shashank
       ME 535:
         bytes: 97248933
         code: ME 535
@@ -461,6 +529,16 @@ departments:
         - slides
         - Fortran
         path: Mechanical/ME535
+      ME 537:
+        bytes: 95893175
+        code: ME 537
+        files: 56
+        kinds:
+        - PDF
+        - spreadsheets
+        - documents
+        - notes/data
+        path: Mechanical/ME537_Shashank
       ME 540:
         bytes: 40543527
         code: ME 540
@@ -471,44 +549,6 @@ departments:
         - notes/data
         - PDF
         path: Mechanical/ME540
-      ME300_2:
-        bytes: 219548103
-        code: null
-        files: 110
-        kinds:
-        - slides
-        - PDF
-        - documents
-        path: Mechanical/ME300_2
-      ME432_Shashank:
-        bytes: 64884703
-        code: null
-        files: 136
-        kinds:
-        - PDF
-        - notes/data
-        - web/figures
-        - Fortran
-        path: Mechanical/ME432_Shashank
-      ME532_Shashank:
-        bytes: 145701950
-        code: null
-        files: 65
-        kinds:
-        - PDF
-        - slides
-        - documents
-        path: Mechanical/ME532_Shashank
-      ME537_Shashank:
-        bytes: 95893175
-        code: null
-        files: 56
-        kinds:
-        - PDF
-        - spreadsheets
-        - documents
-        - notes/data
-        path: Mechanical/ME537_Shashank
       ME83FluidsLab:
         bytes: 551132
         code: null
@@ -517,6 +557,65 @@ departments:
         - PDF
         path: Mechanical/ME83FluidsLab
     section: fluids
+  Meteorology:
+    courses:
+      ATOC 4500:
+        bytes: 268790
+        code: ATOC 4500
+        files: 1
+        kinds:
+        - PDF
+        loose: true
+        path: .
+      ESCI 456:
+        bytes: 73840
+        code: ESCI 456
+        files: 1
+        kinds:
+        - PDF
+        loose: true
+        path: .
+      METEO 414:
+        bytes: 290380
+        code: METEO 414
+        files: 2
+        kinds:
+        - PDF
+        loose: true
+        path: .
+      METEO 421:
+        bytes: 68605
+        code: METEO 421
+        files: 1
+        kinds:
+        - PDF
+        loose: true
+        path: .
+      METEO 465:
+        bytes: 116003
+        code: METEO 465
+        files: 1
+        kinds:
+        - PDF
+        loose: true
+        path: .
+      METEO 511:
+        bytes: 56478
+        code: METEO 511
+        files: 1
+        kinds:
+        - PDF
+        loose: true
+        path: .
+      METEO 521:
+        bytes: 42057
+        code: METEO 521
+        files: 1
+        kinds:
+        - PDF
+        loose: true
+        path: .
+    section: meteorology
   Others:
     courses:
       2015RotaryWing:
@@ -631,10 +730,21 @@ departments:
         - slides
         path: Others/UMD_Turb
     section: fluids
-generated: '2026-09-26'
+  Physics:
+    courses:
+      PHYS 420:
+        bytes: 54768
+        code: PHYS 420
+        files: 1
+        kinds:
+        - PDF
+        loose: true
+        path: .
+    section: foundations
+generated: '2026-09-28'
 totals:
-  bytes: 10910525230
-  courses: 72
-  departments: 7
-  files: 19258
-  unclassified_loose_files: 6
+  bytes: 10911829840
+  courses: 85
+  departments: 9
+  files: 19273
+  unclassified_loose_files: 3

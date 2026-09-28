@@ -43,6 +43,12 @@ courses:
   "AERSP 425":
     name: "Airfoil Design"
     topics: ["inverse design", "von Mises methods", "airfoil analysis codes"]
+  "AERSP 490":
+    name: ""
+    topics: []
+  "AERSP 492":
+    name: ""
+    topics: []
   "AERSP 504":
     name: "Helicopter Aerodynamics"
     topics: ["rotor aerodynamics", "rotor tutorials"]
@@ -64,32 +70,41 @@ courses:
   "AERSP 525":
     name: ""
     topics: []
+  "AERSP 530":
+    name: ""
+    topics: []
   "AERSP 583":
     name: "Wind Turbine Aerodynamics"
     topics: ["BEM and XTurb", "NREL Phase VI rotor", "stall delay"]
   "AERSP 590":
     name: "High-Performance Computing for Aerospace"
     topics: ["MPI and OpenMP", "grid computing", "workflow DAGs"]
+  "AERSP 597A":
+    name: "Experimental Methods"
+    topics: ["measurement techniques", "instrumentation", "data reduction"]
+  "AERSP 597I":
+    name: "Space Environment Interaction"
+    topics: ["space environment", "spacecraft charging"]
   "AERSP 597J":
     name: "Rotorcraft Dynamics"
     topics: ["rotor flapping", "inflow models", "trim", "stability"]
-  "AERSP597A_Exp_Methods":
-    name: "Experimental Methods"
-    topics: ["measurement techniques", "instrumentation", "data reduction"]
-  "AERSP597I_SpaceEnvInteraction":
-    name: "Space Environment Interaction"
-    topics: ["space environment", "spacecraft charging"]
-  "AERSP880_WindTurbineSystems":
+  "AERSP 880":
     name: "Wind Turbine Systems"
     topics: ["turbine aerodynamics", "rotor design", "wind resource"]
-  "AERSP886_WindPowerPlants":
+  "AERSP 886":
     name: "Wind Power Plants"
     topics: ["wake interaction", "wind plant modelling", "array losses"]
+  "AOE 5984":
+    name: ""
+    topics: []
   "Camci":
     name: ""
     topics: []
 
   # ---- Astro ----
+  "ASTRO 001":
+    name: "Introductory Astronomy"
+    topics: ["observational astronomy"]
   "ASTRO 410":
     name: ""
     topics: []
@@ -102,9 +117,6 @@ courses:
   "ASTRO 502":
     name: ""
     topics: []
-  "Astro001_Brandt":
-    name: "Introductory Astronomy"
-    topics: ["observational astronomy"]
   "NielBrandt":
     name: ""
     topics: []
@@ -119,7 +131,7 @@ courses:
   "CSE 565":
     name: "Algorithm Design and Analysis"
     topics: ["stable matching", "interval scheduling", "algorithm analysis"]
-  "CSE598B_TheoryOfComputation":
+  "CSE 598B":
     name: "Theory of Computation"
     topics: ["automata", "computability", "complexity"]
 
@@ -140,6 +152,9 @@ courses:
     topics: []
 
   # ---- Mechanical ----
+  "E_MCH 524A":
+    name: ""
+    topics: []
   "ME 300":
     name: ""
     topics: []
@@ -158,6 +173,9 @@ courses:
   "ME 430":
     name: "Combustion and Chemical Kinetics"
     topics: ["CHEMKIN", "reaction mechanisms", "kinetics"]
+  "ME 432":
+    name: "Rocket Propulsion"
+    topics: ["NASA CEA", "chemical equilibrium", "rocket performance"]
   "ME 514":
     name: ""
     topics: []
@@ -176,27 +194,47 @@ courses:
   "ME 524":
     name: "Turbulence Simulation"
     topics: ["spectral methods", "direct numerical simulation", "decaying turbulence"]
+  "ME 530":
+    name: ""
+    topics: []
+  "ME 532":
+    name: "Turbulent Combustion"
+    topics: ["premixed and diffusion flames", "flame stretch", "turbulent flame structure"]
   "ME 535":
     name: "Statistical Thermodynamics"
     topics: ["kinetic theory", "quantum statistics"]
+  "ME 537":
+    name: "Laser Diagnostics for Combustion"
+    topics: ["Raman scattering", "acetone LIF", "concentration measurement"]
   "ME 540":
     name: ""
     topics: []
-  "ME300_2":
-    name: ""
-    topics: []
-  "ME432_Shashank":
-    name: "Rocket Propulsion"
-    topics: ["NASA CEA", "chemical equilibrium", "rocket performance"]
-  "ME532_Shashank":
-    name: "Turbulent Combustion"
-    topics: ["premixed and diffusion flames", "flame stretch", "turbulent flame structure"]
-  "ME537_Shashank":
-    name: "Laser Diagnostics for Combustion"
-    topics: ["Raman scattering", "acetone LIF", "concentration measurement"]
   "ME83FluidsLab":
     name: "Fluids Laboratory"
     topics: ["experimental fluid mechanics"]
+
+  # ---- Meteorology ----
+  "ATOC 4500":
+    name: "Wind Energy Meteorology"
+    topics: ["wind energy", "boundary-layer meteorology"]
+  "ESCI 456":
+    name: ""
+    topics: []
+  "METEO 414":
+    name: ""
+    topics: []
+  "METEO 421":
+    name: ""
+    topics: []
+  "METEO 465":
+    name: ""
+    topics: []
+  "METEO 511":
+    name: ""
+    topics: []
+  "METEO 521":
+    name: ""
+    topics: []
 
   # ---- Others ----
   "2015RotaryWing":
@@ -241,3 +279,8 @@ courses:
   "UMD_Turb":
     name: "Turbulence (UMD notes)"
     topics: ["turbulence theory", "scaling", "closures"]
+
+  # ---- Physics ----
+  "PHYS 420":
+    name: ""
+    topics: []
