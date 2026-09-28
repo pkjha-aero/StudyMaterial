@@ -131,6 +131,7 @@ Error falls as \(O(h)\) to about \(10^{-8}\), then *rises* by four orders as can
 
 ## Connections
 
+- **[Modified wavenumber notebook](../notebooks/modified-wavenumber.ipynb)** — dispersion, dissipation and points-per-wavelength, computed.
 - [Mathematical methods](math-methods.md) — PDE type, which decides admissible schemes.
 - [Linear solvers](linear-solvers.md) — solving the systems this produces.
 - [Verification and validation](verification-validation.md) — measuring observed order properly.

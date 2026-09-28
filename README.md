@@ -64,6 +64,24 @@ empty index over a good one. Course names and topics are hand-maintained in
 `catalog/course_titles.yml`, which the scan never touches — fill entries in there and
 re-render.
 
+## Notebooks
+
+`docs/notebooks/*.ipynb` are committed **already executed**, and `mkdocs-jupyter` is
+configured with `execute: false`, so CI renders the stored outputs and the build needs no
+kernel or scientific stack. The figures and numbers on the site are the ones the code
+produced.
+
+To re-run after editing:
+
+```bash
+pip install numpy matplotlib jupyter
+jupyter nbconvert --to notebook --execute --inplace docs/notebooks/*.ipynb
+```
+
+Notebook markdown cells must use `$...$` and `$$...$$` for maths. nbconvert bypasses the
+markdown pipeline and strips the backslash from `\( ... \)`, so the delimiters used on
+ordinary pages do not survive there.
+
 ## Checking the site
 
 ```bash
