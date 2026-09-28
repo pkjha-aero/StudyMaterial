@@ -19,6 +19,7 @@ the section used to prove out the note template.
 | [Governing equations](governing-equations.md) | Conservation laws, Navier-Stokes, nondimensionalization, regime identification |
 | [Incompressible flow](incompressible.md) | Pressure as Lagrange multiplier, projection, SIMPLE/PISO, Rhie-Chow |
 | [Compressible flow](compressible.md) | Characteristics, shocks, Riemann solvers, limiters |
+| [Stability and transition](transition.md) | Orr-Sommerfeld, inflection points, bypass transition, the \(e^N\) method |
 | [Turbulence](turbulence/index.md) | Scales, cascade, spectra, and the closure problem |
 | &nbsp;&nbsp;› [RANS closures](turbulence/rans.md) | Boussinesq, k-ε, k-ω SST, wall treatment and \(y^+\) |
 | &nbsp;&nbsp;› [Large eddy simulation](turbulence/les.md) | Filtering, Smagorinsky, dynamic and WALE models, resolution cost |
@@ -33,6 +34,7 @@ For a cold recap, follow the physics down into the numerics:
 
 **[Governing equations](governing-equations.md)** → split by regime into
 **[incompressible](incompressible.md)** or **[compressible](compressible.md)** →
+**[stability and transition](transition.md)** for how laminar flow ends →
 **[turbulence](turbulence/index.md)** for what cannot be resolved →
 **[CFD](cfd/index.md)** for how any of it is actually computed.
 
@@ -41,6 +43,7 @@ is where the answer usually is.
 
 ## Connections
 
+- [Thermal Sciences](../thermal/index.md) — heat transfer and combustion on top of this flow physics.
 - [Notebooks](../notebooks/index.md) — the Sod shock tube worked end to end.
 - [Foundations](../foundations/index.md) — the numerics these pages apply.
 - [Aerospace](../aerospace/index.md) — where this physics is used.

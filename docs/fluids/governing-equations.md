@@ -132,6 +132,7 @@ print("viscous layer thickness ~ L/sqrt(Re) =", L / np.sqrt(Re), "m")
 - [Compressible flow](compressible.md) — the hyperbolic branch, and shocks.
 - [Finite volume](cfd/finite-volume.md) — why the box statement discretizes so naturally.
 - [Turbulence](turbulence/index.md) — what averaging these equations costs.
+- [Thermal Sciences](../thermal/index.md) — the energy equation with heat transfer and reaction.
 
 ## Sources
 
