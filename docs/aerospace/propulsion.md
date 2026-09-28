@@ -124,6 +124,8 @@ Same thrust, six times the mass flow, and the energy thrown away in the wake dro
 
 ## Connections
 
+- [Turbomachinery](turbomachinery.md) — the compressor and turbine stages behind the cycle.
+- [Aeroacoustics](aeroacoustics.md) — why the efficient engine is also the quiet one.
 - [Thermal › Combustion](../thermal/combustion.md) — the heat addition step in detail.
 - [Thermal › Thermodynamics](../thermal/thermodynamics.md) — cycles, exergy, and variable \(c_p\).
 - [Flight mechanics](flight-mechanics.md) — thrust and TSFC in the range equation.
