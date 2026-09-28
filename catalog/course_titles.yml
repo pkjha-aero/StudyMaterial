@@ -14,38 +14,38 @@ courses:
 
   # ---- Aerospace ----
   "AERSP 305":
-    name: ""
-    topics: []
+    name: "Aerospace Laboratory"
+    topics: ["experimental aerodynamics", "wind tunnel measurement", "technical reporting"]
   "AERSP 309":
     name: ""
     topics: []
   "AERSP 313":
-    name: ""
-    topics: []
+    name: "Aerospace Analysis"
+    topics: ["complex analysis", "conformal mapping", "numerical quadrature", "ODEs", "finite differences"]
   "AERSP 401":
-    name: ""
-    topics: []
+    name: "Aerospace Vehicle Design"
+    topics: ["subsystem integration", "propulsion and structures", "team design project"]
   "AERSP 410":
-    name: ""
-    topics: []
+    name: "Air-Breathing Propulsion"
+    topics: ["inlets", "compressors", "combustors", "turbines", "nozzles", "turbojets and turboprops"]
   "AERSP 413":
     name: ""
     topics: []
   "AERSP 420":
-    name: ""
-    topics: []
+    name: "Flight Vehicle Aerodynamics and Flight Test"
+    topics: ["flight testing", "compressibility effects"]
   "AERSP 423":
-    name: ""
-    topics: []
+    name: "Numerical Methods for Aerospace"
+    topics: ["stability and error analysis", "linear systems"]
   "AERSP 424":
-    name: ""
-    topics: []
+    name: "Scientific Programming for Aerospace"
+    topics: ["C and Java", "numerical linear algebra", "graphics", "software practice"]
   "AERSP 425":
-    name: ""
-    topics: []
+    name: "Airfoil Design"
+    topics: ["inverse design", "von Mises methods", "airfoil analysis codes"]
   "AERSP 504":
-    name: ""
-    topics: []
+    name: "Helicopter Aerodynamics"
+    topics: ["rotor aerodynamics", "rotor tutorials"]
   "AERSP 505":
     name: ""
     topics: []
@@ -53,26 +53,26 @@ courses:
     name: ""
     topics: []
   "AERSP 511":
-    name: ""
-    topics: []
+    name: "Aeroacoustics"
+    topics: ["Lighthill analogy", "sound generation by flow"]
   "AERSP 514":
     name: ""
     topics: []
   "AERSP 518":
-    name: ""
-    topics: []
+    name: "Flight Dynamics and Simulation"
+    topics: ["trim and linearisation", "ECEF and geodetic frames", "dynamic modelling"]
   "AERSP 525":
     name: ""
     topics: []
   "AERSP 583":
-    name: ""
-    topics: []
+    name: "Wind Turbine Aerodynamics"
+    topics: ["BEM and XTurb", "NREL Phase VI rotor", "stall delay"]
   "AERSP 590":
-    name: ""
-    topics: []
+    name: "High-Performance Computing for Aerospace"
+    topics: ["MPI and OpenMP", "grid computing", "workflow DAGs"]
   "AERSP 597J":
-    name: ""
-    topics: []
+    name: "Rotorcraft Dynamics"
+    topics: ["rotor flapping", "inflow models", "trim", "stability"]
   "AERSP597A_Exp_Methods":
     name: "Experimental Methods"
     topics: ["measurement techniques", "instrumentation", "data reduction"]
@@ -114,22 +114,22 @@ courses:
 
   # ---- CSE ----
   "CSE 465":
-    name: ""
-    topics: []
+    name: "Algorithms"
+    topics: ["greedy algorithms", "graphs and trees", "exchange arguments"]
   "CSE 565":
-    name: ""
-    topics: []
+    name: "Algorithm Design and Analysis"
+    topics: ["stable matching", "interval scheduling", "algorithm analysis"]
   "CSE598B_TheoryOfComputation":
     name: "Theory of Computation"
     topics: ["automata", "computability", "complexity"]
 
   # ---- Chemistry ----
   "CHEM 408":
-    name: ""
-    topics: []
+    name: "Computational Chemistry"
+    topics: ["electronic structure", "molecular modelling"]
   "CHEM 452":
-    name: ""
-    topics: []
+    name: "Physical Chemistry: Quantum and Spectroscopy"
+    topics: ["Huckel theory", "spectroscopy", "relaxation"]
 
   # ---- Maths ----
   "M 511":
@@ -150,14 +150,14 @@ courses:
     name: ""
     topics: []
   "ME 420":
-    name: ""
-    topics: []
+    name: "Compressible Aerodynamics"
+    topics: ["oblique shocks", "gas dynamics", "supersonic flow"]
   "ME 422":
     name: ""
     topics: []
   "ME 430":
-    name: ""
-    topics: []
+    name: "Combustion and Chemical Kinetics"
+    topics: ["CHEMKIN", "reaction mechanisms", "kinetics"]
   "ME 514":
     name: ""
     topics: []
@@ -165,20 +165,20 @@ courses:
     name: ""
     topics: []
   "ME 521":
-    name: ""
-    topics: []
+    name: "Fluid Mechanics"
+    topics: ["vectors and tensors", "kinematics", "conservation laws", "vorticity dynamics", "irrotational flow", "laminar boundary layer"]
   "ME 522":
-    name: ""
-    topics: []
+    name: "Hydrodynamic Stability and Turbulence"
+    topics: ["flow instability", "Benard convection", "Blasius boundary layer", "transition", "turbulence"]
   "ME 523":
-    name: ""
-    topics: []
+    name: "Computational Fluid Dynamics"
+    topics: ["grid generation", "Richardson extrapolation", "solver projects"]
   "ME 524":
-    name: ""
-    topics: []
+    name: "Turbulence Simulation"
+    topics: ["spectral methods", "direct numerical simulation", "decaying turbulence"]
   "ME 535":
-    name: ""
-    topics: []
+    name: "Statistical Thermodynamics"
+    topics: ["kinetic theory", "quantum statistics"]
   "ME 540":
     name: ""
     topics: []
@@ -186,14 +186,14 @@ courses:
     name: ""
     topics: []
   "ME432_Shashank":
-    name: ""
-    topics: []
+    name: "Rocket Propulsion"
+    topics: ["NASA CEA", "chemical equilibrium", "rocket performance"]
   "ME532_Shashank":
-    name: ""
-    topics: []
+    name: "Turbulent Combustion"
+    topics: ["premixed and diffusion flames", "flame stretch", "turbulent flame structure"]
   "ME537_Shashank":
-    name: ""
-    topics: []
+    name: "Laser Diagnostics for Combustion"
+    topics: ["Raman scattering", "acetone LIF", "concentration measurement"]
   "ME83FluidsLab":
     name: "Fluids Laboratory"
     topics: ["experimental fluid mechanics"]
@@ -203,11 +203,11 @@ courses:
     name: "Rotary Wing Aerodynamics"
     topics: ["rotorcraft", "blade element theory", "rotor wake"]
   "BrianCantwell":
-    name: ""
-    topics: []
+    name: "Compressible Flow and Rocket Propulsion"
+    topics: ["shocks and supersonic flow", "rocket cycles", "symmetry analysis"]
   "CharbelCourses":
-    name: ""
-    topics: []
+    name: "Model Reduction and Numerical Computation of Flows"
+    topics: ["reduced-order models", "numerical methods for flows"]
   "CompSeismology":
     name: "Computational Seismology"
     topics: ["wave propagation", "seismic modelling"]
@@ -218,8 +218,8 @@ courses:
     name: "Rotorcraft aerodynamics"
     topics: ["helicopter theory", "rotor aerodynamics"]
   "PSU":
-    name: ""
-    topics: []
+    name: "Engineering Mechanics and Nuclear Engineering"
+    topics: ["engineering mechanics", "nuclear engineering"]
   "ParallelProgramming":
     name: "Parallel Programming"
     topics: ["MPI", "OpenMP", "domain decomposition"]
