@@ -54,7 +54,7 @@ VALID_STATUS = {"seed", "working", "solid"}
 SECTION_TAGS = {
     "aerospace", "astrophysics", "computer-vision", "computing", "deep-learning",
     "fluids", "foundations", "machine-learning", "meteorology", "resources",
-    "sciml", "toolchains",
+    "sciml", "thermal", "toolchains",
 }
 CONCEPT_TAGS = {
     "boundary-layer", "conservation", "data-formats", "discretization", "extrapolation",

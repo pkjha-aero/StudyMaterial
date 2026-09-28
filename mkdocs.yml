@@ -145,6 +145,7 @@ nav:
       - Governing equations: fluids/governing-equations.md
       - Incompressible flow: fluids/incompressible.md
       - Compressible flow: fluids/compressible.md
+      - Stability and transition: fluids/transition.md
       - Turbulence:
           - fluids/turbulence/index.md
           - RANS closures: fluids/turbulence/rans.md
@@ -154,6 +155,11 @@ nav:
           - Finite volume: fluids/cfd/finite-volume.md
           - Time integration: fluids/cfd/time-integration.md
           - Meshing and grid quality: fluids/cfd/meshing.md
+  - Thermal Sciences:
+      - thermal/index.md
+      - Thermodynamics: thermal/thermodynamics.md
+      - Heat transfer: thermal/heat-transfer.md
+      - Combustion: thermal/combustion.md
   - Aerospace:
       - aerospace/index.md
       - Aerodynamics: aerospace/aerodynamics.md

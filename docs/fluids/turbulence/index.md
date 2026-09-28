@@ -126,6 +126,7 @@ A full-scale aircraft at \(\mathrm{Re}=10^8\) would need \(10^{18}\) points. Mod
 
 ## Connections
 
+- [Stability and transition](../transition.md) — how the flow got turbulent in the first place.
 - [Governing equations](../governing-equations.md) — what averaging is applied to.
 - [Incompressible flow](../incompressible.md) — where most turbulence modelling lives.
 - [Meshing](../cfd/meshing.md) — \(y^+\) and boundary-layer resolution.

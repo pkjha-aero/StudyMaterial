@@ -134,6 +134,7 @@ Best \(L/D\) occurs at exactly the \(C_L\) where the two drag contributions are 
 ## Connections
 
 - [Flight mechanics](flight-mechanics.md) — the drag polar feeds range and climb directly.
+- [Fluids › Stability and transition](../fluids/transition.md) — why \(C_{L,\max}\) depends on Reynolds number.
 - [Fluids › Compressible flow](../fluids/compressible.md) — transonic and supersonic behaviour.
 - [Fluids › Turbulence](../fluids/turbulence/index.md) — boundary layers, transition, separation.
 - [Rotorcraft](rotorcraft.md) — the same section aerodynamics on a rotating blade.

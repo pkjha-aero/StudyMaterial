@@ -123,6 +123,7 @@ A factor of 300 in first-cell height between wall-resolved and wall-function mes
 ## Connections
 
 - [Turbulence](index.md) — scales, cascade, and the closure problem.
+- [Stability and transition](../transition.md) — where transition models attach to a RANS solver.
 - [LES](les.md) — the alternative when the mean is not enough.
 - [Meshing](../cfd/meshing.md) — boundary-layer meshing and growth ratios.
 

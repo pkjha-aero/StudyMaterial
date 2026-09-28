@@ -129,7 +129,8 @@ By \(\tau=5\) more than 99% of what you observe originated in front of that poin
 
 - [MHD](mhd.md) — radiation-MHD in accretion and stellar interiors.
 - [Plasma](plasma.md) — emission and absorption mechanisms.
-- [Meteorology › Radiation](../meteorology/index.md) — the same equation, different opacity sources.
+- [Meteorology › Radiation and clouds](../meteorology/radiation-clouds.md) — the same equation, different opacity sources.
+- [Thermal › Heat transfer](../thermal/heat-transfer.md) — the engineering end, with participating media.
 - [Foundations › Numerical methods](../foundations/numerical-methods.md) — stiffness and operator splitting.
 
 ## Sources

@@ -124,6 +124,8 @@ Same thrust, six times the mass flow, and the energy thrown away in the wake dro
 
 ## Connections
 
+- [Thermal › Combustion](../thermal/combustion.md) — the heat addition step in detail.
+- [Thermal › Thermodynamics](../thermal/thermodynamics.md) — cycles, exergy, and variable \(c_p\).
 - [Flight mechanics](flight-mechanics.md) — thrust and TSFC in the range equation.
 - [Fluids › Compressible flow](../fluids/compressible.md) — nozzles, inlets, shocks.
 - [Space environment](space-environment.md) — rockets and delta-v budgets.
