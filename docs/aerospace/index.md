@@ -30,6 +30,7 @@ Applied aerospace disciplines — the domain physics layered on top of
 | [Wind energy](wind-energy.md) | Betz limit, BEM with corrections, wakes, Weibull resource |
 | [Space environment and orbits](space-environment.md) | Two-body motion, \(J_2\), delta-v, drag, the space hazard set |
 | [Experimental methods](experimental-methods.md) | The measurement chain, bias vs precision, tunnel corrections, flight test |
+| [Flight testing](flight-testing.md) | The airspeed chain, sawtooth climbs, reduction to standard conditions, neutral point |
 
 ## One idea that recurs
 

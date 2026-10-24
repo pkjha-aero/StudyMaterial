@@ -177,6 +177,7 @@ nav:
       - Wind energy: aerospace/wind-energy.md
       - Space environment and orbits: aerospace/space-environment.md
       - Experimental methods: aerospace/experimental-methods.md
+      - Flight testing: aerospace/flight-testing.md
   - Meteorology:
       - meteorology/index.md
       - Atmospheric thermodynamics: meteorology/thermodynamics.md
