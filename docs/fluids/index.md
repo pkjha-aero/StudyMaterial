@@ -18,6 +18,7 @@ the section used to prove out the note template.
 |---|---|
 | [Governing equations](governing-equations.md) | Conservation laws, Navier-Stokes, nondimensionalization, regime identification |
 | [Incompressible flow](incompressible.md) | Pressure as Lagrange multiplier, projection, SIMPLE/PISO, Rhie-Chow |
+| [Marine hydrodynamics](marine-hydrodynamics.md) | Froude vs Reynolds, wave resistance, cavitation, seakeeping |
 | [Fluid–structure and 6-DOF coupling](fsi-6dof.md) | Added-mass instability, partitioned vs monolithic, rigid-body motion |
 | [Compressible flow](compressible.md) | Characteristics, shocks, Riemann solvers, limiters |
 | [Stability and transition](transition.md) | Orr-Sommerfeld, inflection points, bypass transition, the \(e^N\) method |

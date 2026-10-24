@@ -148,6 +148,7 @@ nav:
       - Incompressible flow: fluids/incompressible.md
       - Compressible flow: fluids/compressible.md
       - Fluid-structure and 6-DOF coupling: fluids/fsi-6dof.md
+      - Marine hydrodynamics: fluids/marine-hydrodynamics.md
       - Stability and transition: fluids/transition.md
       - Turbulence:
           - fluids/turbulence/index.md
@@ -177,6 +178,7 @@ nav:
       - Structures and aeroelasticity: aerospace/structures.md
       - Rotorcraft: aerospace/rotorcraft.md
       - Actuator line and disk models: aerospace/actuator-line.md
+      - Aircraft and turbine icing: aerospace/icing.md
       - Wind energy: aerospace/wind-energy.md
       - Space environment and orbits: aerospace/space-environment.md
       - Experimental methods: aerospace/experimental-methods.md
@@ -202,12 +204,14 @@ nav:
       - ml/index.md
       - Classical machine learning: ml/classical.md
       - Training craft: ml/training-craft.md
+      - Reinforcement learning and control: ml/reinforcement-learning.md
       - Evaluation: ml/evaluation.md
       - Tabular and time series: ml/tabular-timeseries.md
   - Deep Learning:
       - dl/index.md
       - Architectures: dl/architectures.md
       - PyTorch patterns: dl/pytorch-patterns.md
+      - Model compression and edge deployment: dl/model-compression.md
       - Generative models: dl/generative.md
       - LLMs and generative AI: dl/llm-genai.md
   - Computer Vision:
@@ -246,6 +250,7 @@ nav:
       - HPC and parallelism: computing/hpc.md
       - GPU and CUDA: computing/gpu-cuda.md
       - Adaptive mesh refinement: computing/amr.md
+      - Quantum computing: computing/quantum-computing.md
       - Data and I/O at scale: computing/data-io.md
       - Python performance: computing/python-performance.md
       - C++ and Fortran: computing/cpp-fortran.md

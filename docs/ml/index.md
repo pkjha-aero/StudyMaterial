@@ -16,6 +16,7 @@ Classical ML and the craft of training models that generalize. An **active growt
 | Page | Covers |
 |---|---|
 | [Classical machine learning](classical.md) | Bias-variance, regularised linear models, trees and boosting, SVM, clustering, PCA |
+| [Reinforcement learning and control](reinforcement-learning.md) | MDPs, policy gradient, model-based RL, and when LQR/MPC wins |
 | [Training craft](training-craft.md) | Optimizers, AdamW, schedules and warmup, regularisation, debugging a model that will not learn |
 | [Evaluation](evaluation.md) | Metrics under imbalance, leakage, split strategy, calibration |
 | [Tabular and time series](tabular-timeseries.md) | Feature engineering, forecasting, backtesting, baselines |
