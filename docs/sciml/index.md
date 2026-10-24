@@ -16,11 +16,17 @@ accelerates part of a solver.
 
 | Page | Covers |
 |---|---|
-| [Surrogates and reduced-order models](surrogates-rom.md) | POD, DMD, Galerkin projection, hyper-reduction, the \(n\)-width barrier |
+| [How the field evolved](evolution.md) | The five eras, the four reviews that define the territory, what each generation amortises |
+| [Surrogates and reduced-order models](surrogates-rom.md) | POD, DMD, SINDy, Galerkin projection, hyper-reduction, the \(n\)-width barrier |
 | [Physics-informed neural networks](pinns.md) | Residual losses, loss balancing, spectral bias, where PINNs actually win |
-| [Neural operators](neural-operators.md) | FNO, DeepONet, amortisation, mode truncation, rollout |
+| [Neural operators](neural-operators.md) | FNO, DeepONet, Transolver and the geometry-aware transformer operators |
 | [Graph networks on meshes](gnn-meshes.md) | Message passing as a learned stencil, locality, rollout stability |
-| [Hybrid physics-ML coupling](hybrid-coupling.md) | Learned closures, a priori vs a posteriori, differentiable solvers |
+| [Hybrid physics-ML coupling](hybrid-coupling.md) | Learned closures, FIML, a priori vs a posteriori, differentiable solvers |
+| [SciML in aerospace](aerospace-applications.md) | Airfoils, wings, rotorcraft, wind turbines; DoMINO, GeoTransolver, PhysicsNeMo |
+
+If you are new to the area, [How the field evolved](evolution.md) is the place to start: the
+methods below were developed by four largely separate communities and only began citing each
+other around 2019, so the chronology explains the overlaps better than any taxonomy does.
 
 ## Choosing between them
 
@@ -30,6 +36,7 @@ accelerates part of a solver.
 | Physics and sparse data, unknown coefficients | The coefficients | [PINN](pinns.md) |
 | An unstructured mesh and trajectories | A learned simulator | [Mesh GNN](gnn-meshes.md) |
 | A working solver with one weak sub-model | A better sub-model | [Hybrid coupling](hybrid-coupling.md) |
+| Arbitrary new geometries in a class | A design-loop surrogate | [Geometry-aware operator](aerospace-applications.md) |
 | One solve | The answer | **a conventional solver** |
 
 That last row is not a joke. For a single forward solve of a standard PDE, a conventional

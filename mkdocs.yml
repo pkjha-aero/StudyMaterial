@@ -215,11 +215,13 @@ nav:
       - Scientific and remote-sensing imagery: cv/scientific-imagery.md
   - Scientific ML:
       - sciml/index.md
+      - How the field evolved: sciml/evolution.md
       - Surrogates and ROM: sciml/surrogates-rom.md
       - Physics-informed neural networks: sciml/pinns.md
       - Neural operators: sciml/neural-operators.md
       - Graph networks on meshes: sciml/gnn-meshes.md
       - Hybrid physics-ML coupling: sciml/hybrid-coupling.md
+      - SciML in aerospace: sciml/aerospace-applications.md
   - Toolchains:
       - toolchains/index.md
       - CFD codes: toolchains/cfd-codes.md
