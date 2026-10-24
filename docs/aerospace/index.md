@@ -18,6 +18,8 @@ Applied aerospace disciplines — the domain physics layered on top of
 |---|---|
 | [Aircraft design](aircraft-design.md) | The sizing loop, constraint diagrams, weight growth, the limits of regression |
 | [Aerodynamics](aerodynamics.md) | Circulation, thin airfoil and lifting-line theory, drag decomposition, compressibility |
+| [Transonic aerodynamics](transonic.md) | Mixed-type flow, critical and drag-divergence Mach, sweep, supercritical sections, buffet |
+| [Hypersonic aerodynamics](hypersonics.md) | Thin shock layers, Newtonian theory, Mach independence, heating, real-gas chemistry |
 | [Flight mechanics](flight-mechanics.md) | Performance, Breguet range, static margin, the five dynamic modes |
 | [Propulsion](propulsion.md) | Thrust, Brayton cycle, propulsive efficiency and bypass ratio, rockets |
 | [Propellers](propellers.md) | Advance ratio, pitch and slip, constant-speed units, tip Mach, installed effects |
