@@ -2,7 +2,7 @@
 title: Hybrid physics-ML coupling
 status: working
 tags: [pillar-9, sciml, turbulence, numerical-stability, extrapolation]
-updated: 2026-09-26
+updated: 2026-10-24
 ---
 
 # Hybrid physics-ML coupling
@@ -34,6 +34,15 @@ updated: 2026-09-26
 </div>
 
 The preconditioner row is worth noting: ML that only *accelerates* a convergent iteration cannot corrupt the answer, because the residual still has to be driven to zero. That makes it the safest place to start, and it is under-used relative to closure learning.
+
+**Field inversion and machine learning (FIML).** The most successful recipe in data-driven turbulence modelling, and the one worth knowing even if you never implement it. The difficulty it solves is that *the data does not contain the closure*: experiments and DNS give velocities, pressures and forces, not the corrective term a RANS model is missing. FIML therefore splits the problem in two:
+
+1. **Inverse step.** For each case, solve an inverse problem for the spatial field \(\beta(\mathbf{x})\) multiplying a model term that would have made the RANS solution match the data. This is a PDE-constrained optimisation, usually adjoint-driven — see [optimization and adjoints](../foundations/optimization-adjoints.md).
+2. **Learning step.** Across many such inversions, learn a map from *local, non-dimensional flow features* to \(\beta\). The map is what generalises; the individual \(\beta\) fields are not the product.
+
+The separation matters. Step 1 says what correction the data implies without assuming a functional form; step 2 turns many corrections into a model. Regressing the closure directly against measurements skips step 1 and fails, because the target was never observed.
+
+The same line produced the companion lesson about **embedding invariance**: a Reynolds-stress model built from a tensor-invariant basis is Galilean- and rotation-invariant by construction, which both guarantees the symmetry and cuts the data needed. That is an inductive bias in the [Karniadakis sense](evolution.md), and it beats penalising violations after the fact.
 
 **A priori versus a posteriori.** A closure trained offline to match filtered DNS stresses is evaluated *a priori* by correlation with the true stress. Plugged into a running solver, it is evaluated *a posteriori* by whether the simulation is right and stable. **These correlate poorly.** Models with 0.9 a priori correlation routinely diverge a posteriori, and models with modest correlation can perform well — because what matters is the divergence of the stress and its energy transfer, not the stress itself.
 
@@ -117,6 +126,9 @@ Over 20,000 steps both stay bounded here, because the negative excursions are sm
 
 ## Connections
 
+- [How the field evolved](evolution.md) — the data-driven turbulence line in context.
+- [SciML in aerospace](aerospace-applications.md) — FIML on separated flow over airfoils.
+
 - [PINNs](pinns.md) · [Neural operators](neural-operators.md) · [GNNs on meshes](gnn-meshes.md) — the alternatives to coupling.
 - [Fluids › LES](../fluids/turbulence/les.md) — the closure being replaced.
 - [Fluids › RANS](../fluids/turbulence/rans.md) — realisability and the Boussinesq limits.
@@ -124,7 +136,11 @@ Over 20,000 steps both stay bounded here, because the negative excursions are sm
 
 ## Sources
 
-- Duraisamy, Iaccarino & Xiao (2019), *Turbulence modeling in the age of data*.
+- Duraisamy, Iaccarino & Xiao, "Turbulence modeling in the age of data", *Annu. Rev. Fluid Mech.* **51**, 357–377 (2019).
+- Parish & Duraisamy, "A paradigm for data-driven predictive modeling using field inversion and machine learning", *J. Comput. Phys.* **305**, 758–774 (2016) — the FIML formulation above.
+- Singh & Duraisamy, "Using field inversion to quantify functional errors in turbulence closures", *Phys. Fluids* **28**, 045110 (2016).
+- Singh, Medida & Duraisamy, "Machine-learning-augmented predictive modeling of turbulent separated flows over airfoils", *AIAA J.* **55**(7), 2215–2227 (2017).
+- Duraisamy, "Perspectives on machine learning-augmented RANS and LES models of turbulence", *Phys. Rev. Fluids* **6**, 050504 (2021).
 - Ling, Kurzawski & Templeton (2016), *Reynolds-averaged turbulence modelling using deep neural networks with embedded invariance*.
 - Um et al. (2020), *Solver-in-the-loop*.
 - Beck & Kurz (2021), *A perspective on machine learning methods in turbulence modeling*.

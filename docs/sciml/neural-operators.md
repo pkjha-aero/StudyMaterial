@@ -2,7 +2,7 @@
 title: Neural operators
 status: working
 tags: [pillar-9, sciml, neural-networks, spectral-methods, extrapolation]
-updated: 2026-09-26
+updated: 2026-10-24
 ---
 
 # Neural operators
@@ -62,6 +62,17 @@ The branch encodes the input function sampled at fixed sensors; the trunk encode
 | Global receptive field | yes, by construction | via the branch |
 | Resolution transfer | good within the mode budget | depends on trunk |
 | Irregular geometry | needs Geo-FNO or a mapping | natural |
+
+**Transformer operators, and the geometry problem.** FNO's speed comes from the FFT, which wants a regular grid — and engineering geometry is neither regular nor fixed. The line that solves this runs:
+
+| Model | Idea | What it bought |
+|---|---|---|
+| **Transolver** (2024) | *Physics attention*: learn slices that group points in similar physical states, attend over slices rather than points | Linear cost in points; geometry no longer needs to be a grid |
+| **AB-UPT** (2025) | Anchored points plus branched queries | Full-vehicle meshes at industrial scale |
+| **DoMINO** (2025) | Global multi-scale encoding of an STL point cloud, plus a local learned stencil sampled around each query point | Works from raw CAD geometry; surface and volume fields |
+| **GeoTransolver** (2025) | Transolver plus cross-attention to a shared multi-scale geometry context at every block | Geometry information persists with depth; robustness to shape and regime shift |
+
+The common move is to stop treating the discretisation as the object and start treating the **geometry** as the object. A point cloud with a signed distance field carries the shape; attention supplies the long-range coupling that a [mesh GNN](gnn-meshes.md) would need many message-passing rounds to reach. These are the models now used for [external aerodynamics in aerospace](aerospace-applications.md), and they ship in NVIDIA PhysicsNeMo.
 
 **Amortisation.** A conventional solver costs \(C_{\text{solve}}\) per query. An operator costs \(N C_{\text{solve}}\) to generate training data plus training, then \(\epsilon\) per query. It wins when the number of queries greatly exceeds \(N\) — design optimisation, UQ sampling, real-time control, ensemble forecasting. For a handful of solves it never pays back.
 
@@ -134,6 +145,9 @@ sharp front:
 The smooth field is captured exactly by 8 modes. The front retains 96% of its *energy* at 8 modes and 99.7% at 64 — which sounds excellent and is misleading: the missing few percent **is** the sharpness of the front, and truncating there turns a step into a ramp. **Energy fraction is the wrong diagnostic for discontinuities**, because energy is dominated by the large scales regardless of whether the feature you care about survives.
 
 ## Connections
+
+- [How the field evolved](evolution.md) — where operator learning sits in the chronology.
+- [SciML in aerospace](aerospace-applications.md) — DoMINO, GeoTransolver and SHIFT-Wing in use.
 
 - [PINNs](pinns.md) — the other physics-ML route, solving one problem rather than a family.
 - [Surrogates and ROM](surrogates-rom.md) — linear reduction, and the same extrapolation caveat.

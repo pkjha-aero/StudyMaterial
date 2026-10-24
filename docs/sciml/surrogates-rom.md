@@ -2,7 +2,7 @@
 title: Surrogates and reduced-order models
 status: working
 tags: [pillar-9, sciml, surrogates, spectral-methods, extrapolation]
-updated: 2026-09-26
+updated: 2026-10-24
 ---
 
 # Surrogates and reduced-order models
@@ -54,6 +54,16 @@ A\phi_i = \lambda_i\phi_i
 \]
 
 Each mode has a growth rate \(\log|\lambda_i|/\Delta t\) and a frequency \(\arg(\lambda_i)/\Delta t\). Unlike POD, DMD modes are **monochromatic** — one frequency each — which is why DMD is the tool when you want to identify and separate dynamic mechanisms rather than just compress.
+
+**SINDy and equation discovery.** DMD fits the best *linear* operator. SINDy asks instead which terms from a candidate library are actually present. Build a feature library \(\Theta(X)\) — polynomials, trigonometric terms, derivatives — and solve
+
+\[
+\dot X \approx \Theta(X)\,\Xi, \qquad \text{with } \Xi \text{ sparse}
+\]
+
+by sequentially thresholded least squares or a LASSO-type penalty. The output is a **symbolic** system of equations: readable, differentiable, and extrapolable in a way no black-box fit is. That is its real argument — not accuracy but interpretability, which in a scientific setting is a technical property rather than a preference, because it is what lets you check the model against known physics.
+
+The two practical limits are that the answer can only contain terms you put in the library, and that it needs \(\dot X\) — so it is sensitive to differentiation noise, which is why weak-form and integral variants exist.
 
 **Method comparison:**
 
@@ -134,6 +144,8 @@ The standing pattern is rank 2 exactly, at every tolerance. The travelling front
 Ten minutes of SVD tells you which project you are on, and the third column is the one to read: a field whose mode count *grows* as you tighten the tolerance is not reducible by a linear basis.
 
 ## Connections
+
+- [How the field evolved](evolution.md) — where projection and identification sit chronologically.
 
 - [Neural operators](neural-operators.md) — learning the solution map instead of a basis.
 - [PINNs](pinns.md) — the other way to embed physics.
