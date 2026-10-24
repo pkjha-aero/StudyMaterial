@@ -165,6 +165,8 @@ nav:
       - aerospace/index.md
       - Aircraft design: aerospace/aircraft-design.md
       - Aerodynamics: aerospace/aerodynamics.md
+      - Transonic aerodynamics: aerospace/transonic.md
+      - Hypersonic aerodynamics: aerospace/hypersonics.md
       - Flight mechanics: aerospace/flight-mechanics.md
       - Propulsion: aerospace/propulsion.md
       - Propellers: aerospace/propellers.md
