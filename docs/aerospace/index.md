@@ -26,6 +26,7 @@ Applied aerospace disciplines — the domain physics layered on top of
 | [Structures and aeroelasticity](structures.md) | Thin-walled sections, buckling, divergence, flutter, fatigue |
 | [Turbomachinery](turbomachinery.md) | Euler equation, velocity triangles, stage loading limits, stall and surge |
 | [Aeroacoustics](aeroacoustics.md) | Lighthill's analogy, FW-H, velocity scaling, rotor noise |
+| [Actuator line and disk models](actuator-line.md) | Body-force rotor models, the Gaussian kernel width, tip corrections |
 | [Rotorcraft](rotorcraft.md) | Momentum theory, the four working states, anti-torque, dynamic stall, autorotation |
 | [Wind energy](wind-energy.md) | Betz limit, BEM with corrections, wakes, Weibull resource |
 | [Space environment and orbits](space-environment.md) | Two-body motion, \(J_2\), delta-v, drag, the space hazard set |

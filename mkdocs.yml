@@ -139,6 +139,7 @@ nav:
       - Optimization and adjoints: foundations/optimization-adjoints.md
       - Probability and statistics: foundations/probability-statistics.md
       - Uncertainty quantification: foundations/uncertainty-quantification.md
+      - Estimation and filtering: foundations/estimation-filtering.md
       - Verification and validation: foundations/verification-validation.md
       - Research craft: foundations/research-craft.md
   - Fluids:
@@ -146,6 +147,7 @@ nav:
       - Governing equations: fluids/governing-equations.md
       - Incompressible flow: fluids/incompressible.md
       - Compressible flow: fluids/compressible.md
+      - Fluid-structure and 6-DOF coupling: fluids/fsi-6dof.md
       - Stability and transition: fluids/transition.md
       - Turbulence:
           - fluids/turbulence/index.md
@@ -174,6 +176,7 @@ nav:
       - Aeroacoustics: aerospace/aeroacoustics.md
       - Structures and aeroelasticity: aerospace/structures.md
       - Rotorcraft: aerospace/rotorcraft.md
+      - Actuator line and disk models: aerospace/actuator-line.md
       - Wind energy: aerospace/wind-energy.md
       - Space environment and orbits: aerospace/space-environment.md
       - Experimental methods: aerospace/experimental-methods.md
@@ -185,6 +188,7 @@ nav:
       - Atmospheric boundary layer: meteorology/boundary-layer.md
       - Radiation and clouds: meteorology/radiation-clouds.md
       - Numerical weather prediction: meteorology/nwp.md
+      - Mesoscale-microscale coupling: meteorology/multiscale-coupling.md
       - Data assimilation: meteorology/data-assimilation.md
       - Observations and datasets: meteorology/observations.md
       - Fire weather: meteorology/fire-weather.md
@@ -241,6 +245,7 @@ nav:
       - computing/index.md
       - HPC and parallelism: computing/hpc.md
       - GPU and CUDA: computing/gpu-cuda.md
+      - Adaptive mesh refinement: computing/amr.md
       - Data and I/O at scale: computing/data-io.md
       - Python performance: computing/python-performance.md
       - C++ and Fortran: computing/cpp-fortran.md

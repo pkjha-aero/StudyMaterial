@@ -24,6 +24,7 @@ Every other section on this site links back here.
 | [Linear solvers](linear-solvers.md) | 4 | Direct vs Krylov, preconditioning, multigrid, residual vs error |
 | [Optimization and adjoints](optimization-adjoints.md) | 4 | Adjoint gradients, discrete vs continuous, complex step, chaotic limits |
 | [Probability and statistics](probability-statistics.md) | 8 | Estimators, effective sample size, regression, model selection |
+| [Estimation and filtering](estimation-filtering.md) | Kalman recursion, sensor fusion, observability, the nonlinear family |
 | [Uncertainty quantification](uncertainty-quantification.md) | 8 | Aleatory vs epistemic, Monte Carlo, PCE, Sobol indices, emulators |
 | [Verification and validation](verification-validation.md) | 10 | MMS, observed order, Richardson, GCI, the V-vs-V distinction |
 | [Research craft](research-craft.md) | 10 | Reproducibility, figures, claims, audience |
