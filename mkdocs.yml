@@ -167,6 +167,7 @@ nav:
       - Aerodynamics: aerospace/aerodynamics.md
       - Flight mechanics: aerospace/flight-mechanics.md
       - Propulsion: aerospace/propulsion.md
+      - Propellers: aerospace/propellers.md
       - Turbomachinery: aerospace/turbomachinery.md
       - Aeroacoustics: aerospace/aeroacoustics.md
       - Structures and aeroelasticity: aerospace/structures.md
