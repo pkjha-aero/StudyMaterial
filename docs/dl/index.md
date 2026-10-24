@@ -17,6 +17,7 @@ An **active growth area**.
 | Page | Covers |
 |---|---|
 | [Architectures](architectures.md) | MLP, CNN, RNN, Transformer, U-Net, GNN — and the prior each encodes |
+| [Model compression and edge deployment](model-compression.md) | Quantisation granularity, pruning, distillation, the export path |
 | [PyTorch patterns](pytorch-patterns.md) | Training loops, data pipelines, distributed training, mixed precision |
 | [Generative models](generative.md) | VAEs, GANs, diffusion, and what each sacrifices |
 | [LLMs and generative AI](llm-genai.md) | Autoregressive generation, RAG, fine-tuning, agents |
