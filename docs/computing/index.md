@@ -16,6 +16,7 @@ Making code run, run fast, and run on someone else's machine.
 | Page | Pillar | Covers |
 |---|---|---|
 | [HPC and parallelism](hpc.md) | 6 | Amdahl and Gustafson, roofline, MPI patterns, surface-to-volume, SLURM |
+| [Adaptive mesh refinement](amr.md) | Block-structured AMR, refluxing, subcycling, load balance |
 | [GPU and CUDA](gpu-cuda.md) | 6 | Execution model, memory hierarchy, coalescing, divergence, transfer cost |
 | [Data and I/O at scale](data-io.md) | 8 | Parallel I/O, chunking, compression, checkpointing, data versioning |
 | [Python performance](python-performance.md) | 5 | Vectorisation, temporaries, Numba, JAX, the GIL, profiling |
